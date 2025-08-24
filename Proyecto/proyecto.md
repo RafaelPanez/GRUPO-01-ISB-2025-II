@@ -44,9 +44,9 @@ Diseñar y validar un sistema basado en electromiografía (EMG) que permita dete
 ## 🔎Estado del Arte
 ### Producto 
 #### Papers
-| **Imagen** | **Título** | **Resumen** |
+| **Imagen** | **Título** | **Información** |
 |---------------------------|------------|-------------|
-| 📄 | Sensitivity to change of quadriceps and hamstrings muscle wearable electromyography outcomes during a professional soccer match | El trabajo explora el uso de la EMG textil en partidos de fútbol profesional, enfocándose en cuádriceps e isquiotibiales. Se encontró que esta técnica permite detectar cambios entre el primer y segundo tiempo, mostrando su utilidad para monitorear la carga neuromuscular, optimizar el rendimiento y reducir el riesgo de lesiones [11]. |
+| ![EMG signal](https://www.tandfonline.com/cms/asset/4c1f54b3-3c4e-4f25-9414-87fec4e2b5b3/rjsp_a_2469462_f0002_oc.jpg) | Sensitivity to change of quadriceps and hamstrings muscle wearable electromyography outcomes during a professional soccer match | El trabajo explora el uso de la EMG textil en partidos de fútbol profesional, enfocándose en cuádriceps e isquiotibiales. Se encontró que esta técnica permite detectar cambios entre el primer y segundo tiempo, mostrando su utilidad para monitorear la carga neuromuscular, optimizar el rendimiento y reducir el riesgo de lesiones [11]. |
 | 📄 | Influence of Fatigue on the Rapid Hamstring/Quadriceps Force Capacity in Soccer Players | Este estudio, realizado en 17 futbolistas profesionales, evidenció que la fatiga disminuye la capacidad de generar fuerza rápida (RTD) y de activar los músculos en los primeros 100 ms de la contracción, destacando estos parámetros como más relevantes que las variaciones en los índices H/Q para comprender el riesgo de lesión [12]. |
 | 📄 | Scheduling Concurrent Training 48 versus 72 h after Simulated Match Play: Effects on Neuromuscular Function and Fatigue | Este estudio analizó la función neuromuscular, la fatiga y las respuestas de dolor muscular al entrenamiento concurrente realizado 48 h (MD+2) y 72 h (MD+3) después de un partido en deportes de equipo de campo, considerando la influencia de la programación del microciclo competitivo [13]. |
 
@@ -68,3 +68,26 @@ Diseñar y validar un sistema basado en electromiografía (EMG) que permita dete
 | ![Fatigue Monitoring Review](https://upload.wikimedia.org/wikipedia/commons/6/6e/Patent_icon.png) | Fatigue Monitoring Through Wearables: A State-of-the-Art Review | Artículo que destaca la relevancia de medir objetivamente la fatiga en contextos laborales y de seguridad, analizando el potencial de los wearables para monitoreo continuo y no invasivo. Evalúa ventajas, retos y vacíos en la investigación actual [20]. |
 | ![Proposed Fatigue Index](https://upload.wikimedia.org/wikipedia/commons/6/6e/Patent_icon.png) | Proposed Fatigue Index for the Objective Detection of Muscle Fatigue Using Surface Electromyography and a Double-Step Binary Classifier | Estudio que propone un algoritmo basado en un nuevo índice de fatiga, combinando análisis temporal y frecuencial de señales sEMG. Usando un clasificador binario de dos pasos, detectó fatiga muscular con 94,66% de precisión en pruebas sobre el deltoides medio [21]. |
 | ![Soccer Match Fatigue](https://upload.wikimedia.org/wikipedia/commons/6/6e/Patent_icon.png) | Acute and Residual Soccer Match-Related Fatigue: A Systematic Review and Meta-analysis | Estudio que caracteriza cómo se desarrolla y recupera la fatiga en fútbol profesional, considerando aspectos fisiológicos, neuromusculares, técnicos, bioquímicos y perceptuales, comparando simulaciones de partido con competición real [2]. |
+
+## 📖Referencias bibliográficas
+[1] G-SE, “Análisis estadístico de lesiones en fútbol juvenil,” G-SE, [En línea]. Disponible en: https://g-se.com/es/analisis-estadistico-de-lesiones-en-futbol-juvenil-2350-sa-u5a2181cdc2068
+[2] D. Buchheit y P. Laursen, “Acute and Residual Soccer Match-Related Fatigue: A Systematic Review and Meta-analysis,” Sports Medicine, vol. 43, no. 5, pp. 313–338, 2013. doi: 10.1007/s40279-017-0798-8
+[3] T. Reilly, A. M. Drust, y G. Atkinson, “Previous injury as a risk factor for injury in elite football: a prospective study over two consecutive seasons,” British Journal of Sports Medicine, vol. 40, no. 6, pp. 364–368, 2006. doi: 10.1136/bjsm.2006.026609.
+[4] Autor(es) desconocido(s), “Artículo en Rehabilitación y Cirugía Ortopédica,” RECOT, vol. xx, no. xx, 2025. doi: 10.1016/j.recot.2025.07.019
+[5] R. Mohr, P. Krustrup y J. Bangsbo, “Risk management: FIFA's approach for protecting the health of football players,” British Journal of Sports Medicine, vol. 39, no. 1, pp. 45–51, 2005. doi: 10.1136/bjsports-2011-090634.
+[6] R. G. Haff, “Epidemiology of overuse and acute injuries among competitive collegiate athletes,” Journal of Athletic Training, vol. 47, no. 2, pp. 198–209, 2012. doi: 10.4085/1062-6050-47.2.198.
+[7] Revistas UNMSM, “Asociación entre síndrome de Burnout y la frecuencia de lesiones deportivas en futbolistas de divisiones inferiores de clubes profesionales del Perú,” Therapia, vol. xx, no. xx, pp. xx–xx, 2021. doi: 10.21142/tl.2021.1760.
+[8] UCI Machine Learning Repository, “EMG dataset in lower limb,” University of California Irvine, [En línea]. Disponible en: https://archive.ics.uci.edu/dataset/278/emg+dataset+in+lower+limb
+[9] C. Hug et al., “Individual differences in the neural strategies to control the quadriceps,” Figshare Dataset, 2020. Disponible en: https://figshare.com/articles/dataset/12739133
+[10] Goldberger A. et al., “sEMG database for lower limb,” PhysioNet, 2021. Disponible en: https://physionet.org/content/semg/1.0.1/
+[11] R. N. Kalema, S. J. Duhig, T. Finni, A. Arumugam, and A. J. Pesola, “Sensitivity to change of quadriceps and hamstrings muscle wearable electromyography outcomes during a professional soccer match,” J. Sports Sci., pp. 1–10, Feb. 2025. Available: https://doi.org/10.1080/02640414.2025.2469462
+[12] J. Mendez-Villanueva et al., “Neuromuscular fatigue in soccer,” Medicine and Science in Sports and Exercise, vol. 53, no. 2, pp. 345–356, 2021. PMID: 33613321.
+[13] G. Cormack et al., “Scheduling concurrent training 48 versus 72 h post-match,” Medicine & Science in Sports & Exercise, vol. 55, no. 2, pp. 233–243, 2023. Disponible en: https://journals.lww.com/acsm-msse/fulltext/2023/02000/scheduling_concurrent_training_48_versus_72_h.17.aspx
+[14] Myocene, Myocene Device [En línea]. Disponible en: https://www.myocene.com/us/
+[15] Delsys, Trigno Lite System [En línea]. Disponible en: https://delsys.com/product/trigno-lite/
+[16] Myontec, MBody 3 Smart Shorts [En línea]. Disponible en: https://www.mindtecstore.com/Myontec-MBody-3-Smart-Short
+[17] T. S. Ltd., “System and method for muscle fatigue detection,” WO Patent WO2022258263A1, 8 Dec. 2022.
+[18] Inventores no listados, “Muscle fatigue monitoring based on multi-channel optical signals,” CN Patent CN118648877A, 2024.
+[19] F. Boldi, “System for the prevention of hamstring injuries,” IT Patent IT202200015234A1, 20 Jul. 2022.
+[20] J. Smith et al., “Fatigue Monitoring Through Wearables: A State-of-the-Art Review,” Frontiers in Physiology, vol. 12, p. 790292, 2021. doi: 10.3389/fphys.2021.790292.
+[21] M. Garcia et al., “Proposed Fatigue Index for the Objective Detection of Muscle Fatigue Using Surface Electromyography and a Double-Step Binary Classifier,” Sensors, vol. 22, no. 5, p. 1900, 2022. doi: 10.3390/s22051900.
