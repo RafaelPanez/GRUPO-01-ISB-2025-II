@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Laboratorios/Laboratorio 1 - Temática del proyecto/ezgif.com-resize.gif" width="700"/>
+  <img src="Laboratorios/Laboratorio%201%20-%20Temática%20del%20proyecto/ezgif.com-resize.gif" width="500"/>
 </div>
 
 # 📊 Repositorio del Grupo 1 – ISB 2025-2
