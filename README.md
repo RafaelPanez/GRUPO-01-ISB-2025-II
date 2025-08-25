@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="images/ezgif.com-resize.gif" width="700"/>
-</p>
+<div align="center">
+  <img src="Proyectos/images/6a396912-2d04-476d-a85e-2c5d850f908b.jpeg" width="500" height="200"/>
+</div>
 
 # 📊 Repositorio del Grupo 1 – ISB 2025-2
 ## 📝 Introducción
