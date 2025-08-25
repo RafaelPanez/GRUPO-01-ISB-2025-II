@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/ezgif.com-resize.gif" width="700"/>
+  <img src="Proyecto/images/ezgif.com-resize.gif" width="700"/>
 </p>
 
 # 📊 Repositorio del Grupo 1 – ISB 2025-2
