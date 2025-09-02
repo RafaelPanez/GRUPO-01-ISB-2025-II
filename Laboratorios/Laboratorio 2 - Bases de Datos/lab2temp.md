@@ -1,34 +1,34 @@
 # Lab 2 — Detección temprana de fatiga muscular con sEMG en fútbol juvenil
 
 ## 🧭 Resumen ejecutivo
-Este trabajo plantea **detectar tempranamente la fatiga muscular en futbolistas jóvenes** a partir de **señales sEMG** de miembros inferiores. La motivación surge de la **alta incidencia de lesiones musculares** en divisiones formativas (≈27.13% del total; predominan contracturas ≈66.54%), con especial relevancia al final de partidos/entrenamientos cuando la **fatiga** está presente. Para una fase inicial robusta, se emplean **bases de datos públicas** (UCI, PhysioNet) que permiten **validar el pipeline** de procesamiento/visualización antes de pasar a adquisiciones propias.
+Este trabajo plantea detectar tempranamente la fatiga muscular en futbolistas jóvenes a partir de señales sEMG de miembros inferiores. La motivación surge de la alta incidencia de lesiones musculares en divisiones formativas (≈27.13% del total; predominan contracturas ≈66.54%), con especial relevancia al final de partidos/entrenamientos cuando la fatiga está presente. Para una fase inicial robusta, se emplean bases de datos públicas (UCI, PhysioNet) que permiten validar el procesamiento/visualización antes de pasar a adquisiciones propias.
 
 ---
 
 ## 🎯 Objetivo del proyecto
-- Formular un **problema de clasificación** (reposo / pre-fatiga / fatiga) usando sEMG de músculos relevantes para fútbol.
-- **Validar** filtros, selección de canales y visualizaciones con **datasets de referencia**.
-- Sentar bases para etapas posteriores: **filtrado, normalización, análisis espectral y extracción de características**.
+- Formular un problema de clasificación (reposo / pre-fatiga / fatiga) usando sEMG de músculos relevantes para fútbol.
+- Validar filtros, selección de canales y visualizaciones con **datasets de referencia**.
+- Sentar bases para etapas posteriores: filtrado, normalización, análisis espectral y extracción de características.
 
 ---
 
 ## 📚 Bases de datos de referencia (resumen)
 - **EMG dataset in Lower Limb — UCI**
-  - 22 sujetos (11 sanos, 11 con anormalidades de rodilla), **132 señales**, ~15 s c/u.
+  - 22 sujetos (11 sanos, 11 con anormalidades de rodilla), 132 señales, ~15 s cada una.
   - sEMG bipolar convencional en tareas de marcha/extensión/flexión.
-  - ➤ Útil para **patrones básicos** de activación, **no** incluye condiciones específicas de fatiga.
+  - ➤ Útil para patrones básicos de activación, pero no incluye condiciones específicas de fatiga.
 
-- **Individual differences in the neural strategies… (cuádriceps, HD-sEMG)**
-  - 22 adultos (20–30 años), **1792 señales**, 60 s por contracción, **2048 Hz**.
+- **Individual differences in the neural strategies to control the lateral and medial head of the quadriceps during a mechanically constrained task (cuádriceps, HD-sEMG)**
+  - 22 adultos (20–30 años), 1792 señales, 60 segundos por contracción, 2048 Hz.
   - Extensiones isométricas a 25% del torque máximo; enfoque en control neuromuscular.
-  - ➤ Útil para **explorar indicadores de fatiga**; **muestra reducida** en algunas condiciones.
+  - ➤ Útil para explorar indicadores de fatiga; muestra reducida en algunas condiciones.
 
 - **Surface EMG during long-lasting ground walking of young able-bodied subjects**
-  - 31 adultos jóvenes, caminata, **2000 Hz**, 60 s.
-  - sEMG multicanal (vasto medial/lateral, etc.) con **distintos niveles de esfuerzo**.
-  - ➤ Útil para observar **variaciones asociadas a inicio de fatiga** y **simetrías**.
+  - 31 adultos jóvenes, caminata, 2000 Hz, 60 s.
+  - sEMG multicanal (vasto medial/lateral, etc.) con distintos niveles de esfuerzo.
+  - ➤ Útil para observar variaciones asociadas a inicio de fatiga y simetrías.
 
-> **Relevancia conjunta**: permiten **probar y comparar** estrategias de preprocesado y selección de canales en músculos clave (bíceps femoris, vasto medial, recto femoral, semitendinoso, gastrocnemio lateral, tibial anterior), alineados al gesto deportivo.
+> **Relevancia conjunta**: permiten probar y comparar estrategias de preprocesado y selección de canales en músculos clave (bíceps femoris, vasto medial, recto femoral, semitendinoso, gastrocnemio lateral, tibial anterior), alineados al gesto deportivo.
 
 ---
 
