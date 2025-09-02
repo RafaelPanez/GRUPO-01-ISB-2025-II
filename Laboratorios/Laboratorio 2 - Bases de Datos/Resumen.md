@@ -41,7 +41,7 @@ Este trabajo plantea detectar tempranamente la fatiga muscular en futbolistas j�
 - **Separación L/R**: 5 canales izquierda (**LT**), 5 canales derecha (**RT**).
 - **Visualización**: subplots por músculo (TA, GL, RF, HAM, VL) para **comparar simetría y patrones**.
 
-**Librerías empleadas**: `wfdb`, `matplotlib`, `numpy`, `pandas`, `ipython`
+**Librerías empleadas**: `wfdb`, `matplotlib`, `numpy`, `pandas`, `ipython`.
 
 ---
 
