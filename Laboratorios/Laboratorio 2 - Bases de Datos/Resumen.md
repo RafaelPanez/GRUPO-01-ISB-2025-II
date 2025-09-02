@@ -51,7 +51,7 @@ Este trabajo plantea detectar tempranamente la fatiga muscular en futbolistas j�
 python -m venv .venv && source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
 
 # Paquetes mínimos detectados
-pip install wfdb matplotlib
+pip install wfdb matplotlib numpy pandas ipython
 ```
 
 ## 🎓Aporte de los Integrantes
