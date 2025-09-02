@@ -52,3 +52,12 @@ python -m venv .venv && source .venv/bin/activate  # (Windows: .venv\Scripts\act
 
 # Paquetes mínimos detectados
 pip install wfdb matplotlib
+
+## 🎓Aporte de los Integrantes
+
+| Integrante | Contribución (%) |
+|----------|:----------:|
+| Salet Garcia   | 33.33%     |
+| Dhiago Llanos  | 33.33%     |
+
+| Rafael Panez   | 33.33%     |
