@@ -50,6 +50,7 @@ En las siguientes tablas se detallan las características generales de cada base
 | Surface electromyographic signals collected during long-lasting ground walking of young able-bodied subjects | Caminata                                                                                   | .dat y .hea             | 2000 Hz                     | 12 bits                        | 1                                    |
 
 <p align="center"><b>Tabla 2.</b> Especificaciones técnicas de adquisición y tareas experimentales en las bases de datos de EMG.</p>
+
 ## 🔎2.2 Relevancia para el proyecto
 
 ### 🦵2.2.1 EMG dataset in Lower Limb - from UC Irvine
@@ -71,4 +72,5 @@ El dataset presenta músculos como el vasto medio y vasto lateral, los cuales so
 |----------|:----------:|
 | Salet Garcia   | 33.33%     |
 | Dhiago Llanos  | 33.33%     |
+
 | Rafael Panez   | 33.33%     |
