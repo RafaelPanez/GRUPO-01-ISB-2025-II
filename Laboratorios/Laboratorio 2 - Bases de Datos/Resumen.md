@@ -33,7 +33,7 @@ Este trabajo plantea detectar tempranamente la fatiga muscular en futbolistas j�
 ---
 
 ## 🧪 Notebook de ejemplo (PhysioNet, sujeto S2)
-**Propósito**: cargar, identificar y visualizar **10 canales sEMG** (5 por pierna), separar por extremidad y graficar actividad cruda.
+**Propósito**: Cargar, identificar y visualizar 10 canales de sEMG (5 por pierna), separar los datos por extremidad, graficar la actividad cruda y calcular métricas estadísticas básicas para evaluar la actividad muscular.
 
 - **Datos**: 60 s, **fs = 2000 Hz**, 10 canales sEMG.
 - **Selección de canales**: filtro por nombre que contiene `"semg"`.
