@@ -40,7 +40,7 @@ Este trabajo plantea detectar tempranamente la fatiga muscular en futbolistas j�
 - **Eje temporal**: `t = np.arange(0, 60, 1/fs)`.
 - **Separación L/R**: 5 canales izquierda (**LT**), 5 canales derecha (**RT**).
 - **Visualización**: subplots por músculo (TA, GL, RF, HAM, VL) para **comparar simetría y patrones**.
-- **Estadísticas**: cálculo de métricas por canal (mínimo, máximo, media, Desv. Est., RMS) para pierna izquierda y derecha.
+- **Estadísticas**: cálculo de métricas por canal (mín., máx., media, Desv. Est., RMS) en 5 canales izquierda (LT) y 5 canales derecha (RT). 
 
 **Librerías empleadas**: `wfdb`, `matplotlib`, `numpy`, `pandas`, `ipython`.
 
