@@ -60,5 +60,4 @@ pip install wfdb matplotlib
 |----------|:----------:|
 | Salet Garcia   | 33.33%     |
 | Dhiago Llanos  | 33.33%     |
-
 | Rafael Panez   | 33.33%     |
