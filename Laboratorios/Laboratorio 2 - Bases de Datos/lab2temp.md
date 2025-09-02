@@ -1,6 +1,6 @@
 # Lab 2 — Informe sobre la base de datos Surface EMG during long-lasting ground walking of young able-bodied subject, según la metodología del CRISP-DM (2 primeras etapas)
 
-## 🧭 Resumen ejecutivo
+## 🧭 Resumen de la problemática
 Este trabajo plantea detectar tempranamente la fatiga muscular en futbolistas jóvenes a partir de señales sEMG de miembros inferiores. La motivación surge de la alta incidencia de lesiones musculares en divisiones formativas (≈27.13% del total; predominan contracturas ≈66.54%), con especial relevancia al final de partidos/entrenamientos cuando la fatiga está presente. Para una fase inicial robusta, se emplean bases de datos públicas (UCI, PhysioNet) que permiten validar el procesamiento/visualización antes de pasar a adquisiciones propias.
 
 ---
@@ -12,7 +12,7 @@ Este trabajo plantea detectar tempranamente la fatiga muscular en futbolistas j�
 
 ---
 
-## 📚 Bases de datos de referencia (resumen)
+## 📚 Bases de datos de referencia
 - **EMG dataset in Lower Limb — UCI**
   - 22 sujetos (11 sanos, 11 con anormalidades de rodilla), 132 señales, ~15 s cada una.
   - sEMG bipolar convencional en tareas de marcha/extensión/flexión.
