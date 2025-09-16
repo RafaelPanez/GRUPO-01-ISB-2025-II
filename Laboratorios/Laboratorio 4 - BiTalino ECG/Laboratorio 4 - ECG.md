@@ -82,6 +82,7 @@ Comprender el proceso de adquisición y procesamiento de señales de electrocard
 - **Intervalo QT:** Obtenido por medio del proceso del el inicio de la despolarización hasta el final de la repolarización de los ventrículos. Normalmente dura entre 400 a 440 ms [1].
 
 ![imagen3](Imagenes_lab4/Figura3.PNG)
+
 **Figura 3.**  Forma característica de señal ECG [2].
 
 ### ❤️ 4.2 Derivaciones del ECG
@@ -202,6 +203,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 | Dhiago Llanos   | 33.33%           |
 
 | Rafael Panez    | 33.33%           |
+
 
 
 
