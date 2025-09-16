@@ -185,6 +185,14 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 
 **Figura 10.** Tercera adquisición de señal del sujeto al contener aire: Panel izquierdo muestran las señales crudas; panel derecho las señales preprocesadas.
 
+Cabe resaltar que se escogió un fragmento (20s-25s) para poder visualizar de mejor forma la señal. En todo caso, se adjuntan las gráficas procesadas en todo su dominio (tiempo).
+| Señal en su totalidad |
+|-----------------------|
+| ![Reposo crudo](Imagenes_lab4/outputs/filtered/time/RESPIRARECG1_canal2_time_filt.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/filtered/time/RESPIRAECG2_canal2_time_filt.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/filtered/time/RESPIRAECG3_canal2_time_filt.png) |
+
+
 **5.2.3 Gráficas de actividad física aeróbica**
 
 **Figura 12.** Adquisición de señal del sujeto al realizar actividad física aeróbica: Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
@@ -220,6 +228,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 | Dhiago Llanos   | 33.33%           |
 
 | Rafael Panez    | 33.33%           |
+
 
 
 
