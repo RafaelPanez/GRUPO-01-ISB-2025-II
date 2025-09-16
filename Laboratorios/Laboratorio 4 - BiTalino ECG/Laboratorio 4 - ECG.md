@@ -169,8 +169,12 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 **Figura 8.** Adquisición de señal en condición de reposo (frecuencia): Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
 
 **5.2.2 Gráficas del sujeto al contener aire**
+| Señal cruda | Señal filtrada |
+|-------------|----------------|
+| ![Reposo crudo](Imagenes_lab4/outputs/raw/time/RESPIRARECG1_canal2_time_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/time/RESPIRARECG1_canal2_time_filt_crop.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/raw/freq/RESPIRARECG1_canal2_freq_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/freq/RESPIRARECG1_canal2_freq_filt.png) |
 
-**Figura 9.** Primera adquisición de señal del sujeto al contener aire: Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
+**Figura 9.** Primera adquisición de señal del sujeto al contener aire: Panel izquierdo muestran las señales crudas; panel derecho las señales preprocesadas.
 
 **Figura 10.** Segunda adquisición de señal del sujeto al contener aire: Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
 
@@ -211,6 +215,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 | Dhiago Llanos   | 33.33%           |
 
 | Rafael Panez    | 33.33%           |
+
 
 
 
