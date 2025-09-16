@@ -201,7 +201,15 @@ Cabe resaltar que se escogió un fragmento (20s-25s) para poder visualizar de me
 |-------------|----------------|
 | ![Reposo crudo](Imagenes_lab4/outputs/raw/time/PrimeraDerivada_canal2_time_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/time/PrimeraDerivada_canal2_time_filt_crop.png) |
 | ![Reposo crudo](Imagenes_lab4/outputs/raw/freq/PrimeraDerivada_canal2_freq_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/freq/PrimeraDerivada_canal2_freq_filt.png) |
-**Figura 12.** Adquisición de señal (primera derivada) del sujeto al realizar actividad física aeróbica: Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
+
+**Figura 12.** Adquisición de señal (primera derivada) del sujeto al realizar actividad física aeróbica: Panel izquierdo muestran las señales crudas; panel derecho las señales preprocesadas.
+
+| Señal cruda | Señal filtrada |
+|-------------|----------------|
+| ![Reposo crudo](Imagenes_lab4/outputs/raw/time/SegundaDerivada_canal2_time_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/time/SegundaDerivada_canal2_time_filt_crop.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/raw/freq/SegundaDerivada_canal2_freq_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/freq/SegundaDerivada_canal2_freq_filt.png) |
+
+**Figura 13.** Adquisición de señal (segunda derivada) del sujeto al realizar actividad física aeróbica: Panel izquierdo muestran las señales crudas; panel derecho las señales preprocesadas.
 
 ### 5.3 Interpretación de los resultados
 ---
@@ -233,6 +241,7 @@ Cabe resaltar que se escogió un fragmento (20s-25s) para poder visualizar de me
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
