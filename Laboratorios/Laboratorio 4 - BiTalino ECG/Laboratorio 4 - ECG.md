@@ -225,13 +225,20 @@ Cabe resaltar que se escogió un fragmento (20s-25s) para poder visualizar de me
 ---
 
 **5.3.1 Interpretación de gráficas del sujeto en reposo**
+En reposo se esperaría una frecuencia cardiaca (FC) de 60–100 lpm en adultos sanos, por lo que valores muy superiores suelen indicar activación simpática, ansiedad, movimiento, fiebre o errores de detección (dobles conteos R/T, artefactos) [8]. En las gráficas de reposo obtenidas, la FC media aparece notablemente elevada y la HRV resulta llamativamente grande para una situación basal. Esto sugiere que, antes de interpretar fisiología, conviene refinar la detección de picos R (refractario mínimo, inversión de polaridad si R es negativa, y filtrado 5–15 Hz solo para detección) para descartar sobredetección de latidos. Una vez corregido, el patrón esperado sería: ritmo sinusal regular con HRV vagal apreciable (RMSSD moderada) y espectro dominado por bajas frecuencias tras el filtrado [8].
 
 **5.3.2 Interpretación de gráficas del sujeto al contener aire**
+En la contención de respiración, la respuesta cardiovascular típica del reflejo de inmersión incluye bradicardia y vasoconstricción periférica, por lo que la magnitud aumenta con el estímulo y con la tolerancia al apnea [9]. Además, se describe una taquicardia breve inicial alrededor del inicio/fin de la maniobra y una tendencia posterior a la bradicardia conforme avanza la apnea o aparece hipoxia/hipercapnia [10].
+En las señales obtenidas, la FC media aparece alta durante todo el segmento analizado. Esto no reproduce el patrón bradicárdico clásico y apunta, nuevamente, a un problema de detección (dobles picos por morfología o ruido) o a una fase de preparación con hiperventilaciones/valsalva que prolongó la taquicardia inicial. Si se logra ajustar la detección, lo esperable es observar descenso de FC y variaciones RR relacionadas con el cambio autonómico propio de la apnea [9], [10].
 
 **5.3.3 Interpretación de gráficas de actividad física aeróbica**
+Durante el ejercicio aeróbico, la literatura muestra consistentemente aumento de FC y descenso de HRV (retirada vagal y mayor tono simpático). La caída de HRV es dependiente de la intensidad y se mantiene mientras la carga es alta [11]. Estudios recientes que combinan marcadores no invasivos (HRV y respiración) sitúan los umbrales ventilatorios en torno a ~140 lpm (VT1) y ~165 lpm (VT2) en adultos activos, con buena concordancia cuando se estiman mediante HRV [12].
+Por otro lado, las gráficas obtenidas muestran FC muy elevadas y HRV deprimida, lo que sí coincide con el patrón esperado: en tramos con FC claramente por encima de ~165 lpm es razonable inferir intensidades próximas o superiores a VT2, donde la HRV cae de forma marcada [11], [12].
 
 **5.3.4 Interpretación conjunta**
-
+* Reposo: los valores actuales de FC indican sobreestimación probable; tras corregir la detección, se espera 60–100 lpm con HRV vagal apreciable [8].
+* Contención de aire: la literatura describe bradicardia/modulación autonómica durante la apnea; el patrón de taquicardia sostenida observado sugiere artefacto de detección o fase no puramente apneica en los segmentos analizados [9], [10].
+* Ejercicio aeróbico: se confirma el comportamiento canónico ↑FC y ↓HRV con la intensidad, coherente con estudios recientes que cuantifican la disminución de HRV durante el esfuerzo y su relación con VT1/VT2 [11], [12].
 ## 📚 6. Referencias
 ---
 
@@ -242,7 +249,12 @@ Cabe resaltar que se escogió un fragmento (20s-25s) para poder visualizar de me
 5. “La diferencia entre ejercicio aeróbico y anaeróbico”. The European Food Information Council : Food facts for healthy choices | Eufic. Accedido el 15 de septiembre de 2025. [En línea]. Disponible: https://www.eufic.org/es/vida-sana/articulo/la-diferencia-entre-ejercicio-aerobico-y-anaerobico 
 6. D. Lapsa, M. Metshein, A. Krivošei, R. Janeliukstis, O. Märtens y A. Elsts, “Signal Acquisition and Algorithm Design for Bioimpedance-Based Heart Rate Estimation from the Wrist”, Appl. Sci., vol. 14, n.º 21, p. 9632, octubre de 2024. Accedido el 16 de septiembre de 2025. [En línea]. Disponible: https://doi.org/10.3390/app14219632 
 
-7. J. Diven, R. Adair, J. Rowny, A. Birmingham y D. Jardine, “Evaluating the feasibility of upper arm ECG for cardiac monitoring”, Eur. Heart J., vol. 45, Supplement_1, octubre de 2024. Accedido el 16 de septiembre de 2025. [En línea]. Disponible: https://doi.org/10.1093/eurheartj/ehae666.3426 
+7. J. Diven, R. Adair, J. Rowny, A. Birmingham y D. Jardine, “Evaluating the feasibility of upper arm ECG for cardiac monitoring”, Eur. Heart J., vol. 45, Supplement_1, octubre de 2024. Accedido el 16 de septiembre de 2025. [En línea]. Disponible: https://doi.org/10.1093/eurheartj/ehae666.3426
+8. Mayo Clinic Staff, “What’s a normal resting heart rate?” Mayo Clinic, 2022. Disponible en línea. Accedido: 2025.
+9. M. Marlinge et al., “Blood Adenosine Increase During Apnea in Spearfishermen Reinforces the Efficiency of the Cardiovascular Component of the Diving Reflex,” Frontiers in Physiology, vol. 12, 2021.
+10. S. Laborde, M. Allen, and U. Borges, “Effects of Voluntary Slow Breathing on Heart Rate and Heart Rate Variability: A Systematic Review and Meta-analysis,” Neuroscience & Biobehavioral Reviews, vol. 138, 104711, 2022.
+11. D. Mongin, H. Hannink, P. Abry, and O. Barnabé, “Decrease of heart rate variability during exercise,” PLOS ONE, vol. 17, no. 9, e0273981, 2022.
+12. B. Rogers, M. Schaffarczyk, and T. Gronwald, “Improved Estimation of Exercise Intensity Thresholds by Combining Dual Non-Invasive Biomarker Concepts: Correlation Properties of Heart Rate Variability and Respiratory Frequency,” Sensors, vol. 23, no. 4, 1973, 2023.
 
 ## 👥 Aporte de los integrantes
 ---
@@ -251,6 +263,7 @@ Cabe resaltar que se escogió un fragmento (20s-25s) para poder visualizar de me
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
