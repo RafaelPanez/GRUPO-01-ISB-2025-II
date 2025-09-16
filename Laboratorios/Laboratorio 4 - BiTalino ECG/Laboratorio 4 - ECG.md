@@ -197,7 +197,11 @@ Cabe resaltar que se escogió un fragmento (20s-25s) para poder visualizar de me
 
 **5.2.3 Gráficas de actividad física aeróbica**
 
-**Figura 12.** Adquisición de señal del sujeto al realizar actividad física aeróbica: Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
+| Señal cruda | Señal filtrada |
+|-------------|----------------|
+| ![Reposo crudo](Imagenes_lab4/outputs/raw/time/PrimeraDerivada_canal2_time_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/time/PrimeraDerivada_canal2_time_filt_crop.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/raw/freq/PrimeraDerivada_canal2_freq_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/freq/PrimeraDerivada_canal2_freq_filt.png) |
+**Figura 12.** Adquisición de señal (primera derivada) del sujeto al realizar actividad física aeróbica: Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
 
 ### 5.3 Interpretación de los resultados
 ---
@@ -228,8 +232,8 @@ Cabe resaltar que se escogió un fragmento (20s-25s) para poder visualizar de me
 |-----------------|:------------------:|
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
-
 | Rafael Panez    | 33.33%           |
+
 
 
 
