@@ -250,11 +250,11 @@ Por otro lado, las gráficas obtenidas muestran FC muy elevadas y HRV deprimida,
 6. D. Lapsa, M. Metshein, A. Krivošei, R. Janeliukstis, O. Märtens y A. Elsts, “Signal Acquisition and Algorithm Design for Bioimpedance-Based Heart Rate Estimation from the Wrist”, Appl. Sci., vol. 14, n.º 21, p. 9632, octubre de 2024. Accedido el 16 de septiembre de 2025. [En línea]. Disponible: https://doi.org/10.3390/app14219632 
 
 7. J. Diven, R. Adair, J. Rowny, A. Birmingham y D. Jardine, “Evaluating the feasibility of upper arm ECG for cardiac monitoring”, Eur. Heart J., vol. 45, Supplement_1, octubre de 2024. Accedido el 16 de septiembre de 2025. [En línea]. Disponible: https://doi.org/10.1093/eurheartj/ehae666.3426
-8. Mayo Clinic Staff, “What’s a normal resting heart rate?” Mayo Clinic, 2022. Disponible en línea. Accedido: 2025.
-9. M. Marlinge et al., “Blood Adenosine Increase During Apnea in Spearfishermen Reinforces the Efficiency of the Cardiovascular Component of the Diving Reflex,” Frontiers in Physiology, vol. 12, 2021.
-10. S. Laborde, M. Allen, and U. Borges, “Effects of Voluntary Slow Breathing on Heart Rate and Heart Rate Variability: A Systematic Review and Meta-analysis,” Neuroscience & Biobehavioral Reviews, vol. 138, 104711, 2022.
-11. D. Mongin, H. Hannink, P. Abry, and O. Barnabé, “Decrease of heart rate variability during exercise,” PLOS ONE, vol. 17, no. 9, e0273981, 2022.
-12. B. Rogers, M. Schaffarczyk, and T. Gronwald, “Improved Estimation of Exercise Intensity Thresholds by Combining Dual Non-Invasive Biomarker Concepts: Correlation Properties of Heart Rate Variability and Respiratory Frequency,” Sensors, vol. 23, no. 4, 1973, 2023.
+8. Mayo Clinic Staff, “What’s a normal resting heart rate?” Mayo Clinic, 2022. Accedido el 16 de septiembre de 2025. [En línea]. Disponible: https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979 
+9. M. Marlinge et al., “Blood Adenosine Increase During Apnea in Spearfishermen Reinforces the Efficiency of the Cardiovascular Component of the Diving Reflex,” Frontiers in Physiology, vol. 12, 2021. Accedido el 16 de septiembre de 2025. [En línea]. Disponible: https://doi.org/10.3389/fphys.2021.743154
+10. S. Laborde, M. Allen, and U. Borges, “Effects of Voluntary Slow Breathing on Heart Rate and Heart Rate Variability: A Systematic Review and Meta-analysis,” Neuroscience & Biobehavioral Reviews, vol. 138, 104711, 2022. Accedido el 16 de septiembre de 2025. [En línea]. Disponible: https://doi.org/10.1016/j.neubiorev.2022.104711
+11. D. Mongin, H. Hannink, P. Abry, and O. Barnabé, “Decrease of heart rate variability during exercise,” PLOS ONE, vol. 17, no. 9, e0273981, 2022. Accedido el 16 de septiembre de 2025. [En línea]. Disponible: https://doi.org/10.1371/journal.pone.0273981
+12. B. Rogers, M. Schaffarczyk, and T. Gronwald, “Improved Estimation of Exercise Intensity Thresholds by Combining Dual Non-Invasive Biomarker Concepts: Correlation Properties of Heart Rate Variability and Respiratory Frequency,” Sensors, vol. 23, no. 4, 1973, 2023. Accedido el 16 de septiembre de 2025. [En línea]. Disponible: https://doi.org/10.3390/s23041973 
 
 ## 👥 Aporte de los integrantes
 ---
@@ -263,6 +263,7 @@ Por otro lado, las gráficas obtenidas muestran FC muy elevadas y HRV deprimida,
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
