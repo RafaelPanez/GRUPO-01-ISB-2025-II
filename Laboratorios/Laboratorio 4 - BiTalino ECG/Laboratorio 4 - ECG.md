@@ -155,7 +155,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 ---
 
 **5.2.1 Gráficas del sujeto en reposo**
-![imagen7](Imagenes_lab4/outputs/raw/time/ReposoECG_ORIGINAL_canal2_time_raw.PNG) ![imagen8](Imagenes_lab4//outputs/raw/time/ReposoECG_ORIGINAL_canal2_time_filt_crop.PNG)
+![imagen7](Imagenes_lab4/outputs/raw/time/ReposoECG_ORIGINAL_canal2_time_raw.png)
 **Figura 7.** Primera adquisición de señal en condición de reposo: Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
 
 **Figura 8.** Segunda adquisición de señal en condición de reposo: Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
@@ -203,6 +203,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 | Dhiago Llanos   | 33.33%           |
 
 | Rafael Panez    | 33.33%           |
+
 
 
 
