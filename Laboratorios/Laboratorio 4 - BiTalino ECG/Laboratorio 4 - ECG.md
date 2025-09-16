@@ -159,14 +159,9 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 | Señal cruda | Señal filtrada |
 |-------------|----------------|
 | ![Reposo crudo](Imagenes_lab4/outputs/raw/time/ReposoECG_ORIGINAL_canal2_time_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/time/ReposoECG_ORIGINAL_canal2_time_filt_crop.png) |
-
-**Figura 7.** Adquisición de señal en condición de reposo (tiempo): Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
-
-| Señal cruda | Señal filtrada |
-|-------------|----------------|
 | ![Reposo crudo](Imagenes_lab4/outputs/raw/freq/ReposoECG_ORIGINAL_canal2_freq_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/freq/ReposoECG_ORIGINAL_canal2_freq_filt.png) |
 
-**Figura 8.** Adquisición de señal en condición de reposo (frecuencia): Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
+**Figura 7.** Adquisición de señales en condición de reposo: Panel izquierdo muestra las señales crudas; panel derecho las señales preprocesadas.
 
 **5.2.2 Gráficas del sujeto al contener aire**
 | Señal cruda | Señal filtrada |
@@ -174,11 +169,21 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 | ![Reposo crudo](Imagenes_lab4/outputs/raw/time/RESPIRARECG1_canal2_time_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/time/RESPIRARECG1_canal2_time_filt_crop.png) |
 | ![Reposo crudo](Imagenes_lab4/outputs/raw/freq/RESPIRARECG1_canal2_freq_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/freq/RESPIRARECG1_canal2_freq_filt.png) |
 
-**Figura 9.** Primera adquisición de señal del sujeto al contener aire: Panel izquierdo muestran las señales crudas; panel derecho las señales preprocesadas.
+**Figura 8.** Primera adquisición de señal del sujeto al contener aire: Panel izquierdo muestran las señales crudas; panel derecho las señales preprocesadas.
 
-**Figura 10.** Segunda adquisición de señal del sujeto al contener aire: Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
+| Señal cruda | Señal filtrada |
+|-------------|----------------|
+| ![Reposo crudo](Imagenes_lab4/outputs/raw/time/RESPIRAECG2_canal2_time_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/time/RESPIRAECG2_canal2_time_filt_crop.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/raw/freq/RESPIRAECG2_canal2_freq_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/freq/RESPIRAECG2_canal2_freq_filt.png) |
 
-**Figura 11.** Tercera adquisición de señal del sujeto al contener aire: Panel izquierdo muestra la señal cruda; panel derecho la señal preprocesada.
+**Figura 9.** Segunda adquisición de señal del sujeto al contener aire: Panel izquierdo muestran las señales crudas; panel derecho las señales preprocesadas.
+
+| Señal cruda | Señal filtrada |
+|-------------|----------------|
+| ![Reposo crudo](Imagenes_lab4/outputs/raw/time/RESPIRAECG3_canal2_time_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/time/RESPIRAECG3_canal2_time_filt_crop.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/raw/freq/RESPIRAECG3_canal2_freq_raw.png) | ![Reposo filtrado](Imagenes_lab4/outputs/filtered/freq/RESPIRAECG3_canal2_freq_filt.png) |
+
+**Figura 10.** Tercera adquisición de señal del sujeto al contener aire: Panel izquierdo muestran las señales crudas; panel derecho las señales preprocesadas.
 
 **5.2.3 Gráficas de actividad física aeróbica**
 
@@ -215,6 +220,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 | Dhiago Llanos   | 33.33%           |
 
 | Rafael Panez    | 33.33%           |
+
 
 
 
