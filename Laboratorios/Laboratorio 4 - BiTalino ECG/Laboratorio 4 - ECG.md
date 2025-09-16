@@ -211,6 +211,16 @@ Cabe resaltar que se escogió un fragmento (20s-25s) para poder visualizar de me
 
 **Figura 13.** Adquisición de señal (segunda derivada) del sujeto al realizar actividad física aeróbica: Panel izquierdo muestran las señales crudas; panel derecho las señales preprocesadas.
 
+**5.2.4 Gráficas de pipeline**
+| Señal con picos R | Datos obtenidos |
+|-------------------|-----------------|
+| ![Reposo crudo](Imagenes_lab4/outputs/pipeline/ReposoECG_ORIGINAL_canal2_time_filt_crop_peaks.png) | ![Datos](Imagenes_lab4/outputs/pipeline/ReposoECG_ORIGINAL_canal2_summary.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/pipeline/RESPIRARECG1_canal2_time_filt_crop_peaks.png) | ![Datos](Imagenes_lab4/outputs/pipeline/RESPIRARECG1_canal2_summary.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/pipeline/RESPIRAECG2_canal2_time_filt_crop_peaks.png) | ![Datos](Imagenes_lab4/outputs/pipeline/RESPIRAECG2_canal2_summary.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/pipeline/RESPIRAECG3_canal2_time_filt_crop_peaks.png) | ![Datos](Imagenes_lab4/outputs/pipeline/RESPIRAECG3_canal2_summary.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/pipeline/PrimeraDerivada_canal2_time_filt_crop_peaks.png) | ![Datos](Imagenes_lab4/outputs/pipeline/PrimeraDerivada_canal2_summary.png) |
+| ![Reposo crudo](Imagenes_lab4/outputs/pipeline/SegundaDerivada_canal2_time_filt_crop_peaks.png) | ![Datos](Imagenes_lab4/outputs/pipeline/SegundaDerivada_canal2_summary.png) |
+
 ### 5.3 Interpretación de los resultados
 ---
 
@@ -241,6 +251,7 @@ Cabe resaltar que se escogió un fragmento (20s-25s) para poder visualizar de me
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
