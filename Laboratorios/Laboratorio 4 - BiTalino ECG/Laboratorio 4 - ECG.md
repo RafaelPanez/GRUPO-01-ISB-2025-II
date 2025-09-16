@@ -32,7 +32,7 @@ A partir del ECG surgieron diversas aplicaciones, tales como el fundamento para 
 
 
 
-![Procesamiento ECG](Imagenes_lab4/Figura 1.PNG)
+![Procesamiento ECG](Imagenes_lab4/Figura1.PNG)
 **Figura 1.** Flujo de procesamiento de un ECG o también denominado EKG [3].
 
 
@@ -60,7 +60,7 @@ Comprender el proceso de adquisición y procesamiento de señales de electrocard
 | Electrodos de superficie |  Sensores descartables para el registro de señales biomédicas.  |  3  |
 | Laptop |     Equipo utilizado para la obtención de señales con el software OpenSignals (r)evolution  y procesamiento con Python.    |  1  |
 
-| ![imagen1](Imagenes_lab4/Figura2.1.PNG)|![imagen2](Imagenes_lab4/Figura 2.2.PNG)| ![imagen2.5](Imagenes_lab4/Figura 2.3.PNG) |
+| ![imagen1](Imagenes_lab4/Figura2.1.PNG)|![imagen2](Imagenes_lab4/Figura2.2.PNG)| ![imagen2.5](Imagenes_lab4/Figura2.3.PNG) |
 |:---------:|:----------:|:--------------:
 |**(a)** | **(b)**  | **(c)** |
 
@@ -81,7 +81,7 @@ Comprender el proceso de adquisición y procesamiento de señales de electrocard
 - **Segmento ST:**  Se obtiene el periodo de duración cuando termina el complejo QRS hasta que inicia la onda T. Normalmente este dura entre 80 a 120 ms [1-2].
 - **Intervalo QT:** Obtenido por medio del proceso del el inicio de la despolarización hasta el final de la repolarización de los ventrículos. Normalmente dura entre 400 a 440 ms [1].
 
-![imagen3](Imagenes_lab4/Figura 3.PNG)
+![imagen3](Imagenes_lab4/Figura3.PNG)
 **Figura 3.**  Forma característica de señal ECG [2].
 
 ### ❤️ 4.2 Derivaciones del ECG
@@ -97,7 +97,7 @@ Su colocación es la siguiente:
 - V5: Entre V4 y V6 [1].
 - V6: A la altura del quinto espacio intercostal en la línea medio-axilar [1].
 
-![imagen4](Imagenes_lab4/Figura 4.PNG)
+![imagen4](Imagenes_lab4/Figura4.PNG)
 
 **Figura 4.**  Las 12 derivaciones del ECG y todos las ubicaciones posibles en el cuerpo [4]. 
 
@@ -118,7 +118,7 @@ Se seleccionó un voluntario sin historial de cardiopatías y en buen estado de 
 ---
 Para este experimento se utilizará la configuración ilustrada en la Figura 5, en la cual se utilizan ambas muñecas como polos positivo y negativo, así como la cresta Ilíaca como punto neutro. Esta configuración ha mostrado ser adecuada para la obtención de parámetros como la frecuencia respiratoria y tener una amplitud adecuada para poder utilizar la señal para realizar un análisis de ECG. Sin embargo, es importante tener en cuenta que el procesamiento debe hacerse con un algoritmo adecuado [6-7]. 
 
-![imagen5](Imagenes_lab4/Figura 5.PNG)
+![imagen5](Imagenes_lab4/Figura5.PNG)
 
 **Figura 5.** Configuración de electrodos utilizados en este experimento.
 
@@ -133,7 +133,7 @@ Para este experimento se utilizará la configuración ilustrada en la Figura 5, 
     - *Condición de contener aire:* Al mismo tiempo se documentará la adquisición en formato de vídeo. Esta condición se realizará tres veces.
     - *Condición de actividad aeróbica:* Al mismo tiempo se documentará la adquisición en formato de vídeo. Esta condición se realizará una vez.
 
-![imagen6](Imagenes_lab4/Figura 6.PNG)
+![imagen6](Imagenes_lab4/Figura6.PNG)
 
 **Figura 6.** Registro de señal ECG.
 
@@ -202,4 +202,5 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 | Dhiago Llanos   | 33.33%           |
 
 | Rafael Panez    | 33.33%           |
+
 
