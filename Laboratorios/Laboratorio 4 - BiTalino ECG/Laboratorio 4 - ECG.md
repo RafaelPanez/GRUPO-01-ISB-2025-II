@@ -3,28 +3,32 @@
 
 ## 📑 Índice
 
-- [1. Introducción](#1-introduccion)  
-- [2. Objetivos](#2-objetivos)  
-  - [2.1 Objetivo general](#21-objetivo-general)  
-  - [2.2 Objetivos específicos](#22-objetivos-especificos)  
-- [3. Descripción de materiales](#3-descripcion-de-materiales)  
-- [4. Metodología](#4-metodologia)  
-  - [4.1 Tipos de onda de la señal ECG](#41-tipos-de-onda-de-la-senal-ecg)  
-  - [4.2 Derivaciones del ECG](#42-derivaciones-del-ecg)  
-  - [4.3 Ejercicio aeróbico y anaeróbico](#43-ejercicio-aerobico-y-anaerobico)  
-  - [4.4 Selección del sujeto](#44-seleccion-del-sujeto)  
-  - [4.5 Configuración de electrodos](#45-configuracion-de-electrodos)  
-  - [4.6 Procedimiento experimental](#46-procedimiento-experimental)  
-- [5. Resultados](#5-resultados)  
-  - [5.1 Repositorio de vídeos](#51-repositorio-de-videos)  
-  - [5.2 Gráficas obtenidas](#52-graficas-obtenidas)  
-  - [5.3 Interpretación de resultados](#53-interpretacion-de-resultados)  
-    - [5.3.1 Interpretación de gráficas del sujeto en reposo](#531-interpretacion-de-graficas-del-sujeto-en-reposo)  
-    - [5.3.2 Interpretación de gráficas del sujeto al contener aire](#532-interpretacion-de-graficas-del-sujeto-al-contener-aire)  
-    - [5.3.3 Interpretación de gráficas de actividad física aeróbica](#533-interpretacion-de-graficas-de-actividad-fisica-aerobica)  
-    - [5.3.4 Interpretación conjunta](#534-interpretacion-conjunta)  
-- [6. Conclusiones](#6-conclusiones)  
-- [7. Referencias](#7-referencias)  
+- [1. Introducción](#1-introduccion)
+- [2. Objetivos](#2-objetivos)
+  - [2.1 Objetivo general](#21-objetivo-general)
+  - [2.2 Objetivos específicos](#22-objetivos-especificos)
+- [3. Descripción de materiales](#3-descripcion-de-materiales)
+- [4. Metodología](#4-metodologia)
+  - [4.1 Tipos de onda de la señal ECG](#41-tipos-de-onda-de-la-senal-ecg)
+  - [4.2 Derivaciones del ECG](#42-derivaciones-del-ecg)
+  - [4.3 Ejercicio aeróbico y anaeróbico](#43-ejercicio-aerobico-y-anaerobico)
+  - [4.4 Selección del sujeto](#44-seleccion-del-sujeto)
+  - [4.5 Configuración de electrodos](#45-configuracion-de-electrodos)
+  - [4.6 Procedimiento experimental](#46-procedimiento-experimental)
+- [5. Resultados](#5-resultados)
+  - [5.1 Repositorio de vídeos](#51-repositorio-de-videos)
+  - [5.2 Gráficas obtenidas](#52-graficas-obtenidas)
+    - [5.2.1 Gráficas del sujeto en reposo](#521-graficas-del-sujeto-en-reposo)
+    - [5.2.2 Gráficas del sujeto al contener aire](#522-graficas-del-sujeto-al-contener-aire)
+    - [5.2.3 Gráficas de actividad física aeróbica](#523-graficas-de-actividad-fisica-aerobica)
+    - [5.2.4 Gráficas de pipeline](#524-graficas-de-pipeline)
+  - [5.3 Interpretación de resultados](#53-interpretacion-de-resultados)
+    - [5.3.1 Interpretación de gráficas del sujeto en reposo](#531-interpretacion-de-graficas-del-sujeto-en-reposo)
+    - [5.3.2 Interpretación de gráficas del sujeto al contener aire](#532-interpretacion-de-graficas-del-sujeto-al-contener-aire)
+    - [5.3.3 Interpretación de gráficas de actividad física aeróbica](#533-interpretacion-de-graficas-de-actividad-fisica-aerobica)
+    - [5.3.4 Interpretación conjunta](#534-interpretacion-conjunta)
+- [6. Conclusiones](#6-conclusiones)
+- [7. Referencias](#7-referencias)
 - [Aporte de los integrantes](#aporte-de-los-integrantes)
 
 
@@ -277,6 +281,7 @@ En conjunto, la práctica permitió concluir que el análisis de señales cardí
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
