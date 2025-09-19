@@ -44,7 +44,7 @@ XD
 |:---------:|:---------:|:---------:|
 | **(a)** | **(b)** | **(c)** |
 
-**Figura 2**. Materiales utilizados para la realización del experimento. De izquierda a derecha: (a) BiTalino (r)evolution con batería (b) Laptop para adquisición de señales (c) Ultracortex Mark IV
+**Figura 2**. Materiales utilizados para la realización del experimento. De izquierda a derecha: (a) BiTalino (r)evolution con batería. (b) Laptop para adquisición de señales. (c) Ultracortex Mark IV.
 
 ---
 ## 📝 4. Marco teórico
@@ -56,6 +56,8 @@ La EEG de superficie mide diferencias de potencial producidas por corrientes pos
 #### 4.1.2 Bandas y reactividad alfa (EO vs EC)
 Los ritmos clásicos incluyen δ (0.5–4 Hz), θ (4–8 Hz), **α (8–13 Hz)**, β (13–30 Hz) y γ (>30 Hz). En reposo con ojos cerrados, la potencia alfa aumenta de manera robusta, particularmente en regiones posteriores; al abrir los ojos o aumentar la carga atencional, esa potencia se suprime. Esta “reactividad alfa” se interpreta como un mecanismo de gating sensorial con modulación tálamo-cortical [3], [7].
 
+<div align="center">
+  
 | **Banda** | **Frecuencia (Hz)** | **Estado**                        |
 |-----------|---------------------|-----------------------------------|
 | δ         | 0.5 – 4             | Sueño profundo                    |
@@ -64,20 +66,26 @@ Los ritmos clásicos incluyen δ (0.5–4 Hz), θ (4–8 Hz), **α (8–13 Hz)**
 | β         | 13 – 30             | Atención, cálculo                 |
 | γ         | > 30                | Procesamiento cognitivo rápido    |
 
+</div>
+
+<div align="center">
 
 ![imagen4](Imagenes/ondas.jpg)
 
-**Figura 3**. Forma de las bandas EEG. Tomado de [8]
+**Figura 3**. Forma de las bandas EEG. Tomado de [8].
 
+</div>
 
 #### 4.1.3 Sistema 10–20, Fp1/Fp2 y artefactos oculares
 El **sistema 10–20** estandariza posiciones y facilita reproducibilidad. Fp1 (frontal polar izquierdo) y Fp2 (frontal polar derecho) están muy próximos a los ojos, por lo que captan con alta amplitud parpadeos y movimientos oculares (artefactos EOG) [9]. En frontal, los parpadeos pueden superar los 200 μV, afectando potencias por canal y pudiendo generar asimetrías aparentes entre Fp1/Fp2 si difieren el patrón de parpadeo, la impedancia o la referencia [9].
 
-
+<div align="center">
+  
 ![imagen4](Imagenes/10-20.png)
 
 **Figura 4**. Vista superior de un cabezal con posicionamiento de electrodos según el sistema internacional 10-20. Tomado de [10].
 
+</div>
 
 #### 4.1.4 Electrodos: húmedos vs secos
 - **Húmedos (Ag/AgCl + gel)**: estándar clínico por baja impedancia y estabilidad; requieren preparación de piel y limpieza posregistro [11].  
@@ -90,20 +98,24 @@ El **sistema 10–20** estandariza posiciones y facilita reproducibilidad. Fp1 (
   - **Pasabanda** típico **0.5–40/80 Hz** para conservar bandas fisiológicas y suprimir offset [7]. 
   - **Notch** a **50/60 Hz** para atenuar red eléctrica [7].  
 
-
+<div align="center">
+  
 ![imagen5](Imagenes/welch.png)
 
-**Figura 5**. Densidad espectral de potencia para cada banda. Tomado de [12]
+**Figura 5**. Densidad espectral de potencia para cada banda. Tomado de [12].
 
+</div>
 
 #### 4.1.6 Estimación espectral y métricas
 Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 50% de solape) y calcular potencia absoluta/relativa por banda. En este protocolo, la métrica primaria es potencia alfa (8–13 Hz) en EO vs EC por canal (Fp1, Fp2). Por otro lado, las métricas secundarias son el conteo de parpadeos y el cálculo de la potencia β durante tareas cognitivas [13].
 
+<div align="center">
 
 ![imagen6](Imagenes/psd.png)
 
-**Figura 6**. Oscilaciones alfa durante el estado de reposo de EC y EO en adultos jóvenes. (a) Trazos de EEG de un participante típico. (b) Espectros de potencia promediados entre los participantes. Tomado de [13]
+**Figura 6**. Oscilaciones alfa durante el estado de reposo de EC y EO en adultos jóvenes. (a) Trazos de EEG de un participante típico. (b) Espectros de potencia promediados entre los participantes. Tomado de [13].
 
+</div>
 
 ---
 ### 4.2 Procedimiento experimental
