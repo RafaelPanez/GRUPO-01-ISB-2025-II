@@ -208,78 +208,84 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 ### 🎥 5.1 Repositorio de vídeos
 ---
 ### 5.2 Gráficas obtenidas
-
+---
 #### 5.2.1 Señales EEG crudas y filtradas en reposo y fijación visual
+
 | Señal cruda | Señal filtrada |
-|-------------|----------------|
-| ![Grabación 1 cruda](Imagenes/Grabacion1_cruda.png) | ![Grabación 1 filtrada](Imagenes/Grabacion1_filtrada.png) |
-| ![Grabación 2 cruda](Imagenes/Grabacion2_cruda.png) | ![Grabación 2 filtrada](Imagenes/Grabacion2_filtrada.png) |
-| ![Grabación 3 cruda](Imagenes/Grabacion3_cruda.png) | ![Grabación 3 filtrada](Imagenes/Grabacion3_filtrada.png) |
+|:-----------:|:-------------:|
+| Grabación 1 | Filtrada 1    |
+| Grabación 2 | Filtrada 2    |
+| Grabación 3 | Filtrada 3    |
 
 **Figura 7.** Señales EEG crudas y filtradas (0.8–48 Hz) durante reposo inicial con ojos cerrados y fase de fijación visual con ojos abiertos. Panel izquierdo: señales crudas; panel derecho: señales filtradas.
 
 ---
 
-#### 5.2.2a Densidad espectral de potencia (PSD)
+#### 5.2.2 Densidad espectral de potencia (PSD) de EEG
+
 | Grabación 1 | Grabación 2 | Grabación 3 |
-|-------------|-------------|-------------|
-| ![PSD EEG 1](Imagenes/PSD1.png) | ![PSD EEG 2](Imagenes/PSD2.png) | ![PSD EEG 3](Imagenes/PSD3.png) |
+|:-----------:|:-----------:|:-----------:|
+| PSD EEG     | PSD EEG     | PSD EEG     |
 
 **Figura 8a.** Densidad espectral de potencia (PSD) de EEG para cada grabación de referencia.
 
-#### 5.2.2b Potencia relativa (%) por banda
+---
+
+#### 5.2.2 Potencia relativa (%) por banda
+
 | Grabación 1 | Grabación 2 | Grabación 3 |
-|-------------|-------------|-------------|
-| ![Potencia relativa 1](Imagenes/PotRel1.png) | ![Potencia relativa 2](Imagenes/PotRel2.png) | ![Potencia relativa 3](Imagenes/PotRel3.png) |
+|:-----------:|:-----------:|:-----------:|
+| Δ, θ, α, β, γ | Δ, θ, α, β, γ | Δ, θ, α, β, γ |
 
 **Figura 8b.** Potencia relativa (%) por banda (Δ, θ, α, β, γ) para cada grabación de referencia.
 
 ---
 
 #### 5.2.3 Comparación de potencia α: ojos cerrados vs ojos abiertos
+
 | Grabación 1 | Grabación 2 | Grabación 3 |
-|-------------|-------------|-------------|
-| ![Comparación α 1](Imagenes/AlphaComp1.png) | ![Comparación α 2](Imagenes/AlphaComp2.png) | ![Comparación α 3](Imagenes/AlphaComp3.png) |
+|:-----------:|:-----------:|:-----------:|
+| Comparación α | Comparación α | Comparación α |
 
 **Figura 9.** Comparación de potencia α (8–13 Hz) por ventanas de 2 s (PSD Welch) en cada grabación, mostrando diferencias entre ojos cerrados y ojos abiertos.
 
 ---
 
 #### 5.2.4 Tarea cognitiva: Resta 100‑7
+
 | Señal cruda | Señal filtrada |
-|-------------|----------------|
-| ![Tarea cruda](Imagenes/Tarea_cruda.png) | ![Tarea filtrada](Imagenes/Tarea_filtrada.png) |
+|:-----------:|:-------------:|
+| Tarea cruda | Tarea filtrada |
 
 **Figura 10.** Señal EEG durante la tarea cognitiva (1 min), mostrando la actividad en banda β (13–30 Hz).
 
 ---
 
 #### 5.2.5 Comparación de potencia β durante tarea cognitiva
-| Comparación |
-|-------------|
-| ![Comparación β](Imagenes/BetaComp.png) |
 
 **Figura 11.** Comparación de potencia en banda β (13–30 Hz) entre reposo y tarea cognitiva (t-test pareado). Solo se utilizó una grabación para esta evaluación.
 
 ---
 
 #### 5.2.6 Detección de parpadeos (>80 μV)
-| Señal cruda | Señal filtrada | Parpadeos detectados |
-|-------------|----------------|--------------------|
-| ![Parpadeo 1 cruda](Imagenes/Parpadeo1_cruda.png) | ![Parpadeo 1 filtrada](Imagenes/Parpadeo1_filtrada.png) | Marcados con scatter |
-| ![Parpadeo 2 cruda](Imagenes/Parpadeo2_cruda.png) | ![Parpadeo 2 filtrada](Imagenes/Parpadeo2_filtrada.png) | Marcados con scatter |
-| ![Parpadeo 3 cruda](Imagenes/Parpadeo3_cruda.png) | ![Parpadeo 3 filtrada](Imagenes/Parpadeo3_filtrada.png) | Marcados con scatter |
 
-**Figura 12.** Señales crudas y filtradas con parpadeos detectados indicados con puntos naranjas y umbral adaptativo (líneas rojas).
+| Señal cruda | Señal filtrada | Parpadeos detectados |
+|:-----------:|:-------------:|:-----------------:|
+| Parpadeo 1  | Filtrada 1    | Marcados con scatter |
+| Parpadeo 2  | Filtrada 2    | Marcados con scatter |
+| Parpadeo 3  | Filtrada 3    | Marcados con scatter |
+
+**Figura 12.** Señales filtradas con parpadeos detectados indicados con puntos naranjas y umbral adaptativo (líneas rojas).
 
 ---
 
 #### 5.2.7 Actividad cognitiva libre
-| Señal cruda | Señal filtrada |
-|-------------|----------------|
-| ![Actividad libre cruda](Imagenes/ActividadLibre_cruda.png) | ![Actividad libre filtrada](Imagenes/ActividadLibre_filtrada.png) |
 
-**Figura 13.** Señal durante actividad cognitiva libre (1 min) mostrando la señal cruda y filtrada
+| Señal cruda | Señal filtrada |
+|:-----------:|:-------------:|
+| Actividad libre 1 | α/β destacadas |
+
+**Figura 13.** Señal filtrada durante actividad cognitiva libre (1 min)
 ## 📝 6. Discusión e interpretación
 
 XD
