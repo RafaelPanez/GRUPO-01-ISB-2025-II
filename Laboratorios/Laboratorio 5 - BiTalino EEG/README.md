@@ -226,24 +226,22 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 ---
 
 #### 5.2.2 Densidad espectral de potencia (PSD) de EEG
-
-<p align="center">
-
-| Grabación 1 | Grabación 2 | Grabación 3 |
-|:-----------:|:-----------:|:-----------:|
-| ![PSD 1](Imagenes/GraficasLab5_Python/PSDCopilado1.png) | ![PSD 2](Imagenes/GraficasLab5_Python/PSDCopilado2.png) | ![PSD 3](Imagenes/GraficasLab5_Python/PSDCopilado3.png) |
-
-</p>
+| Grabación | PSD EEG |
+|:---------:|:-------:|
+| 1         | ![PSDCopilado1](Imagenes/GraficasLab5_Python/PSDCopilado1.png) |
+| 2         | ![PSDCopilado2](Imagenes/GraficasLab5_Python/PSDCopilado2.png) |
+| 3         | ![PSDCopilado3](Imagenes/GraficasLab5_Python/PSDCopilado3.png) |
 
 **Figura 8.** Densidad espectral de potencia (PSD) de EEG para cada grabación de referencia.
 
 ---
 
 #### 5.2.3 Potencia relativa (%) por banda
-
-| Grabación 1 | Grabación 2 | Grabación 3 |
-|:-----------:|:-----------:|:-----------:|
-| Δ, θ, α, β, γ | Δ, θ, α, β, γ | Δ, θ, α, β, γ |
+| Grabación | Potencia relativa (%) por banda |
+|:---------:|:------------------------------:|
+| 1         | ![PotRelCopilado1](Imagenes/GraficasLab5_Python/PotRelCopilado1.png) |
+| 2         | ![PotRelCopilado2](Imagenes/GraficasLab5_Python/PotRelCopilado2.png) |
+| 3         | ![PotRelCopilado3](Imagenes/GraficasLab5_Python/PotRelCopilado3.png) |
 
 **Figura 9.** Potencia relativa (%) por banda (Δ, θ, α, β, γ) para cada grabación de referencia.
 
