@@ -186,9 +186,21 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 15) Conteo de parpadeos (segmento artefactos): criterio > 80 µV para detección.
 16) Repetir análisis en el canal O2 para observar modulación visual.
 
-> **Inserta aquí**:  
-> `<!-- Fig. 5: PSD Fp1/Fp2 (EO vs EC) -->`  
-> `<!-- Fig. 6: Barras de potencia α por condición y canal -->`
+<div align="center">
+  
+![imagen10](Imagenes/PSD_comp.png)
+
+**Figura 10**. Ejemplo de PSD de la señal EEG.
+
+</div>
+
+<div align="center">
+  
+![imagen11](Imagenes/potencia.png)
+
+**Figura 11**. Ejemplo de potencia relativa por bandas de la señal EEG.
+
+</div>
 
 ---
 ## 📝 5. Resultados
