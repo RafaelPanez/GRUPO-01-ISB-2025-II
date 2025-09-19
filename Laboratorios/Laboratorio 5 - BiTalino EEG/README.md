@@ -163,6 +163,7 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 | 6–12| **Libre**          | Diseño del grupo (música, respiración, etc.) |
 
 <div align="center">
+  
 ![imagen9](Imagenes/oa_oc.png)
 **Figura 9**. Posturas OE (ojos abiertos) y EC (ojos cerrados), respectivamente (de izquierda a derecha).
 </div>
