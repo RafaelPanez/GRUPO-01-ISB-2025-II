@@ -28,9 +28,10 @@ Comprender el proceso de adquisición y procesamiento de señales de electroence
 | Batería recargable LIPO 3.7V - 500mA |     Fuente de energía portátil para el  módulo BiTalino (r)evolution.         | 1 |
 | Electrodos de superficie |  Sensores descartables para el registro de señales biomédicas.  |  3  |
 | Laptop |     Equipo utilizado para la obtención de señales con el software OpenSignals (r)evolution  y procesamiento con Python.    |  1  |
+| Ultracortex Mark IV (dry-electrode headset) |     Caso EEG abierto y modular diseñado para registrar actividad cerebral en aplicaciones de neurociencia, BCI y neurotecnología DIY    |  1  |
 
 | ![imagen1](Imagenes/Figura2.1.PNG) | ![imagen2](Imagenes/fig3.png) |
-|:---------:|:-------------------:|
+|:---------:|:---------:|
 |**(a)** | **(b)**  |
 
 **Figura 2**. Materiales utilizados para la realización del experimento. De izquierda a derecha: (a) BiTalino (r)evolution con batería (b) Laptop para adquisición de señales (c) Cable conectado a electrodos.
