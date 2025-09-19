@@ -18,6 +18,26 @@ Comprender el proceso de adquisición y procesamiento de señales de electroence
 ### 2.2 Objetivos específicos
 ---
 
+## 🛠️ 3. Instrumentos
+---
+
+|             Ítem              |                  Descripción                    |              Cantidad            |
+|----------------------------|------------------------------------------------|:----------------------------------:|
+|  BiTalino (r)evolution   |     Módulo de adquisición de señales biomédicas, incluye entradas para señales ECG, EMG, EEG y EDA.     |   1  |
+| Cable para 3 electrodos |  Conector tripolar para la conexión de electrodos y el módulo de adquisición.     | 1 |
+| Batería recargable LIPO 3.7V - 500mA |     Fuente de energía portátil para el  módulo BiTalino (r)evolution.         | 1 |
+| Electrodos de superficie |  Sensores descartables para el registro de señales biomédicas.  |  3  |
+| Laptop |     Equipo utilizado para la obtención de señales con el software OpenSignals (r)evolution  y procesamiento con Python.    |  1  |
+
+| ![imagen1](Imagenes_lab4/Figura2.1.PNG)|![imagen2](Imagenes_lab4/Figura2.2.PNG)|![imagen2.5](Imagenes_lab4/Figura2.3.PNG) |
+|:---------:|:-------------------:|:----------------------:
+|**(a)** | **(b)**  | **(c)** |
+
+**Figura 2**. Materiales utilizados para la realización del experimento. De izquierda a derecha: (a) BiTalino (r)evolution con batería (b) Laptop para adquisición de señales (c) Cable conectado a electrodos.
+
+## 📝 4. Metodología
+---
+
 ## 6. Referencias
 —
 https://jamanetwork.com/journals/jamaneurology/article-abstract/581666 
