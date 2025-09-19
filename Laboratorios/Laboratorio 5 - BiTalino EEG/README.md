@@ -221,32 +221,39 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 </p>
 
-**Figura 7.** Señales EEG crudas y filtradas (0.8–48 Hz) durante reposo basal con ojos cerrados y fase de fijación visual con ojos abiertos. Panel izquierdo: señales crudas; panel derecho: señales filtradas.
+<p align="center"><b>Figura 7.</b> Señales EEG crudas y filtradas (0.8–48 Hz) durante reposo basal con ojos cerrados y fase de fijación visual con ojos abiertos. Panel izquierdo: señales crudas; panel derecho: señales filtradas.</p>
 
 ---
 
 #### 5.2.2 Densidad espectral de potencia (PSD) de EEG
+
+<p align="center">
+
 | Grabación | PSD EEG |
 |:---------:|:-------:|
 | 1         | ![PSDCopilado1](Imagenes/GraficasLab5_Python/PSDCopilado1.png) |
 | 2         | ![PSDCopilado2](Imagenes/GraficasLab5_Python/PSDCopilado2.png) |
 | 3         | ![PSDCopilado3](Imagenes/GraficasLab5_Python/PSDCopilado3.png) |
 
-**Figura 8.** Densidad espectral de potencia (PSD) de EEG para cada grabación de referencia.
+</p>
+
+<p align="center"><b>Figura 8.</b> Densidad espectral de potencia (PSD) de EEG para cada grabación de referencia.</p>
 
 ---
 
 #### 5.2.3 Potencia relativa (%) por banda
+
+<p align="center">
+
 | Grabación | Potencia relativa (%) por banda |
 |:---------:|:------------------------------:|
-| 1         | ![PotRelCopilado1](Imagenes/GraficasLab5_Python/PotRelCopilado1.png) |
-| 2         | ![PotRelCopilado2](Imagenes/GraficasLab5_Python/PotRelCopilado2.png) |
-| 3         | ![PotRelCopilado3](Imagenes/GraficasLab5_Python/PotRelCopilado3.png) |
+| 1         | ![PotenciaRelativa1](Imagenes/GraficasLab5_Python/PotRelCopilado1.png) |
+| 2         | ![PotenciaRelativa2](Imagenes/GraficasLab5_Python/PotRelCopilado2.png) |
+| 3         | ![PotenciaRelativa3](Imagenes/GraficasLab5_Python/PotRelCopilado3.png) |
 
-**Figura 9.** Potencia relativa (%) por banda (Δ, θ, α, β, γ) para cada grabación de referencia.
+</p>
 
----
-
+<p align="center"><b>Figura 9.</b> Potencia relativa (%) por banda (Δ, θ, α, β, γ) para cada grabación de referencia.</p>
 #### 5.2.4 Comparación de potencia α: ojos cerrados vs ojos abiertos
 
 | Grabación 1 | Grabación 2 | Grabación 3 |
