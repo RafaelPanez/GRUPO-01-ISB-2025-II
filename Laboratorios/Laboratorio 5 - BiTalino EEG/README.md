@@ -119,41 +119,91 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 ---
 ### 4.2 Procedimiento experimental
-#### Preparación del sujeto y del equipo
-1. Explicar el procedimiento, retirar accesorios metálicos frontales y **limpiar piel** en sitios de registro.  
-2. Verificar **batería/conexión** del sistema y crear el proyecto de adquisición (frecuencia de muestreo ≥**250–500 Hz**; mayor si analizarás >40 Hz) [10].
+#### 4.2.1 Preparación de software y proyecto
 
-> **Inserta aquí** una foto del **montaje general** (casco/cintas y módulo de adquisición).  
-> `<!-- Figura 1: Montaje de adquisición EEG -->`
+1) **Instalar OpenSignals** (r)evolution y verificar que abre sin errores. :contentReference[oaicite:0]{index=0}  
+2) **Emparejar BITalino** por Bluetooth (PIN **1234**). :contentReference[oaicite:1]{index=1}  
+3) **Configurar el canal A4 como EEG** y fijar **fs = 1000 Hz** (cumple Nyquist para el filtro de 48 Hz del canal). :contentReference[oaicite:2]{index=2}  
+4) Crear la estructura de carpetas: `Grupo_##/Sesion_EEG` para guardar **.txt/.csv** exportados. :contentReference[oaicite:3]{index=3}  
+5) Verificar **batería > 30 %** antes de iniciar. :contentReference[oaicite:4]{index=4}
 
-#### Colocación de electrodos (10–20)
-3. Ubicar **Fp1** y **Fp2** según 10–20. Colocar referencia (p. ej., mastoides o A1/A2) y tierra según tu hardware. Asegurar buen contacto y **baja impedancia** [6].
+> **Inserta aquí** captura de tu **pantalla de OpenSignals** con A4=EEG y fs=1000 Hz.  
+> `<!-- Figura 1: Configuración de adquisición en OpenSignals -->`
 
-> **Inserta aquí** un **esquema 10–20** resaltando Fp1/Fp2.  
-> `<!-- Figura 2: Mapa 10–20 con Fp1/Fp2 -->`
+---
 
-#### Protocolo de adquisición
-4. **Reposo ojos abiertos (EO):** 2–3 min mirando un punto fijo, respiración normal.  
-5. **Reposo ojos cerrados (EC):** 2–3 min, relajado, evitar movimientos.  
-6. (Opcional) **Tarea cognitiva breve** (p. ej., restas seriadas) para observar cambios espectrales.  
-7. **Marcado de eventos**: anotar cambios EO/EC, parpadeos voluntarios y eventos notables [1].
+#### 4.2.2 Montaje de electrodos (≈5 min)
 
-#### Preprocesamiento
-8. **Revisión visual** y marcado de segmentos con artefactos obvios (movimientos, EMG facial). Los parpadeos impactan especialmente **Fp1/Fp2** [7].  
-9. **Filtrado**: aplicar **pasabanda** ~**0.5–40 Hz** (o 0.5–80 Hz si requieres gamma baja) y **notch** a **50** (o **60**) Hz según tu red eléctrica. Reportar: tipo (FIR/IIR), orden y transitorio [3], [4], [5].  
-10. (Opcional) **Re-referencia** (promedio común o referencia vinculada) si tu montaje lo permite [3].
+6) **Limpieza de piel** en **Fp1, Fp2** y **mastoide derecha** (referencia). :contentReference[oaicite:5]{index=5}  
+7) Conectar: **Electrodo1 → Fp1**, **GND → Fp2**, **Electrodo2 → mastoide** (referencia). :contentReference[oaicite:6]{index=6}  
+8) Comprobar **impedancia < 20 kΩ** en OpenSignals; reajustar contacto si es mayor. :contentReference[oaicite:7]{index=7}  
 
-#### Análisis cuantitativo
-11. **Segmentación**: extraer **épocas** estables (p. ej., 4–8 s) en EO y EC, libres de artefacto [3].  
-12. **PSD (Welch)** por canal (Fp1, Fp2): ventana 2–4 s, solape 50%, Hanning. Estimar **potencia en bandas**: delta (0.5–4), theta (4–7), **alfa (8–12)**, beta (13–30). Espera **↑alfa en EC** frente a EO [1], [2].  
-13. **Comparaciones**:  
-   - **EO vs EC**: diferencia o razón de potencia alfa por canal.  
-   - **Fp1 vs Fp2**: comparar potencia en bandas; interpretar asimetrías considerando artefactos oculares y diferencias de contacto [7].
+> **Inserta aquí** un esquema **10–20** con Fp1/Fp2 y referencia en mastoide.  
+> `<!-- Figura 2: Posiciones 10–20 (Fp1/Fp2) y referencia -->`
 
-> **Inserta aquí** los **gráficos de PSD** (EO y EC) y, si quieres, **barras** de potencia alfa por condición y canal.  
-> `<!-- Figura 3: PSD Fp1/Fp2 EO vs EC -->`  
-> `<!-- Figura 4: Potencia alfa por condición (box/bar) -->`
+> **Notas de seguridad / calidad**: operar **con batería** (no mientras carga) y evitar movimientos/gestos durante registro; documentar artefactos en cuaderno/vídeo. :contentReference[oaicite:8]{index=8}
 
+---
+
+#### 4.2.3 Secuencia de registro (≈12 min)
+
+9) Ejecutar la siguiente **cronología** (marcar eventos/segmentos en el software):
+
+| Min | Condición         | Indicaciones |
+|-----|-------------------|--------------|
+| 0–1 | **Basal 1 (EO)**  | Ojos abiertos, fijar un punto. :contentReference[oaicite:9]{index=9} |
+| 1–2 | **Basal 2 (EC)**  | Ojos cerrados, relajado. :contentReference[oaicite:10]{index=10} |
+| 2–4 | **Tarea cognitiva** | Restar 7 desde 100 en silencio (u opción del §4.4). :contentReference[oaicite:11]{index=11} |
+| 4–6 | **Artefactos**    | Parpadear cada 2 s y masticar (para etiquetar EOG/EMG). :contentReference[oaicite:12]{index=12} |
+| 6–12| **Libre**          | Diseño del grupo (música, respiración, etc.). :contentReference[oaicite:13]{index=13} |
+
+> **Inserta aquí** fotos del **sujeto** en EO y EC (misma postura/iluminación).  
+> `<!-- Fig. 3: Posturas EO y EC -->`
+
+---
+
+#### 4.2.4 Exportación y respaldo
+
+10) Exportar cada segmento a **.csv** / **.txt** dentro de `Grupo_##/Sesion_EEG`, con nombres consistentes:  
+`EO_01.csv`, `EC_01.csv`, `Tarea_01.csv`, `Artefactos_01.csv`, `Libre_01.csv`. :contentReference[oaicite:14]{index=14}
+
+---
+
+#### 4.2.5 Preprocesamiento mínimo (alineado a hardware)
+
+11) Recordatorio de **filtro hardware** del canal EEG de BITalino: **pasabanda 0.8–48 Hz**, suprime **DC** y **50/60 Hz** (ruido de red). :contentReference[oaicite:15]{index=15}  
+12) Aun así, **inspeccionar** y **marcar** artefactos (parpadeos > 80 µV, masticación) antes del análisis cuantitativo. :contentReference[oaicite:16]{index=16}
+
+> **Inserta aquí** un diagrama simple del **pipeline**: crudo → inspección → (filtro HW ya aplicado) → segmentación → PSD.  
+> `<!-- Fig. 4: Pipeline de preprocesamiento y análisis -->`
+
+---
+
+#### 4.2.6 Análisis cuantitativo (resumen operativo)
+
+13) **PSD (Welch)** por canal (**Fp1**, **Fp2**): ventana ~2 s, solape 50 %. :contentReference[oaicite:17]{index=17}  
+14) **Comparaciones principales**:  
+   - **EO vs EC** en **α (8–13 Hz)**: se espera ↑α en EC. :contentReference[oaicite:18]{index=18} :contentReference[oaicite:19]{index=19}  
+   - **Tarea cognitiva**: verificar **↑β (13–30 Hz)** vs basal. :contentReference[oaicite:20]{index=20} :contentReference[oaicite:21]{index=21}  
+   - **Fp1 vs Fp2**: revisar asimetrías y asociarlas a EOG/contacto si aparecen. :contentReference[oaicite:22]{index=22}  
+15) **Conteo de parpadeos** (segmento artefactos): criterio > **80 µV** para detección. :contentReference[oaicite:23]{index=23}  
+16) (Opcional) Repetir análisis en **O2** para observar modulación visual. :contentReference[oaicite:24]{index=24}
+
+> **Inserta aquí**:  
+> `<!-- Fig. 5: PSD Fp1/Fp2 (EO vs EC) -->`  
+> `<!-- Fig. 6: Barras de potencia α por condición y canal -->`
+
+---
+
+#### 4.2.7 Cierre y entregables
+
+17) Guardar scripts/datos/figuras en el repositorio y redactar el **informe** con: **introducción, métodos, resultados, discusión y referencias** (según rúbrica). :contentReference[oaicite:25]{index=25} :contentReference[oaicite:26]{index=26}
+
+> **Checklist rápido**  
+> - A4=EEG, **fs=1000 Hz**, batería >30 % ✔︎ :contentReference[oaicite:27]{index=27}  
+> - Fp1 (activo), **Fp2 (GND)**, mastoide (ref), **Z < 20 kΩ** ✔︎ :contentReference[oaicite:28]{index=28}  
+> - Secuencia EO/EC/tarea/artefactos/libre **completada** ✔︎ :contentReference[oaicite:29]{index=29}  
+> - PSD (Welch 2 s), α y β **calculadas**; parpadeos **contados** ✔︎ :contentReference[oaicite:30]{index=30}
 ## 6. Referencias
 [1] https://jamanetwork.com/journals/jamaneurology/article-abstract/581666 
 
