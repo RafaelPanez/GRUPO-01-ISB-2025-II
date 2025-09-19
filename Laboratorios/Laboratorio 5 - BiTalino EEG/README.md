@@ -29,9 +29,9 @@ Comprender el proceso de adquisición y procesamiento de señales de electroence
 | Electrodos de superficie |  Sensores descartables para el registro de señales biomédicas.  |  3  |
 | Laptop |     Equipo utilizado para la obtención de señales con el software OpenSignals (r)evolution  y procesamiento con Python.    |  1  |
 
-| ![imagen1](Imagenes_lab4/Figura2.1.PNG)|![imagen2](Imagenes_lab4/Figura2.2.PNG)|![imagen2.5](Imagenes_lab4/Figura2.3.PNG) |
+| ![imagen1](Imágenes/fig 1.png)|![imagen2](Imagenes_lab4/Figura2.2.PNG)|
 |:---------:|:-------------------:|:----------------------:
-|**(a)** | **(b)**  | **(c)** |
+|**(a)** | **(b)**  |
 
 **Figura 2**. Materiales utilizados para la realización del experimento. De izquierda a derecha: (a) BiTalino (r)evolution con batería (b) Laptop para adquisición de señales (c) Cable conectado a electrodos.
 
