@@ -209,15 +209,19 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 ---
 ### 5.2 Gráficas obtenidas
 ---
-#### 5.2.1 Señales EEG crudas y filtradas en reposo y fijación visual
+### 5.2.1 Señales EEG crudas y filtradas durante reposo (ojos cerrados) y fijación visual (ojos abiertos)
+
+<p align="center">
 
 | Señal cruda | Señal filtrada |
-|:-----------:|:-------------:|
-| Grabación 1 | Filtrada 1    |
-| Grabación 2 | Filtrada 2    |
-| Grabación 3 | Filtrada 3    |
+|:-----------:|:--------------:|
+| ![Cruda 1](Imagenes/GraficasLab5_Python/CrudaCopilado1EEG.png) | ![Filtrada 1](Imagenes/GraficasLab5_Python/FiltradoCopilado1EEG.png) |
+| ![Cruda 2](Imagenes/GraficasLab5_Python/CrudaCopilado2EEG.png) | ![Filtrada 2](Imagenes/GraficasLab5_Python/FiltradoCopilado2EEG.png) |
+| ![Cruda 3](Imagenes/GraficasLab5_Python/CrudaCopilado3EEG.png) | ![Filtrada 3](Imagenes/GraficasLab5_Python/FiltradoCopilado3EEG.png) |
 
-**Figura 7.** Señales EEG crudas y filtradas (0.8–48 Hz) durante reposo inicial con ojos cerrados y fase de fijación visual con ojos abiertos. Panel izquierdo: señales crudas; panel derecho: señales filtradas.
+</p>
+
+**Figura 7.** Señales EEG crudas y filtradas (0.8–48 Hz) durante reposo basal con ojos cerrados y fase de fijación visual con ojos abiertos. Panel izquierdo: señales crudas; panel derecho: señales filtradas.
 
 ---
 
