@@ -9,6 +9,7 @@ La generación de las señales EEG se produce principalmente en las neuronas pir
 
 En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el diagnóstico de epilepsia y la localización precisa de focos epilépticos, así como para estudios de sueño orientados a identificar trastornos como la narcolepsia [5]. De igual manera, la integración del EEG con técnicas de aprendizaje automático ha permitido el desarrollo de interfaces cerebro-computadora (BCI), lo que posibilita la comunicación y el control de dispositivos por parte de personas con discapacidades motoras [6].
 
+![figura 1](Imagenes/fig 1.png)
 **Figura 1.** Generación de señales EEG a partir de dipolos eléctricos formados por neuronas piramidales alineadas. Tomado de [4].
 
 ---
@@ -57,14 +58,18 @@ Los ritmos clásicos incluyen δ (0.5–4 Hz), θ (4–8 Hz), **α (8–13 Hz)**
 | β         | 13 – 30             | Atención, cálculo                 |
 | γ         | > 30                | Procesamiento cognitivo rápido    |
 
+
 | ![imagen4](Imagenes/ondas.jpg) |
 **Figura 3**. Forma de las bandas EEG. Tomado de [8]
+
 
 #### 4.1.3 Sistema 10–20, Fp1/Fp2 y artefactos oculares
 El **sistema 10–20** estandariza posiciones y facilita reproducibilidad. Fp1 (frontal polar izquierdo) y Fp2 (frontal polar derecho) están muy próximos a los ojos, por lo que captan con alta amplitud parpadeos y movimientos oculares (artefactos EOG) [9]. En frontal, los parpadeos pueden superar los 200 μV, afectando potencias por canal y pudiendo generar asimetrías aparentes entre Fp1/Fp2 si difieren el patrón de parpadeo, la impedancia o la referencia [9].
 
+
 | ![imagen4](Imagenes/10-20.png) |
 **Figura 4**. Vista superior de un cabezal con posicionamiento de electrodos según el sistema internacional 10-20. Tomado de [10].
+
 
 #### 4.1.4 Electrodos: húmedos vs secos
 - **Húmedos (Ag/AgCl + gel)**: estándar clínico por baja impedancia y estabilidad; requieren preparación de piel y limpieza posregistro [11].  
@@ -77,14 +82,18 @@ El **sistema 10–20** estandariza posiciones y facilita reproducibilidad. Fp1 (
   - **Pasabanda** típico **0.5–40/80 Hz** para conservar bandas fisiológicas y suprimir offset [7]. 
   - **Notch** a **50/60 Hz** para atenuar red eléctrica [7].  
 
+
 | ![imagen5](Imagenes/welch.png) |
 **Figura 5**. Densidad espectral de potencia para cada banda. Tomado de [12]
+
 
 #### 4.1.6 Estimación espectral y métricas
 Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 50% de solape) y calcular potencia absoluta/relativa por banda. En este protocolo, la métrica primaria es potencia alfa (8–13 Hz) en EO vs EC por canal (Fp1, Fp2). Por otro lado, las métricas secundarias son el conteo de parpadeos y el cálculo de la potencia β durante tareas cognitivas [13].
 
+
 | ![imagen6](Imagenes/psd.png) |
 **Figura 6**. Oscilaciones alfa durante el estado de reposo de EC y EO en adultos jóvenes. (a) Trazos de EEG de un participante típico. (b) Espectros de potencia promediados entre los participantes. Tomado de [13]
+
 
 ---
 ### 4.2 Procedimiento experimental
