@@ -10,7 +10,7 @@ La generación de las señales EEG se produce principalmente en las neuronas pir
 En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el diagnóstico de epilepsia y la localización precisa de focos epilépticos, así como para estudios de sueño orientados a identificar trastornos como la narcolepsia [5]. De igual manera, la integración del EEG con técnicas de aprendizaje automático ha permitido el desarrollo de interfaces cerebro-computadora (BCI), lo que posibilita la comunicación y el control de dispositivos por parte de personas con discapacidades motoras [6].
 
 
-![imagen1](Imagenes/fig1.jpg)
+![imagen11](Imagenes/fig1.png)
 
 
 **Figura 1.** Generación de señales EEG a partir de dipolos eléctricos formados por neuronas piramidales alineadas. Tomado de [4].
@@ -140,19 +140,30 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 > `<!-- Figura 4: Potencia alfa por condición (box/bar) -->`
 
 ## 6. Referencias
-—
 [1] https://jamanetwork.com/journals/jamaneurology/article-abstract/581666 
+
 [2] https://pubmed.ncbi.nlm.nih.gov/19715175/
+
 [3] https://pubmed.ncbi.nlm.nih.gov/10576479/ 
+
 [4] https://publications.idiap.ch/downloads/reports/2007/uldry-idiap-com-07-04.pdf 
+
 [5] https://www.neurotherapeuticsjournal.org/article/S1878-7479(23)01188-1/fulltext 
+
 [6] https://pubmed.ncbi.nlm.nih.gov/39346532/ 
+
 [7] https://doi.org/10.3390/s23146434
+
 [8] https://clinicamarcorived.com/el-ritmo-alfa-del-eeg-la-ventana-hacia-nuestra-inteligencia-el-estado-de-flujo/
+
 [9] https://doi.org/10.1016/j.bspc.2019.101692
+
 [10] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf
+
 [11] https://doi.org/10.3390/s25165215
+
 [12] https://still-breathing.net/characteristics-of-the-alpha-peak-in-eeg-signals/
+
 [13] https://www.researchgate.net/figure/Alpha-oscillations-during-EC-and-EO-resting-state-in-young-adults-a-EEG-traces-of-a_fig1_327866942
 
 
