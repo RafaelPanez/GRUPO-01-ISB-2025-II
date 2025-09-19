@@ -19,8 +19,9 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 Comprender el proceso de adquisición y procesamiento de señales de electroencefalograma (EEG) mediante su aplicación en el análisis de la actividad cerebral bajo diferentes condiciones experimentales.
 
 ### 2.2 Objetivos específicos
----
+XD
 
+---
 ## 🛠️ 3. Instrumentos
 
 |             Ítem              |                  Descripción                    |              Cantidad            |
@@ -32,47 +33,55 @@ Comprender el proceso de adquisición y procesamiento de señales de electroence
 | Laptop |     Equipo utilizado para la obtención de señales con el software OpenSignals (r)evolution  y procesamiento con Python.    |  1  |
 | Ultracortex Mark IV (dry-electrode headset) |     Caso EEG abierto y modular diseñado para registrar actividad cerebral en aplicaciones de neurociencia, BCI y neurotecnología DIY    |  1  |
 
-| ![imagen1](Imagenes/Figura2.1.PNG) | ![imagen2](Imagenes/fig3.png) | ![imagen3](Imagenes/casco.png) |
+| ![imagen1](Imagenes/Figura2.1.PNG) | ![imagen2](Imagenes/fig3.png) | ![imagen3](Imagenes/casco.jpeg) |
 |:---------:|:---------:|:---------:|
 | **(a)** | **(b)** | **(c)** |
 
 **Figura 2**. Materiales utilizados para la realización del experimento. De izquierda a derecha: (a) BiTalino (r)evolution con batería (b) Laptop para adquisición de señales (c) Ultracortex Mark IV
 
-## 📝 4. Marco teórico
 ---
+## 📝 4. Marco teórico
+
 ### 4.1 Marco teórico
 #### 4.1.1 Generación de la señal EEG
-La EEG de superficie mide diferencias de potencial producidas por corrientes postsinápticas de poblaciones de **neuronas piramidales** orientadas de forma coherente en corteza. La señal registrada es resultado de **sumación espacial y temporal** atenuada por conducción de volumen (hueso, LCR, piel). Implica baja relación señal/ruido y alta sensibilidad a artefactos, de ahí la necesidad de **preprocesamiento explícito** y reportable.
+La EEG de superficie mide diferencias de potencial producidas por corrientes postsinápticas de poblaciones de neuronas piramidales orientadas de forma coherente en corteza. La señal registrada es resultado de una suma espacial y temporal atenuada por conducción de volumen (hueso, LCR, piel). Esto implica una baja relación señal/ruido y alta sensibilidad a artefactos, por lo que se necesita preprocesamientos a las señales.
 
 #### 4.1.2 Bandas y reactividad alfa (EO vs EC)
-Los ritmos clásicos incluyen δ (0.5–4 Hz), θ (4–7 Hz), **α (8–12 Hz)**, β (13–30 Hz) y γ (>30 Hz). En **reposo con ojos cerrados**, la **potencia alfa** aumenta de manera robusta, particularmente en regiones posteriores; al **abrir los ojos** o aumentar la carga atencional, esa potencia se **suprime**. Esta “reactividad alfa” se interpreta como un **mecanismo de gating sensorial** con modulación tálamo-cortical.
+Los ritmos clásicos incluyen δ (0.5–4 Hz), θ (4–8 Hz), **α (8–13 Hz)**, β (13–30 Hz) y γ (>30 Hz). En reposo con ojos cerrados, la potencia alfa aumenta de manera robusta, particularmente en regiones posteriores; al abrir los ojos o aumentar la carga atencional, esa potencia se suprime. Esta “reactividad alfa” se interpreta como un mecanismo de gating sensorial con modulación tálamo-cortical.
 
 > _Inserta aquí un esquema de bandas EEG y la condición EO/EC._  
 > `<!-- Figura A: Bandas EEG y reactividad alfa (EO vs EC) -->`
 
 #### 4.1.3 Sistema 10–20, Fp1/Fp2 y artefactos oculares
-El sistema **10–20** estandariza posiciones y facilita reproducibilidad. **Fp1** (frontal polar izquierdo) y **Fp2** (frontal polar derecho) están **muy próximos a los ojos**, por lo que captan con alta amplitud **parpadeos y movimientos oculares** (artefactos EOG). En frontal, los parpadeos pueden superar los **200 μV**, afectando potencias por canal y pudiendo generar **asimetrías aparentes** entre Fp1/Fp2 si difieren el patrón de parpadeo, la impedancia o la referencia. Por ello, es clave **marcar/gestionar** estos artefactos y documentar impedancias y referencia empleada.
+El **sistema 10–20** estandariza posiciones y facilita reproducibilidad. Fp1 (frontal polar izquierdo) y Fp2 (frontal polar derecho) están muy próximos a los ojos, por lo que captan con alta amplitud parpadeos y movimientos oculares (artefactos EOG). En frontal, los parpadeos pueden superar los 200 μV, afectando potencias por canal y pudiendo generar asimetrías aparentes entre Fp1/Fp2 si difieren el patrón de parpadeo, la impedancia o la referencia.
+
+| **Banda** | **Frecuencia (Hz)** | **Estado**                        |
+|-----------|---------------------|-----------------------------------|
+| δ         | 0.5 – 4             | Sueño profundo                    |
+| θ         | 4 – 8               | Somnolencia, navegación espacial  |
+| α         | 8 – 13              | Reposo, ojos cerrados             |
+| β         | 13 – 30             | Atención, cálculo                 |
+| γ         | > 30                | Procesamiento cognitivo rápido    |
 
 > _Inserta aquí un mapa 10–20 resaltando Fp1/Fp2 y canales de referencia._  
 > `<!-- Figura B: Mapa 10–20 (Fp1/Fp2) y referencia -->`
 
 #### 4.1.4 Electrodos: húmedos vs secos
-- **Húmedos (Ag/AgCl + gel)**: estándar clínico por **baja impedancia** y estabilidad; requieren preparación de piel y limpieza posregistro.  
-- **Secos (multi-pin, gel-free)**: despliegue **rápido** y reutilizable (útiles con cascos tipo Ultracortex); hoy muestran **desempeño comparable** en ciertas tareas si el diseño es adecuado, aunque pueden ser más sensibles a movimiento y contacto en registros pasivos.
+- **Húmedos (Ag/AgCl + gel)**: estándar clínico por baja impedancia y estabilidad; requieren preparación de piel y limpieza posregistro.  
+- **Secos (multi-pin, gel-free)**: despliegue rápido y reutilizable (útiles con cascos tipo Ultracortex); hoy muestran desempeño comparable en ciertas tareas si el diseño es adecuado, aunque pueden ser más sensibles a movimiento y contacto en registros pasivos.
 
 #### 4.1.5 Muestreo, referencia y filtrado
-- **Muestreo**: elegir ≥**250–500 Hz** para cubrir con margen las bandas de interés y evitar aliasing; reportar siempre la **tasa**.  
-- **Referencia**: promedio común, mastoides o A1/A2; documentar la elección porque altera amplitudes relativas por canal.  
-- **Filtrado** (reportar tipo/orden/bandas):  
-  - **Pasabanda** típico **0.5–40/80 Hz** para conservar bandas fisiológicas y suprimir offset/deriva.  
+- **Muestreo**: se elige una frecuencia de muestreo de 1000 Hz para cubrir con margen las bandas de interés y evitar aliasing. 
+- **Referencia**: mastoides (apófisis del hueso temporal de los mamíferos, situada detrás y debajo de la oreja)
+- **Filtrado:**
+  - **Pasabanda** típico **0.5–40/80 Hz** para conservar bandas fisiológicas y suprimir offset. 
   - **Notch** a **50/60 Hz** para atenuar red eléctrica.  
-  - Evitar **cortes altos agresivos** (p. ej., HPF >1 Hz en ERPs) sin justificar, porque **distorsionan amplitudes/latencias**.
 
 > _Inserta aquí un diagrama simple del pipeline: bruto → filtrado → segmentación → PSD (Welch)._  
 > `<!-- Figura C: Pipeline de preprocesamiento y análisis -->`
 
 #### 4.1.6 Estimación espectral y métricas
-Para cuantificar cambios EO/EC se recomienda la **PSD por Welch** (ventanado Hanning, 50% de solape) y calcular **potencia absoluta/relativa** por banda. En este protocolo, la métrica primaria es **potencia alfa (8–12 Hz)** en **EO vs EC** por canal (Fp1, Fp2). Métricas secundarias: conteo de parpadeos y potencia β durante tareas cognitivas.
+Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 50% de solape) y calcular potencia absoluta/relativa por banda. En este protocolo, la métrica primaria es potencia alfa (8–13 Hz) en EO vs EC por canal (Fp1, Fp2). Por otro lado, las métricas secundarias son el conteo de parpadeos y el cálculo de la potencia β durante tareas cognitivas.
 
 > _Inserta aquí las figuras de PSD (EO vs EC) y barras de potencia alfa._  
 > `<!-- Figura D: PSD por canal y condición -->`  
