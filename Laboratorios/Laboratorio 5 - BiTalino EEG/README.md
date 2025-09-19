@@ -178,13 +178,13 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 #### 4.2.6 Análisis cuantitativo
 
-13) **PSD (Welch)** por canal (**Fp1**, **Fp2**)
+13) PSD (Welch) por canal (Fp1, Fp2)
 14) **Comparaciones principales**:  
-   - **EO vs EC** en **α (8–13 Hz)**
-   - **Tarea cognitiva**: verificar **↑β (13–30 Hz)** vs basal.
-   - **Fp1 vs Fp2**: revisar asimetrías y asociarlas a EOG/contacto si aparecen.
-15) **Conteo de parpadeos** (segmento artefactos): criterio > **80 µV** para detección.
-16) Repetir análisis en el **canal O2** para observar modulación visual.
+   - EO vs EC en α (8–13 Hz)
+   - Tarea cognitiva: verificar banda β (13–30 Hz) vs basal.
+   - Fp1 vs Fp2: revisar asimetrías y asociarlas a EOG/contacto si aparecen.
+15) Conteo de parpadeos (segmento artefactos): criterio > 80 µV para detección.
+16) Repetir análisis en el canal O2 para observar modulación visual.
 
 > **Inserta aquí**:  
 > `<!-- Fig. 5: PSD Fp1/Fp2 (EO vs EC) -->`  
@@ -201,30 +201,28 @@ XD
 XD
 
 ## 7. Referencias
-[1] https://jamanetwork.com/journals/jamaneurology/article-abstract/581666 
+[1] F. Torres, “Electroencephalography: Basic Principles, Clinical Applications and Related Fields,” Archives of Neurology, vol. 40, no. 3, pp. 191–192, 1983, doi: 10.1001/archneur.1983.04050030085025.
 
-[2] https://pubmed.ncbi.nlm.nih.gov/19715175/
+[2] T. Kirschstein and R. Köhling, “What is the source of the EEG?,” Clinical EEG and Neuroscience, vol. 40, no. 3, pp. 146–149, Jul. 2009, doi: 10.1177/155005940904000305. 
 
-[3] https://pubmed.ncbi.nlm.nih.gov/10576479/ 
+[3] G. Pfurtscheller and F. H. Lopes da Silva, “Event-related EEG/MEG synchronization and desynchronization: basic principles,” Clinical Neurophysiology, vol. 110, no. 11, pp. 1842–1857, Nov. 1999, doi: 10.1016/S1388-2457(99)00141-8. 
 
-[4] https://publications.idiap.ch/downloads/reports/2007/uldry-idiap-com-07-04.pdf 
+[4] EPFL Infoscience, “Repository record (handle: 20.500.14299/47157),” institutional repository entry, accessed Sep. 19, 2025. [Online]. Available: https://infoscience.epfl.ch/handle/20.500.14299/47157
+ 
+[5] J. L. Moore, D. Z. Carvalho, E. K. St. Louis, and C. Bazil, “Sleep and Epilepsy: a Focused Review of Pathophysiology, Clinical Syndromes, Co-morbidities, and Therapy,” Neurotherapeutics, vol. 18, no. 1, pp. 170–180, 2021, doi: 10.1007/s13311-021-01021-w. 
 
-[5] https://www.neurotherapeuticsjournal.org/article/S1878-7479(23)01188-1/fulltext 
+[6] J. Zou et al., “Noninvasive closed-loop acoustic brain–computer interface for seizure control,” Theranostics, vol. 14, no. 15, pp. 5965–5981, 2024, doi: 10.7150/thno.99820. 
 
-[6] https://pubmed.ncbi.nlm.nih.gov/39346532/ 
+[7] A. Chaddad, Y. Wu, R. Kateb, and A. Bouridane, “Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques,” Sensors, vol. 23, no. 14, p. 6434, 2023, doi: 10.3390/s23146434. 
 
-[7] https://doi.org/10.3390/s23146434
+[8] Á. Marco, “El ritmo alfa del EEG: La ventana hacia nuestra inteligencia. El estado de flujo,” Clínica Marco Rived, Nov. 23, 2024. Accessed: Sep. 19, 2025. [Online]. Available: https://clinicamarcorived.com/el-ritmo-alfa-del-eeg-la-ventana-hacia-nuestra-inteligencia-el-estado-de-flujo/
+ 
+[9] A. Egambaram, N. Badruddin, V. S. Asirvadam, T. Begum, E. Fauvet, and C. Stolz, “FastEMD–CCA algorithm for unsupervised and fast removal of eyeblink artifacts from electroencephalogram,” Biomedical Signal Processing and Control, vol. 57, art. 101692, 2020, doi: 10.1016/j.bspc.2019.101692. 
 
-[8] https://clinicamarcorived.com/el-ritmo-alfa-del-eeg-la-ventana-hacia-nuestra-inteligencia-el-estado-de-flujo/
+[10] PLUX – BITalino, Home Guide 3: EEG (Lab Guide), Apr. 2022. Accessed: Sep. 19, 2025. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf
+ 
+[11] M. Zhang et al., “Recent Advances in Portable Dry Electrode EEG: Architecture and Applications in Brain–Computer Interfaces,” Sensors, vol. 25, no. 16, p. 5215, 2025, doi: 10.3390/s25165215. 
 
-[9] https://doi.org/10.1016/j.bspc.2019.101692
+[12] “Characteristics of the alpha peak in EEG signals,” Still Breathing (blog), Jan. 27, 2016. Accessed: Sep. 19, 2025. [Online]. Available: https://still-breathing.net/characteristics-of-the-alpha-peak-in-eeg-signals/
 
-[10] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf
-
-[11] https://doi.org/10.3390/s25165215
-
-[12] https://still-breathing.net/characteristics-of-the-alpha-peak-in-eeg-signals/
-
-[13] https://www.researchgate.net/figure/Alpha-oscillations-during-EC-and-EO-resting-state-in-young-adults-a-EEG-traces-of-a_fig1_327866942
-
-
+[13] “Alpha oscillations during EC and EO resting state in young adults: EEG traces …,” ResearchGate, figure page, Accessed: Sep. 19, 2025. [Online]. Available: https://www.researchgate.net/figure/Alpha-oscillations-during-EC-and-EO-resting-state-in-young-adults-a-EEG-traces-of-a_fig1_327866942
