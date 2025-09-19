@@ -254,6 +254,8 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 </p>
 
 <p align="center"><b>Figura 9.</b> Potencia relativa (%) por banda (Δ, θ, α, β, γ) para cada grabación de referencia.</p>
+
+---
 #### 5.2.4 Comparación de potencia α: ojos cerrados vs ojos abiertos
 
 | Grabación 1 | Grabación 2 | Grabación 3 |
