@@ -144,7 +144,7 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 ![imagen8](Imagenes/referencia.png)
 
-**Figura 8**. Posiciones 10-20 (Fp1/Fp2) y referencia.
+**Figura 8**. Posiciones 10-20 (Fp1/Fp2) y referencia. Tomado de [10].
 
 </div>
 
@@ -238,3 +238,5 @@ XD
 [12] “Characteristics of the alpha peak in EEG signals,” Still Breathing (blog), Jan. 27, 2016. Accessed: Sep. 19, 2025. [Online]. Available: https://still-breathing.net/characteristics-of-the-alpha-peak-in-eeg-signals/
 
 [13] “Alpha oscillations during EC and EO resting state in young adults: EEG traces …,” ResearchGate, figure page, Accessed: Sep. 19, 2025. [Online]. Available: https://www.researchgate.net/figure/Alpha-oscillations-during-EC-and-EO-resting-state-in-young-adults-a-EEG-traces-of-a_fig1_327866942
+
+[14] 
