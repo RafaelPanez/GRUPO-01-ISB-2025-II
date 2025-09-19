@@ -163,11 +163,8 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 | 6–12| **Libre**          | Diseño del grupo (música, respiración, etc.) |
 
 <div align="center">
-
 ![imagen9](Imagenes/oa_oc.png)
-
 **Figura 9**. Posturas OE (ojos abiertos) y EC (ojos cerrados), respectivamente (de izquierda a derecha).
-
 </div>
 
 #### 4.2.4 Exportación y respaldo
@@ -193,9 +190,16 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 > `<!-- Fig. 6: Barras de potencia α por condición y canal -->`
 
 ---
+## 📝 5. Resultados
 
+XD
 
-## 6. Referencias
+---
+## 📝 6. Discusión e interpretación
+
+XD
+
+## 7. Referencias
 [1] https://jamanetwork.com/journals/jamaneurology/article-abstract/581666 
 
 [2] https://pubmed.ncbi.nlm.nih.gov/19715175/
