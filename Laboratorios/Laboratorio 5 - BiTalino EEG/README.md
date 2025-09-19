@@ -247,9 +247,9 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 | Grabación | Potencia relativa (%) por banda |
 |:---------:|:------------------------------:|
-| 1         | ![PotenciaRelativa1](Imagenes/GraficasLab5_Python/PotRelCopilado1.png) |
-| 2         | ![PotenciaRelativa2](Imagenes/GraficasLab5_Python/PotRelCopilado2.png) |
-| 3         | ![PotenciaRelativa3](Imagenes/GraficasLab5_Python/PotRelCopilado3.png) |
+| 1         | ![PotenciaRelativa1](Imagenes/GraficasLab5_Python/PotenciaRelativa1.png) |
+| 2         | ![PotenciaRelativa2](Imagenes/GraficasLab5_Python/PotenciaRelativa2.png) |
+| 3         | ![PotenciaRelativa3](Imagenes/GraficasLab5_Python/PotenciaRelativa3.png) |
 
 </p>
 
