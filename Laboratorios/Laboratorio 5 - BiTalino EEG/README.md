@@ -9,7 +9,9 @@ La generación de las señales EEG se produce principalmente en las neuronas pir
 
 En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el diagnóstico de epilepsia y la localización precisa de focos epilépticos, así como para estudios de sueño orientados a identificar trastornos como la narcolepsia [5]. De igual manera, la integración del EEG con técnicas de aprendizaje automático ha permitido el desarrollo de interfaces cerebro-computadora (BCI), lo que posibilita la comunicación y el control de dispositivos por parte de personas con discapacidades motoras [6].
 
-![imagen1](Imagenes/fig 1.png)
+
+![imagen1](Imagenes/fig_1.jpg)
+
 
 **Figura 1.** Generación de señales EEG a partir de dipolos eléctricos formados por neuronas piramidales alineadas. Tomado de [4].
 
@@ -60,7 +62,7 @@ Los ritmos clásicos incluyen δ (0.5–4 Hz), θ (4–8 Hz), **α (8–13 Hz)**
 | γ         | > 30                | Procesamiento cognitivo rápido    |
 
 
-| ![imagen4](Imagenes/ondas.jpg) |
+![imagen4](Imagenes/ondas.jpg)
 
 **Figura 3**. Forma de las bandas EEG. Tomado de [8]
 
