@@ -5,11 +5,11 @@
 
 El electroencefalograma (EEG) es una técnica no invasiva que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados en el cuero cabelludo [1]. Esta herramienta resulta fundamental en neurociencia y medicina clínica, ya que posibilita la evaluación de funciones cerebrales y el diagnóstico de distintos trastornos neurológicos [1]. Asimismo, el EEG facilita la monitorización continua de la actividad cerebral en pacientes críticos y la evaluación de la eficacia de tratamientos neurológicos, constituyéndose como un instrumento indispensable en investigación y entornos clínicos [2].
 
-La generación de las señales EEG se produce principalmente en las neuronas piramidales de la corteza cerebral, ubicadas en las capas III y V [3-4]. Estas neuronas presentan una orientación perpendicular a la superficie cortical, lo que permite la formación de dipolos eléctricos detectables en el cuero cabelludo. La actividad registrada corresponde a la suma de los potenciales postsinápticos excitatorios e inhibitorios de grandes grupos de neuronas activadas de manera sincronizada [3]. Las oscilaciones resultantes se organizan en ritmos de alfa (8–13 Hz), beta (13–30 Hz), theta (4–8 Hz) y delta (0.5–4 Hz), cada uno asociado a distintos estados de conciencia y funciones cognitivas [3].
+La generación de las señales EEG se produce principalmente en las neuronas piramidales de la corteza cerebral, ubicadas en las capas III y V [3], [4]. Estas neuronas presentan una orientación perpendicular a la superficie cortical, lo que permite la formación de dipolos eléctricos detectables en el cuero cabelludo. La actividad registrada corresponde a la suma de los potenciales postsinápticos excitatorios e inhibitorios de grandes grupos de neuronas activadas de manera sincronizada [3]. Las oscilaciones resultantes se organizan en ritmos de alfa (8–13 Hz), beta (13–30 Hz), theta (4–8 Hz) y delta (0.5–4 Hz), cada uno asociado a distintos estados de conciencia y funciones cognitivas [3].
 
 En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el diagnóstico de epilepsia y la localización precisa de focos epilépticos, así como para estudios de sueño orientados a identificar trastornos como la narcolepsia [5]. De igual manera, la integración del EEG con técnicas de aprendizaje automático ha permitido el desarrollo de interfaces cerebro-computadora (BCI), lo que posibilita la comunicación y el control de dispositivos por parte de personas con discapacidades motoras [6].
 
-**Figura 1.** Generación de señales EEG a partir de dipolos eléctricos formados por neuronas piramidales alineadas [4].
+**Figura 1.** Generación de señales EEG a partir de dipolos eléctricos formados por neuronas piramidales alineadas. Tomado de [4].
 
 ---
 ## 2. Objetivos
@@ -44,16 +44,10 @@ XD
 
 ### 4.1 Marco teórico
 #### 4.1.1 Generación de la señal EEG
-La EEG de superficie mide diferencias de potencial producidas por corrientes postsinápticas de poblaciones de neuronas piramidales orientadas de forma coherente en corteza. La señal registrada es resultado de una suma espacial y temporal atenuada por conducción de volumen (hueso, LCR, piel). Esto implica una baja relación señal/ruido y alta sensibilidad a artefactos, por lo que se necesita preprocesamientos a las señales [7].
+La EEG de superficie mide diferencias de potencial producidas por corrientes postsinápticas de poblaciones de neuronas piramidales orientadas de forma coherente en corteza. La señal registrada es resultado de una suma espacial y temporal atenuada por conducción de volumen (hueso, LCR, piel). Esto implica una baja relación señal/ruido y alta sensibilidad a artefactos, por lo que se necesita preprocesamientos a las señales [3], [4].
 
 #### 4.1.2 Bandas y reactividad alfa (EO vs EC)
-Los ritmos clásicos incluyen δ (0.5–4 Hz), θ (4–8 Hz), **α (8–13 Hz)**, β (13–30 Hz) y γ (>30 Hz). En reposo con ojos cerrados, la potencia alfa aumenta de manera robusta, particularmente en regiones posteriores; al abrir los ojos o aumentar la carga atencional, esa potencia se suprime. Esta “reactividad alfa” se interpreta como un mecanismo de gating sensorial con modulación tálamo-cortical [8].
-
-> _Inserta aquí un esquema de bandas EEG y la condición EO/EC._  
-> `<!-- Figura A: Bandas EEG y reactividad alfa (EO vs EC) -->`
-
-#### 4.1.3 Sistema 10–20, Fp1/Fp2 y artefactos oculares
-El **sistema 10–20** estandariza posiciones y facilita reproducibilidad. Fp1 (frontal polar izquierdo) y Fp2 (frontal polar derecho) están muy próximos a los ojos, por lo que captan con alta amplitud parpadeos y movimientos oculares (artefactos EOG) [9]. En frontal, los parpadeos pueden superar los 200 μV, afectando potencias por canal y pudiendo generar asimetrías aparentes entre Fp1/Fp2 si difieren el patrón de parpadeo, la impedancia o la referencia [9].
+Los ritmos clásicos incluyen δ (0.5–4 Hz), θ (4–8 Hz), **α (8–13 Hz)**, β (13–30 Hz) y γ (>30 Hz). En reposo con ojos cerrados, la potencia alfa aumenta de manera robusta, particularmente en regiones posteriores; al abrir los ojos o aumentar la carga atencional, esa potencia se suprime. Esta “reactividad alfa” se interpreta como un mecanismo de gating sensorial con modulación tálamo-cortical [3], [7].
 
 | **Banda** | **Frecuencia (Hz)** | **Estado**                        |
 |-----------|---------------------|-----------------------------------|
@@ -63,29 +57,34 @@ El **sistema 10–20** estandariza posiciones y facilita reproducibilidad. Fp1 (
 | β         | 13 – 30             | Atención, cálculo                 |
 | γ         | > 30                | Procesamiento cognitivo rápido    |
 
-> _Inserta aquí un mapa 10–20 resaltando Fp1/Fp2 y canales de referencia._  
-> `<!-- Figura B: Mapa 10–20 (Fp1/Fp2) y referencia -->`
+| ![imagen4](Imagenes/ondas.jpg) |
+**Figura 3**. Forma de las bandas EEG. Tomado de [8]
+
+#### 4.1.3 Sistema 10–20, Fp1/Fp2 y artefactos oculares
+El **sistema 10–20** estandariza posiciones y facilita reproducibilidad. Fp1 (frontal polar izquierdo) y Fp2 (frontal polar derecho) están muy próximos a los ojos, por lo que captan con alta amplitud parpadeos y movimientos oculares (artefactos EOG) [9]. En frontal, los parpadeos pueden superar los 200 μV, afectando potencias por canal y pudiendo generar asimetrías aparentes entre Fp1/Fp2 si difieren el patrón de parpadeo, la impedancia o la referencia [9].
+
+| ![imagen4](Imagenes/10-20.png) |
+**Figura 4**. Vista superior de un cabezal con posicionamiento de electrodos según el sistema internacional 10-20. Tomado de [10].
 
 #### 4.1.4 Electrodos: húmedos vs secos
-- **Húmedos (Ag/AgCl + gel)**: estándar clínico por baja impedancia y estabilidad; requieren preparación de piel y limpieza posregistro [10].  
-- **Secos (multi-pin, gel-free)**: despliegue rápido y reutilizable (útiles con cascos tipo Ultracortex); hoy muestran desempeño comparable en ciertas tareas si el diseño es adecuado, aunque pueden ser más sensibles a movimiento y contacto en registros pasivos [10].
+- **Húmedos (Ag/AgCl + gel)**: estándar clínico por baja impedancia y estabilidad; requieren preparación de piel y limpieza posregistro [11].  
+- **Secos (multi-pin, gel-free)**: despliegue rápido y reutilizable (útiles con cascos tipo Ultracortex); hoy muestran desempeño comparable en ciertas tareas si el diseño es adecuado, aunque pueden ser más sensibles a movimiento y contacto en registros pasivos [11].
 
 #### 4.1.5 Muestreo, referencia y filtrado
 - **Muestreo**: se elige una frecuencia de muestreo de 1000 Hz para cubrir con margen las bandas de interés y evitar aliasing.
 - **Referencia**: mastoides (apófisis del hueso temporal de los mamíferos, situada detrás y debajo de la oreja).
 - **Filtrado:**
-  - **Pasabanda** típico **0.5–40/80 Hz** para conservar bandas fisiológicas y suprimir offset [11]. 
-  - **Notch** a **50/60 Hz** para atenuar red eléctrica [12].  
+  - **Pasabanda** típico **0.5–40/80 Hz** para conservar bandas fisiológicas y suprimir offset [7]. 
+  - **Notch** a **50/60 Hz** para atenuar red eléctrica [7].  
 
-> _Inserta aquí un diagrama simple del pipeline: bruto → filtrado → segmentación → PSD (Welch)._  
-> `<!-- Figura C: Pipeline de preprocesamiento y análisis -->`
+| ![imagen5](Imagenes/welch.png) |
+**Figura 5**. Densidad espectral de potencia para cada banda. Tomado de [12]
 
 #### 4.1.6 Estimación espectral y métricas
 Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 50% de solape) y calcular potencia absoluta/relativa por banda. En este protocolo, la métrica primaria es potencia alfa (8–13 Hz) en EO vs EC por canal (Fp1, Fp2). Por otro lado, las métricas secundarias son el conteo de parpadeos y el cálculo de la potencia β durante tareas cognitivas [13].
 
-> _Inserta aquí las figuras de PSD (EO vs EC) y barras de potencia alfa._  
-> `<!-- Figura D: PSD por canal y condición -->`  
-> `<!-- Figura E: Potencia alfa (EO vs EC) → efecto esperado: ↑α en EC -->`
+| ![imagen6](Imagenes/psd.png) |
+**Figura 6**. Oscilaciones alfa durante el estado de reposo de EC y EO en adultos jóvenes. (a) Trazos de EEG de un participante típico. (b) Espectros de potencia promediados entre los participantes. Tomado de [13]
 
 ---
 ### 4.2 Procedimiento experimental
@@ -126,10 +125,18 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 ## 6. Referencias
 —
-https://jamanetwork.com/journals/jamaneurology/article-abstract/581666 
-https://pubmed.ncbi.nlm.nih.gov/19715175/
-https://pubmed.ncbi.nlm.nih.gov/10576479/ 
-https://publications.idiap.ch/downloads/reports/2007/uldry-idiap-com-07-04.pdf 
-https://www.neurotherapeuticsjournal.org/article/S1878-7479(23)01188-1/fulltext 
-https://pubmed.ncbi.nlm.nih.gov/39346532/ 
+[1] https://jamanetwork.com/journals/jamaneurology/article-abstract/581666 
+[2] https://pubmed.ncbi.nlm.nih.gov/19715175/
+[3] https://pubmed.ncbi.nlm.nih.gov/10576479/ 
+[4] https://publications.idiap.ch/downloads/reports/2007/uldry-idiap-com-07-04.pdf 
+[5] https://www.neurotherapeuticsjournal.org/article/S1878-7479(23)01188-1/fulltext 
+[6] https://pubmed.ncbi.nlm.nih.gov/39346532/ 
+[7] https://doi.org/10.3390/s23146434
+[8] https://clinicamarcorived.com/el-ritmo-alfa-del-eeg-la-ventana-hacia-nuestra-inteligencia-el-estado-de-flujo/
+[9] https://doi.org/10.1016/j.bspc.2019.101692
+[10] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf
+[11] https://doi.org/10.3390/s25165215
+[12] https://still-breathing.net/characteristics-of-the-alpha-peak-in-eeg-signals/
+[13] https://www.researchgate.net/figure/Alpha-oscillations-during-EC-and-EO-resting-state-in-young-adults-a-EEG-traces-of-a_fig1_327866942
+
 
