@@ -227,51 +227,55 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 #### 5.2.2 Densidad espectral de potencia (PSD) de EEG
 
+<p align="center">
+
 | Grabación 1 | Grabación 2 | Grabación 3 |
 |:-----------:|:-----------:|:-----------:|
-| PSD EEG     | PSD EEG     | PSD EEG     |
+| ![PSD 1](Imagenes/GraficasLab5_Python/PSDCopilado1.png) | ![PSD 2](Imagenes/GraficasLab5_Python/PSDCopilado2.png) | ![PSD 3](Imagenes/GraficasLab5_Python/PSDCopilado3.png) |
 
-**Figura 8a.** Densidad espectral de potencia (PSD) de EEG para cada grabación de referencia.
+</p>
+
+**Figura 8.** Densidad espectral de potencia (PSD) de EEG para cada grabación de referencia.
 
 ---
 
-#### 5.2.2 Potencia relativa (%) por banda
+#### 5.2.3 Potencia relativa (%) por banda
 
 | Grabación 1 | Grabación 2 | Grabación 3 |
 |:-----------:|:-----------:|:-----------:|
 | Δ, θ, α, β, γ | Δ, θ, α, β, γ | Δ, θ, α, β, γ |
 
-**Figura 8b.** Potencia relativa (%) por banda (Δ, θ, α, β, γ) para cada grabación de referencia.
+**Figura 9.** Potencia relativa (%) por banda (Δ, θ, α, β, γ) para cada grabación de referencia.
 
 ---
 
-#### 5.2.3 Comparación de potencia α: ojos cerrados vs ojos abiertos
+#### 5.2.4 Comparación de potencia α: ojos cerrados vs ojos abiertos
 
 | Grabación 1 | Grabación 2 | Grabación 3 |
 |:-----------:|:-----------:|:-----------:|
 | Comparación α | Comparación α | Comparación α |
 
-**Figura 9.** Comparación de potencia α (8–13 Hz) por ventanas de 2 s (PSD Welch) en cada grabación, mostrando diferencias entre ojos cerrados y ojos abiertos.
+**Figura 10.** Comparación de potencia α (8–13 Hz) por ventanas de 2 s (PSD Welch) en cada grabación, mostrando diferencias entre ojos cerrados y ojos abiertos.
 
 ---
 
-#### 5.2.4 Tarea cognitiva: Resta 100‑7
+#### 5.2.5 Tarea cognitiva: Resta 100‑7
 
 | Señal cruda | Señal filtrada |
 |:-----------:|:-------------:|
 | Tarea cruda | Tarea filtrada |
 
-**Figura 10.** Señal EEG durante la tarea cognitiva (1 min), mostrando la actividad en banda β (13–30 Hz).
+**Figura 11.** Señal EEG durante la tarea cognitiva (1 min), mostrando la actividad en banda β (13–30 Hz).
 
 ---
 
-#### 5.2.5 Comparación de potencia β durante tarea cognitiva
+#### 5.2.6 Comparación de potencia β durante tarea cognitiva
 
-**Figura 11.** Comparación de potencia en banda β (13–30 Hz) entre reposo y tarea cognitiva (t-test pareado). Solo se utilizó una grabación para esta evaluación.
+**Figura 12.** Comparación de potencia en banda β (13–30 Hz) entre reposo y tarea cognitiva (t-test pareado). Solo se utilizó una grabación para esta evaluación.
 
 ---
 
-#### 5.2.6 Detección de parpadeos (>80 μV)
+#### 5.2.7 Detección de parpadeos (>80 μV)
 
 | Señal cruda | Señal filtrada | Parpadeos detectados |
 |:-----------:|:-------------:|:-----------------:|
@@ -279,17 +283,17 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 | Parpadeo 2  | Filtrada 2    | Marcados con scatter |
 | Parpadeo 3  | Filtrada 3    | Marcados con scatter |
 
-**Figura 12.** Señales filtradas con parpadeos detectados indicados con puntos naranjas y umbral adaptativo (líneas rojas).
+**Figura 13.** Señales filtradas con parpadeos detectados indicados con puntos naranjas y umbral adaptativo (líneas rojas).
 
 ---
 
-#### 5.2.7 Actividad cognitiva libre
+#### 5.2.8 Actividad cognitiva libre
 
 | Señal cruda | Señal filtrada |
 |:-----------:|:-------------:|
 | Actividad libre 1 | α/β destacadas |
 
-**Figura 13.** Señal filtrada durante actividad cognitiva libre (1 min)
+**Figura 14.** Señal filtrada durante actividad cognitiva libre (1 min)
 ## 📝 6. Discusión e interpretación
 
 XD
