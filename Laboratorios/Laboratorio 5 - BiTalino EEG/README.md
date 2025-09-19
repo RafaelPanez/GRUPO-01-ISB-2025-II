@@ -126,10 +126,13 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 3) Configurar el canal A4 como EEG y fijar **fs = 1000 Hz** (cumplimiento del criterio de Nyquist).
 4) Crear una carpeta para guardar las señales en formato **.txt/.csv** exportados.
 
-> **Inserta aquí** captura de tu **pantalla de OpenSignals** con A4=EEG y fs=1000 Hz.  
-> `<!-- Figura 1: Configuración de adquisición en OpenSignals -->`
+<div align="center">
 
----
+![imagen7](Imagenes/inter.jpeg)
+
+**Figura 7**. Configuración de adquisición en OpenSignals.
+
+</div>
 
 #### 4.2.2 Montaje de electrodos
 
@@ -137,12 +140,15 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 7) Conectar: **Electrodo1 → Fp1**, **GND → Fp2**, **Electrodo2 → mastoide** (referencia).
 8) Comprobar impedancia < 20 kΩ en OpenSignals.
 
-> **Inserta aquí** un esquema **10–20** con Fp1/Fp2 y referencia en mastoide.  
-> `<!-- Figura 2: Posiciones 10–20 (Fp1/Fp2) y referencia -->`
+<div align="center">
+
+![imagen8](Imagenes/referencia.png)
+
+**Figura 8**. Posiciones 10-20 (Fp1/Fp2) y referencia.
+
+</div>
 
 > **Notas de seguridad / calidad**: operar **con batería** (no mientras carga) y evitar movimientos/gestos durante registro.
-
----
 
 #### 4.2.3 Secuencia de registro
 
@@ -156,19 +162,21 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 | 4–6 | **Artefactos**    | Parpadear cada 2 s y masticar (para etiquetar EOG/EMG) |
 | 6–12| **Libre**          | Diseño del grupo (música, respiración, etc.) |
 
-> **Inserta aquí** fotos del **sujeto** en EO y EC (misma postura/iluminación).  
-> `<!-- Fig. 3: Posturas EO y EC -->`
+<div align="center">
 
----
+![imagen9](Imagenes/oa_oc.png)
+
+**Figura 9**. Posturas OE (ojos abiertos) y EC (ojos cerrados), respectivamente (de izquierda a derecha).
+
+</div>
 
 #### 4.2.4 Exportación y respaldo
 
 10) Exportar cada segmento a **.csv** / **.txt** dentro de la carpeta creada.
----
 
 #### 4.2.5 Preprocesamiento
 
-11) Recordatorio de filtro hardware del canal EEG de BITalino: pasabanda 0.8–48 Hz, suprime DC y 50/60 Hz (baseline noise).
+11) El propio hardware de BiTalino cuenta con un filtro en el canal de EEG: pasabanda 0.8–48 Hz, suprime DC y 50/60 Hz (baseline noise).
 
 #### 4.2.6 Análisis cuantitativo
 
