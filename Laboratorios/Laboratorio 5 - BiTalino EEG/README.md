@@ -394,7 +394,7 @@ Tras el filtrado, las trazas pierden la deriva (DC/ultra-baja frecuencia) y la a
 El pasabanda (≈0.5–1 a 40–48 Hz) elimina la deriva y conserva las bandas fisiológicas; el filtro de **notch** atenua 50/60 Hz (baseline noise). Es lo esperado y mejora la SNR; no obstante, diferentes familias de filtros (FIR/IIR/FFT/notch) pueden alterar amplitudes y latencias, por lo que deben reportarse explícitamente tipo, orden y cortes en un análisis más exhaustivo [14]. Aun así, no existe un **gold-standard** universal, por lo que la elección afecta métricas posteriores [14].
 
 **Implicación**  
-El antes/después confirma un preprocesamiento correcto. Para canales frontales, este paso debe complementarse con **gestión de artefactos oculares** (ver §6.5), pues el parpadeo puede dominar <4 Hz aun tras el filtrado. 
+El antes/después confirma un preprocesamiento correcto. Para canales frontales, este paso debe complementarse con **gestión de artefactos oculares** (ver 6.5), pues el parpadeo puede dominar <4 Hz aun tras el filtrado. 
 
 ---
 
@@ -516,19 +516,19 @@ La literatura sobre la asociación que existe entre escuchar música y EEG repor
 
 [13] “Alpha oscillations during EC and EO resting state in young adults: EEG traces …,” ResearchGate, figure page, Accessed: Sep. 19, 2025. [Online]. Available: https://www.researchgate.net/figure/Alpha-oscillations-during-EC-and-EO-resting-state-in-young-adults-a-EEG-traces-of-a_fig1_327866942
 
-[14] https://doi.org/10.3390/s21227711
+[14] I. Karpiel, Z. Kurasz, R. Kurasz, and K. Duch, “The Influence of Filters on EEG-ERP Testing: Analysis of Motor Cortex in Healthy Subjects,” Sensors, vol. 21, no. 22, p. 7711, 2021, doi: 10.3390/s21227711. 
 
-[15] https://doi.org/10.1016/j.bspc.2019.101692
+[15] A. Egambaram, N. Badruddin, V. S. Asirvadam, T. Begum, E. Fauvet, and C. Stolz, “FastEMD–CCA algorithm for unsupervised and fast removal of eyeblink artifacts from electroencephalogram,” Biomedical Signal Processing and Control, vol. 57, art. 101692, 2020, doi: 10.1016/j.bspc.2019.101692. 
 
-[16] https://doi.org/10.1111/psyp.14285
+[16] J. C. Edgar et al., “A comparison of resting-state eyes-closed and dark-room alpha-band activity in children,” Psychophysiology, vol. 60, no. 6, e14285, 2023, doi: 10.1111/psyp.14285. 
 
-[17] https://doi.org/10.1002/hbm.26746
+[17] B. T. Ingram, S. D. Mayhew, and A. P. Bagshaw, “Brain state dynamics differ between eyes open and eyes closed rest,” Human Brain Mapping, vol. 45, no. 10, e26746, 2024, doi: 10.1002/hbm.26746. 
 
-[18] https://doi.org/10.3389/fnhum.2023.1116890
+[18] E. M. Nakamura-Palacios, A. T. Falçoni Júnior, and Q. M. A. G. Lima, “Would frontal midline theta indicate cognitive changes induced by non-invasive brain stimulation? A mini review,” Frontiers in Human Neuroscience, vol. 17, p. 1116890, 2023, doi: 10.3389/fnhum.2023.1116890. 
 
-[19] https://doi.org/10.1038/s41598-024-69919-x
+[19] M. Jafari Malali, Y. Sarbaz, S. Zolfaghari, and A. Khodayarlou, “The influence of mental calculations on brain regions and heart rates,” Scientific Reports, vol. 14, art. 18846, 2024, doi: 10.1038/s41598-024-69919-x. 
 
-[20] https://doi.org/10.1177/03057356221116141
+[20] K. E. Eskine, “Evaluating the three-network theory of creativity: Effects of music listening on resting state EEG,” Psychology of Music, vol. 51, no. 3, pp. 730–749, 2023, doi: 10.1177/03057356221116141.
 
 ## 👥 Aporte de los integrantes
 
