@@ -318,7 +318,7 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 ---
 
-#### 5.2.8 Actividad cognitiva libre
+#### 5.2.8 Actividad cognitiva libre: Escuchar música
 
 <div align="center">
 
