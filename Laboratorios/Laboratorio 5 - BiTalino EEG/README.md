@@ -269,11 +269,15 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 #### 5.2.5 Tarea cognitiva: Resta 100‑7
 
+<div align="center">
+
 | Señal cruda | Señal filtrada |
 |:-----------:|:-------------:|
-| Tarea cruda | Tarea filtrada |
+| ![CrudaTareaCognitiva](Imagenes/GraficasLab5_Python/CrudaTareaCognitiva.png) | ![FiltradoTareaCognitiva](Imagenes/GraficasLab5_Python/FiltradoTareaCognitiva.png) |
 
-**Figura 11.** Señal EEG durante la tarea cognitiva (1 min), mostrando la actividad en banda β (13–30 Hz).
+</div>
+
+<div align="center"><b>Figura 11.</b> Señal EEG durante la tarea cognitiva (1 min), mostrando la actividad en banda β (13–30 Hz).</div>
 
 ---
 
