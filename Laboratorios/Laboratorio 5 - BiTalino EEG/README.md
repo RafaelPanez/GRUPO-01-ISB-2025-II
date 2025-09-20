@@ -302,15 +302,19 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 ---
 
-#### 5.2.7 Detección de parpadeos (>80 μV)
+#### 5.2.7 Detección de parpadeos 
 
-| Señal cruda | Señal filtrada | Parpadeos detectados |
-|:-----------:|:-------------:|:-----------------:|
-| Parpadeo 1  | Filtrada 1    | Marcados con scatter |
-| Parpadeo 2  | Filtrada 2    | Marcados con scatter |
-| Parpadeo 3  | Filtrada 3    | Marcados con scatter |
+<div align="center">
 
-**Figura 18.** Señales filtradas con parpadeos detectados indicados con puntos naranjas y umbral adaptativo (líneas rojas).
+| Señal cruda                  | Señal filtrada                | Parpadeos detectados          |
+|:----------------------------:|:----------------------------:|:----------------------------:|
+| ![CrudaParpadeo1](Imagenes/GraficasLab5_Python/CrudaParpadeo1.png) | ![FiltradoParpadeo1](Imagenes/GraficasLab5_Python/FiltradoParpadeo1.png) | ![ConteoParpadeo1](Imagenes/GraficasLab5_Python/ConteoParpadeo1.png) |
+| ![CrudaParpadeo2](Imagenes/GraficasLab5_Python/CrudaParpadeo2.png) | ![FiltradoParpadeo2](Imagenes/GraficasLab5_Python/FiltradoParpadeo2.png) | ![ConteoParpadeo2](Imagenes/GraficasLab5_Python/ConteoParpadeo2.png) |
+| ![CrudaParpadeo3](Imagenes/GraficasLab5_Python/CrudaParpadeo3.png) | ![FiltradoParpadeo3](Imagenes/GraficasLab5_Python/FiltradoParpadeo3.png) | ![ConteoParpadeo3](Imagenes/GraficasLab5_Python/ConteoParpadeo3.png) |
+
+</div>
+
+<div align="center"><b>Figura 18.</b> Señales filtradas con parpadeos detectados indicados con puntos naranjas y umbral adaptativo (líneas rojas).</div>
 
 ---
 
