@@ -22,11 +22,16 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 ## 2. Objetivos
 
 ### 2.1 Objetivo general
-—
-Comprender el proceso de adquisición y procesamiento de señales de electroencefalograma (EEG) mediante su aplicación en el análisis de la actividad cerebral bajo diferentes condiciones experimentales.
+---
+- Comprender el proceso de adquisición y procesamiento de señales de electroencefalograma (EEG) mediante su aplicación en el análisis de la actividad cerebral bajo diferentes condiciones experimentales.
 
 ### 2.2 Objetivos específicos
-XD
+---
+- Adquirir señales biomédicas de electroencefalograma (EEG) de un sujeto bajo diferentes condiciones de estimulación visual y cognitiva: ojos cerrados, ojos abiertos y realización de tarea cognitiva.
+
+- Configurar correctamente el módulo BITalino para EEG, asegurando el uso de los electrodos adecuados, la correcta colocación en el cuero cabelludo y una conexión estable durante la adquisición.
+
+- Analizar las señales obtenidas mediante OpenSignals (r)evolution y técnicas de procesamiento en Python, incluyendo filtrado, cálculo de potencia por bandas (α, β, θ, δ, γ) y detección de eventos como parpadeos, con el fin de extraer conclusiones sobre la actividad cerebral en cada condición experimental.
 
 ---
 ## 🛠️ 3. Instrumentos
