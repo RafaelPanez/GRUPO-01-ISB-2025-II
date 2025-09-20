@@ -247,9 +247,9 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 | Grabación | Comparación α (Cerrados vs Abiertos) |
 |:---------:|:-----------------------------------:|
-| 1         | ![ComparacionAlpha1](Imagenes/GraficasLab5_Python/AbiertoyCerrado1.png) |
-| 2         | ![ComparacionAlpha2](Imagenes/GraficasLab5_Python/AbiertoyCerrado2.png) |
-| 3         | ![ComparacionAlpha3](Imagenes/GraficasLab5_Python/AbiertoyCerrado3.png) |
+| 1         | ![ComparacionAlpha1](Imagenes/GraficasLab5_Python/AbiertoCerrado1.png) |
+| 2         | ![ComparacionAlpha2](Imagenes/GraficasLab5_Python/AbiertoCerrado2.png) |
+| 3         | ![ComparacionAlpha3](Imagenes/GraficasLab5_Python/AbiertoCerrado3.png) |
 
 </div>
 
