@@ -283,7 +283,11 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 #### 5.2.6 Comparación de potencia β durante tarea cognitiva
 
-**Figura 12.** Comparación de potencia en banda β (13–30 Hz) entre reposo y tarea cognitiva (t-test pareado). Solo se utilizó una grabación para esta evaluación.
+<p align="center">
+<img src="Imagenes/GraficasLab5_Python/PotenciaTareaCognitiva.png" alt="Comparación Beta" width="600">
+</p>
+
+<p align="center"><b>Figura 12.</b> Comparación de potencia en banda β (13–30 Hz) entre reposo y tarea cognitiva (t-test pareado). Solo se utilizó una grabación para esta evaluación.</p>
 
 ---
 
