@@ -67,7 +67,6 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 - Analizar las señales obtenidas mediante OpenSignals (r)evolution y técnicas de procesamiento en Python, incluyendo filtrado, cálculo de potencia por bandas (α, β, θ, δ, γ) y detección de eventos como parpadeos, con el fin de extraer conclusiones sobre la actividad cerebral en cada condición experimental.
 
 ## 🛠️ 3. Instrumentos
----
 
 |             Ítem              |                  Descripción                    |              Cantidad            |
 |----------------------------|------------------------------------------------|:----------------------------------:|
@@ -95,6 +94,7 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 La EEG de superficie mide diferencias de potencial producidas por corrientes postsinápticas de poblaciones de neuronas piramidales orientadas de forma coherente en corteza. La señal registrada es resultado de una suma espacial y temporal atenuada por conducción de volumen (hueso, LCR, piel). Esto implica una baja relación señal/ruido y alta sensibilidad a artefactos, por lo que se necesita preprocesamientos a las señales [3], [4].
 
 #### 4.1.2 Bandas y reactividad alfa (EO vs EC)
+---
 Los ritmos clásicos incluyen δ (0.5–4 Hz), θ (4–8 Hz), **α (8–13 Hz)**, β (13–30 Hz) y γ (>30 Hz). En reposo con ojos cerrados, la potencia alfa aumenta de manera robusta, particularmente en regiones posteriores; al abrir los ojos o aumentar la carga atencional, esa potencia se suprime. Esta “reactividad alfa” se interpreta como un mecanismo de gating sensorial con modulación tálamo-cortical [3], [7].
 
 <div align="center">
