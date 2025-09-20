@@ -320,11 +320,22 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 #### 5.2.8 Actividad cognitiva libre
 
-| Señal cruda | Señal filtrada |
-|:-----------:|:-------------:|
-| Actividad libre 1 | α/β destacadas |
+<div align="center">
 
-**Figura 19.** Señal filtrada durante actividad cognitiva libre (1 min)
+| Señal cruda | Señal filtrada |
+|:-----------:|:--------------:|
+| ![CrudaMusica](Imagenes/GraficasLab5_Python/CrudaMusica.png) | ![FiltradaMusica](Imagenes/GraficasLab5_Python/FiltradoMusica.png) |
+
+| PSD Welch (0–50 Hz) | Potencia relativa por bandas |
+|:-------------------:|:---------------------------:|
+| ![PSDMusica](Imagenes/GraficasLab5_Python/WelchMusica.png) | ![PotenciaRelativaMusica](Imagenes/GraficasLab5_Python/PotenciaRelativaMusica.png) |
+
+<b>Figura 19.</b> Señal cruda, señal filtrada, espectro PSD Welch y distribución de potencias relativas por banda durante la actividad cognitiva libre (escuchar música, 1 min).
+
+</div>
+
+---
+
 ## 📝 6. Discusión e interpretación
 
 XD
