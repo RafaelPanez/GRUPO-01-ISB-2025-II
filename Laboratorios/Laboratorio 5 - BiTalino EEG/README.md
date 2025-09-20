@@ -32,7 +32,8 @@
     - [5.2.6 Comparación de potencia β durante tarea cognitiva](#526-comparación-de-potencia-β-durante-tarea-cognitiva)
     - [5.2.7 Detección de parpadeos](#527-detección-de-parpadeos)
 - [6. Discusión e interpretación](#6-discusión-e-interpretación)
-- [7. Referencias](#7-referencias)
+- [7. Conclusiones](#7-conclusiones)
+- [8. Referencias](#7-referencias)
 - [Aporte de los integrantes](#aporte-de-los-integrantes)
 
 ## 🧠📖 1. Introducción
@@ -383,8 +384,9 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 ## 💭📖 6. Discusión e interpretación
 
 XD
+## 📰 7. Conclusiones
 
-## 📚 7. Referencias
+## 📚 8. Referencias
 
 [1] F. Torres, “Electroencephalography: Basic Principles, Clinical Applications and Related Fields,” Archives of Neurology, vol. 40, no. 3, pp. 191–192, 1983, doi: 10.1001/archneur.1983.04050030085025.
 
