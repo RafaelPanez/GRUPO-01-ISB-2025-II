@@ -391,7 +391,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 Tras el filtrado, las trazas pierden la deriva (DC/ultra-baja frecuencia) y la amplitud extrema que aparece en crudo; el resultado es una señal “compacta”, más estable para este análisis.
 
 **Interpretación**  
-El pasabanda (≈0.5–1 a 40–48 Hz) elimina la deriva y conserva las bandas fisiológicas; el filtro de **notch** atenua 50/60 Hz (baseline noise). Es lo esperado y mejora la SNR; no obstante, diferentes familias de filtros (FIR/IIR/FFT/notch) pueden alterar amplitudes y latencias, por lo que deben reportarse explícitamente tipo, orden y cortes en un análisis más exhaustivo. Aun así, no existe un **gold-standard** universa, por lo que la elección afecta métricas posteriores.
+El pasabanda (≈0.5–1 a 40–48 Hz) elimina la deriva y conserva las bandas fisiológicas; el filtro de **notch** atenua 50/60 Hz (baseline noise). Es lo esperado y mejora la SNR; no obstante, diferentes familias de filtros (FIR/IIR/FFT/notch) pueden alterar amplitudes y latencias, por lo que deben reportarse explícitamente tipo, orden y cortes en un análisis más exhaustivo [14]. Aun así, no existe un **gold-standard** universal, por lo que la elección afecta métricas posteriores [14].
 
 **Implicación**  
 El antes/después confirma un preprocesamiento correcto. Para canales frontales, este paso debe complementarse con **gestión de artefactos oculares** (ver §6.5), pues el parpadeo puede dominar <4 Hz aun tras el filtrado. 
@@ -404,7 +404,7 @@ El antes/después confirma un preprocesamiento correcto. Para canales frontales,
 En las grabaciones 1–2, la **PSD** decae desde **δ/θ** hacia **α/β** sin un pico α muy pronunciado. En la 3, domina claramente **δ (~1–3 Hz)** con cola larga hacia frecuencias mayores.
 
 **Interpretación**  
-En **Fp1/Fp2** es habitual ver gran potencia en bajas frecuencias por parpadeos y movimientos oculares (los ojos actúan como un dipolo muy cercano a estos electrodos). Esto puede enmascarar*el pico α típico del reposo y desplazar la potencia relativa hacia δ/θ. Por ello, la grabación 3 sugiere mayor contaminación EOG (podría ser somnolencia), coherente con el predominio de δ.
+En **Fp1/Fp2** es habitual ver gran potencia en bajas frecuencias por parpadeos y movimientos oculares (los ojos actúan como un dipolo muy cercano a estos electrodos). Esto puede enmascarar*el pico α típico del reposo y desplazar la potencia relativa hacia δ/θ. Por ello, la grabación 3 sugiere mayor contaminación EOG (podría ser somnolencia), coherente con el predominio de δ [15].
 
 ---
 
@@ -414,7 +414,7 @@ En **Fp1/Fp2** es habitual ver gran potencia en bajas frecuencias por parpadeos 
 En 1 y 2, **α** aporta ~17–19% y **β** ~21–23%. En 3, **δ** domina (~42%) y **α** cae (~6%).
 
 **Interpretación y contraste**  
-En adultos en reposo se espera un incremento de la banda **α** con ojos cerrados y una caída de la banda **α** con ojos abiertos, sobre todo en regiones parieto-occipitales; por ello, en frontal, la cercanía a los ojos eleva δ/θ y puede “aplanar” el pico α. De esta manera, los resultados concuerdan con el *sesgo topográfico* y con la susceptibilidad frontal a EOG.
+En adultos en reposo se espera un incremento de la banda **α** con ojos cerrados y una caída de la banda **α** con ojos abiertos, sobre todo en regiones parieto-occipitales; por ello, en frontal, la cercanía a los ojos eleva δ/θ y puede “aplanar” el pico α [16], [17]. De esta manera, los resultados concuerdan con el *sesgo topográfico* y con la susceptibilidad frontal a EOG.
 
 ---
 
@@ -424,13 +424,13 @@ En adultos en reposo se espera un incremento de la banda **α** con ojos cerrado
 En las grabaciones 1–2 la diferencia EC vs EO es pequeña, mientras que en la tercera grabación aparece un **α mayor en EO** que en EC.
 
 **Interpretación**  
-El hallazgo clásico es **EC > EO** en α. Si el contraste es débil o invertido en frontal, suele deberse a: 
+El hallazgo clásico es **EC > EO** en α. Si el contraste es débil o invertido en frontal, suele deberse a [16], [17]: 
 * EOG más frecuente en EO (parpadeo/fijaciones), que eleva artificialmente la potencia en 8–13 Hz.
 * Segmentación con ventanas contaminadas
 * Condición EO en cuarto oscuro con fijación estricta, que puede acercarse al patrón de EC y reducir la diferencia.
 
 **Recomendación**  
-Para un próximo análisis, es plausible marcar/eliminar ventanas con parpadeo en EO o aplicar corrección ocular (ICA/CCA/ASR) antes de recalcular α; con ello, el contraste EC>EO suele emerger.
+Para un próximo análisis, es plausible marcar/eliminar ventanas con parpadeo en EO o aplicar corrección ocular (ICA/CCA/ASR) antes de recalcular α; con ello, el contraste EC>EO suele emerger [15].
 
 ---
 
@@ -440,7 +440,7 @@ Para un próximo análisis, es plausible marcar/eliminar ventanas con parpadeo e
 Durante la tarea se observa más actividad rápida en la traza, pero el **t-test pareado** (n=1) no resulta significativo para β, dado que presenta alta variabilidad.
 
 **Interpretación y contraste**
-La evidencia reciente asocia el esfuerzo cognitivo con incremento de **θ fronto-medial (Fmθ)** y modulaciones de α; los cambios en **β** son más heterogéneos a nivel individual. Con un **n** tan bajo y gran dispersión, la no-significancia en β es esperable. Para captar efectos consistentes, suele ser mejor cuantificar Fmθ y promediar múltiples ventanas/sujetos; es decir, aumentar la muestra.
+La evidencia reciente asocia el esfuerzo cognitivo con incremento de **θ fronto-medial (Fmθ)** y modulaciones de α; los cambios en **β** son más heterogéneos a nivel individual [18]. Con un **n** tan bajo y gran dispersión, la no-significancia en β es esperable. Para captar efectos consistentes, suele ser mejor cuantificar Fmθ y promediar múltiples ventanas/sujetos; es decir, aumentar la muestra [19].
 
 ---
 
@@ -450,7 +450,7 @@ La evidencia reciente asocia el esfuerzo cognitivo con incremento de **θ fronto
 El panel de *“parpadeos detectados”* evidencia deflexiones de gran amplitud y baja frecuencia; además, los conteos (~12–13/min) son típicos en reposo.
 
 **Interpretación y contraste**  
-Los parpadeos impactan fuertemente Fp1/Fp2 y sesgan **δ/θ** (y por propagación, pueden afectar α/β). Para un análisis cuantitativo robusto, se recomienda etiquetado y, si se calcula potencia por bandas, aplicar métodos de remoción ocular (por ejemplo, **CCA/ICA**). Existen algoritmos rápidos que preservan la actividad neural y mejoran la estimación espectral.
+Los parpadeos impactan fuertemente Fp1/Fp2 y sesgan **δ/θ** (y por propagación, pueden afectar α/β). Para un análisis cuantitativo robusto, se recomienda etiquetado y, si se calcula potencia por bandas, aplicar métodos de remoción ocular (por ejemplo, **CCA/ICA**). Existen algoritmos rápidos que preservan la actividad neural y mejoran la estimación espectral [15].
 
 ---
 
@@ -463,7 +463,7 @@ Durante 1 minuto escuchando música:
 - La potencia relativa queda muy sesgada a **δ (~70%)**, con contribuciones menores de θ (~11%), α (~5%) y β (~7.5%).
 
 **Interpretación**  
-La literatura sobre la asociación que existe entre escuchar música y EEG reporta incrementos de **α** (relajación/atención abierta) y **θ frontal** (procesamiento interno) dependiendo del estilo y del sujeto; sin embargo, en canales frontales y sin corrección ocular es frecuente que EOG y micro-movimientos asociados a la audición (mímica facial, leves balanceos) inflen δ y oculten modulaciones de α/θ. Esto explica el perfil observado: el dominio de δ sugiere contaminación ocular/motora más que un efecto neurofisiológico puro de la música. En topografías posteriores (O1/O2/POz) o tras corrección ocular, suelen verse con mayor claridad los incrementos de **α/θ** vinculados a la audición pasiva o a la familiaridad musical.
+La literatura sobre la asociación que existe entre escuchar música y EEG reporta incrementos de **α** (relajación/atención abierta) y **θ frontal** (procesamiento interno) dependiendo del estilo y del sujeto; sin embargo, en canales frontales y sin corrección ocular es frecuente que EOG y micro-movimientos asociados a la audición (mímica facial, leves balanceos) inflen δ y oculten modulaciones de α/θ [20]. Esto explica el perfil observado: el dominio de δ sugiere contaminación ocular/motora más que un efecto neurofisiológico puro de la música. En topografías posteriores (O1/O2/POz) o tras corrección ocular, suelen verse con mayor claridad los incrementos de **α/θ** vinculados a la audición pasiva o a la familiaridad musical  [20].
 
 **Recomendación.**  
 * Repetir la condición con fijación estricta y mínima mímica.
@@ -472,7 +472,7 @@ La literatura sobre la asociación que existe entre escuchar música y EEG repor
 
 ---
 
-## 6.8 Limitaciones y mejoras
+## 🚫⚠️ 7. Limitaciones y mejoras
 
 1. **Topografía frontal:** excelente para atención y artefactos oculares, pero no es óptima para reactividad α clásica (es mejor una **parieto-occipital**). Se sugiere añadir O1/O2 o Pz/POz si el objetivo es α.
 2. **Estadística:** con una cantidad de muestraas limitadas por condición, se recomienda priorizar estadísticos descriptivos (medianas/IC) y reportar tamaño de efecto más que p-values aislados.  
@@ -481,14 +481,14 @@ La literatura sobre la asociación que existe entre escuchar música y EEG repor
 
 ---
 
-## 📰 7. Conclusiones
+## 📰 8. Conclusiones
 
 - El filtrado aplicado **mejora la SNR** y prepara la señal para el análisis; aun así, la **susceptibilidad frontal a EOG** desplaza la potencia hacia **δ/θ**, enmascarando el **pico α** esperado en reposo.
 - La **reactividad α** (**EC > EO**) no emerge con claridad en Fp1/Fp2 y se invierte en la grabación 3, muy probablemente por **parpadeo/segmentación** o por **EO en condiciones oscuras** (que pueden aproximarse a EC).
 - La **tarea aritmética** sugiere cambio espectral, pero el marcador **β** no fue significativo con n bajo; la evidencia indica que **θ fronto-medial** es un indicador más **robusto** de carga mental.
 - Al **escuchar música**, la **dominancia de δ** sugiere que el registro estuvo **ocular/motor-contaminado**; tras control de artefactos y en topografías posteriores se esperan modulaciones más claras en **α/θ**.
 
-## 📚 8. Referencias
+## 📚 9. Referencias
 
 [1] F. Torres, “Electroencephalography: Basic Principles, Clinical Applications and Related Fields,” Archives of Neurology, vol. 40, no. 3, pp. 191–192, 1983, doi: 10.1001/archneur.1983.04050030085025.
 
@@ -516,7 +516,19 @@ La literatura sobre la asociación que existe entre escuchar música y EEG repor
 
 [13] “Alpha oscillations during EC and EO resting state in young adults: EEG traces …,” ResearchGate, figure page, Accessed: Sep. 19, 2025. [Online]. Available: https://www.researchgate.net/figure/Alpha-oscillations-during-EC-and-EO-resting-state-in-young-adults-a-EEG-traces-of-a_fig1_327866942
 
-[14] 
+[14] https://doi.org/10.3390/s21227711
+
+[15] https://doi.org/10.1016/j.bspc.2019.101692
+
+[16] https://doi.org/10.1111/psyp.14285
+
+[17] https://doi.org/10.1002/hbm.26746
+
+[18] https://doi.org/10.3389/fnhum.2023.1116890
+
+[19] https://doi.org/10.1038/s41598-024-69919-x
+
+[20] https://doi.org/10.1177/03057356221116141
 
 ## 👥 Aporte de los integrantes
 
