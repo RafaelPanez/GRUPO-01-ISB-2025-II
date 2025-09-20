@@ -37,7 +37,7 @@
 - [Aporte de los integrantes](#aporte-de-los-integrantes)
 
 ## 🧠📖 1. Introducción
----
+
 El electroencefalograma (EEG) es una técnica no invasiva que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados en el cuero cabelludo [1]. Esta herramienta resulta fundamental en neurociencia y medicina clínica, ya que posibilita la evaluación de funciones cerebrales y el diagnóstico de distintos trastornos neurológicos [1]. Asimismo, el EEG facilita la monitorización continua de la actividad cerebral en pacientes críticos y la evaluación de la eficacia de tratamientos neurológicos, constituyéndose como un instrumento indispensable en investigación y entornos clínicos [2].
 
 La generación de las señales EEG se produce principalmente en las neuronas piramidales de la corteza cerebral, ubicadas en las capas III y V [3], [4]. Estas neuronas presentan una orientación perpendicular a la superficie cortical, lo que permite la formación de dipolos eléctricos detectables en el cuero cabelludo. La actividad registrada corresponde a la suma de los potenciales postsinápticos excitatorios e inhibitorios de grandes grupos de neuronas activadas de manera sincronizada [3]. Las oscilaciones resultantes se organizan en ritmos de alfa (8–13 Hz), beta (13–30 Hz), theta (4–8 Hz) y delta (0.5–4 Hz), cada uno asociado a distintos estados de conciencia y funciones cognitivas [3].
@@ -54,7 +54,6 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 </div>
 
 ## 🎯 2. Objetivos
----
 
 ### 🌟2.1 Objetivo general
 ---
@@ -87,7 +86,7 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 **Figura 2**. Materiales utilizados para la realización del experimento. De izquierda a derecha: (a) BiTalino (r)evolution con batería. (b) Laptop para adquisición de señales. (c) Ultracortex Mark IV.
 
 ## 🔍 4. Metodología
----
+
 
 ### 🧾 4.1 Marco teórico
 ---
@@ -256,7 +255,7 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 
 ## 📉🔍 5. Resultados
----
+
 
 ### 🎥 5.1 Repositorio de vídeos
 ---
@@ -383,11 +382,11 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 
 
 ## 💭📖 6. Discusión e interpretación
----
+
 XD
 
 ## 📚 7. Referencias
----
+
 [1] F. Torres, “Electroencephalography: Basic Principles, Clinical Applications and Related Fields,” Archives of Neurology, vol. 40, no. 3, pp. 191–192, 1983, doi: 10.1001/archneur.1983.04050030085025.
 
 [2] T. Kirschstein and R. Köhling, “What is the source of the EEG?,” Clinical EEG and Neuroscience, vol. 40, no. 3, pp. 146–149, Jul. 2009, doi: 10.1177/155005940904000305. 
