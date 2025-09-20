@@ -247,9 +247,9 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 | Grabación | Comparación α (Cerrados vs Abiertos) |
 |:---------:|:-----------------------------------:|
-| 1         | ![ComparacionAlpha1](Imagenes/GraficasLab5_Python/AbiertoCerrado1.png) |
-| 2         | ![ComparacionAlpha2](Imagenes/GraficasLab5_Python/AbiertoCerrado2.png) |
-| 3         | ![ComparacionAlpha3](Imagenes/GraficasLab5_Python/AbiertoCerrado3.png) |
+| 1         | ![ComparacionAlpha1](Imagenes/GraficasLab5_Python/PotenciaRelativa1.png) |
+| 2         | ![ComparacionAlpha2](Imagenes/GraficasLab5_Python/PotenciaRelativa2.png) |
+| 3         | ![ComparacionAlpha3](Imagenes/GraficasLab5_Python/PotenciaRelativa3.png) |
 
 </div>
 
@@ -259,11 +259,17 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 #### 5.2.4 Comparación de potencia α: ojos cerrados vs ojos abiertos
 
-| Grabación 1 | Grabación 2 | Grabación 3 |
-|:-----------:|:-----------:|:-----------:|
-| Comparación α | Comparación α | Comparación α |
+<div align="center">
 
-**Figura 10.** Comparación de potencia α (8–13 Hz) por ventanas de 2 s (PSD Welch) en cada grabación, mostrando diferencias entre ojos cerrados y ojos abiertos.
+| Grabación | Comparación α (Cerrados vs Abiertos) |
+|:---------:|:-----------------------------------:|
+| 1         | ![ComparacionAlpha1](Imagenes/GraficasLab5_Python/AbiertoCerrado1.png) |
+| 2         | ![ComparacionAlpha2](Imagenes/GraficasLab5_Python/AbiertoCerrado2.png) |
+| 3         | ![ComparacionAlpha3](Imagenes/GraficasLab5_Python/AbiertoCerrado3.png) |
+
+</div>
+
+<div align="center"><b>Figura 10.</b> Comparación de potencia α (8–13 Hz) por ventanas de 2 s (PSD Welch) en cada grabación, mostrando diferencias entre ojos cerrados y ojos abiertos.</div>
 
 ---
 
