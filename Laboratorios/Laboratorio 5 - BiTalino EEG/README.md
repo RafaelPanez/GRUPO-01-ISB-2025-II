@@ -1,4 +1,4 @@
-# 🧠 LABORATORIO 5:  Uso de BiTalino para adquisición y análisis de señales EEG
+# 🧠📉 LABORATORIO 5:  Uso de BiTalino para adquisición y análisis de señales EEG
 ---
 
 ## 📑 Índice
