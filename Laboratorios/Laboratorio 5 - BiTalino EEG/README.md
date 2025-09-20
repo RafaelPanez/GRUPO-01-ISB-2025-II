@@ -383,7 +383,108 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 
 ## 💭📖 6. Discusión e interpretación
 
-XD
+> En esta sección se interpretan todas las figuras de resultados (ordenadas como en el informe) y se comparan con la literatura reciente con DOI.
+
+---
+
+### 6.1 Señales crudas vs. filtradas (0.8–48 Hz + notch)
+
+**Qué muestran las figuras.**  
+Tras el filtrado, las trazas pierden la deriva (DC/ultra-baja frecuencia) y la amplitud extrema que aparece en crudo; el resultado es una señal “compacta”, más estable para el análisis.
+
+**Interpretación.**  
+El pasabanda (≈0.5–1 a 40–48 Hz) elimina la deriva y conserva las bandas fisiológicas; el **notch** atenua 50/60 Hz. Es lo esperado y mejora la SNR; no obstante, diferentes **familias de filtros (FIR/IIR/FFT/notch)** pueden alterar **amplitudes/latencias**, por lo que **deben reportarse** explícitamente tipo, orden y cortes. No existe “gold-standard” universal; la elección afecta métricas posteriores. :contentReference[oaicite:0]{index=0}
+
+**Implicación.**  
+El antes/después confirma un preprocesamiento correcto. Para canales frontales, este paso debe complementarse con **gestión de artefactos oculares** (ver §6.5), pues el parpadeo puede dominar <4 Hz aun tras el filtrado. :contentReference[oaicite:1]{index=1}
+
+---
+
+### 6.2 PSD por grabación
+
+**Qué muestran las figuras.**  
+En las grabaciones 1–2, la **PSD** decae desde **δ/θ** hacia **α/β** sin un pico α muy pronunciado. En la 3, domina claramente **δ (~1–3 Hz)** con cola larga hacia frecuencias mayores.
+
+**Interpretación.**  
+En **Fp1/Fp2** es habitual ver gran potencia en **bajas frecuencias** por **parpadeos y movimientos oculares** (los ojos actúan como un dipolo muy cercano a estos electrodos). Esto puede **enmascarar** el pico α típico del reposo y desplazar la potencia relativa hacia δ/θ. La grabación 3 sugiere mayor **contaminación EOG** (y/o somnolencia), coherente con el predominio de δ. :contentReference[oaicite:2]{index=2}
+
+---
+
+### 6.3 Potencia relativa por banda (Δ, θ, α, β, γ)
+
+**Qué muestran las figuras.**  
+En 1 y 2, **α** aporta ~17–19% y **β** ~21–23%. En 3, **δ** domina (~42%) y **α** cae (~6%).
+
+**Interpretación y contraste.**  
+En adultos en reposo se espera **↑α** con **ojos cerrados** y **↓α** con **ojos abiertos**, sobre todo en regiones **parieto-occipitales**; en frontal, la cercanía a los ojos eleva δ/θ y puede “aplanar” el pico α. Tus porcentajes concuerdan con ese **sesgo topográfico** y con la **susceptibilidad frontal a EOG**. :contentReference[oaicite:3]{index=3}
+
+---
+
+### 6.4 Comparación de **α (8–13 Hz)**: Ojos cerrados (EC) vs. Ojos abiertos (EO)
+
+**Qué muestran las figuras.**  
+En las grabaciones 1–2 la diferencia EC vs EO es pequeña; en la 3 aparece **α mayor en EO** que en EC.
+
+**Interpretación.**  
+El hallazgo clásico es **EC > EO** en α. Si el contraste es débil o invertido en frontal, suele deberse a: (i) **EOG** más frecuente en EO (parpadeo/fijaciones), que **eleva artificialmente** la potencia en 8–13 Hz; (ii) **segmentación** con ventanas contaminadas; (iii) **condición EO en cuarto oscuro** con fijación estricta, que puede acercarse al patrón de EC y **reducir** la diferencia. Tus resultados son coherentes con (i)–(iii). :contentReference[oaicite:4]{index=4}
+
+**Recomendación.**  
+Marcar/eliminar ventanas con parpadeo en EO o aplicar **corrección ocular (ICA/CCA/ASR)** antes de recalcular α; con ello, el contraste EC>EO suele emerger. :contentReference[oaicite:5]{index=5}
+
+---
+
+### 6.5 Tarea cognitiva (resta 100–7) y comparación en **β (13–30 Hz)**
+
+**Qué muestran las figuras.**  
+Durante la tarea se observa más actividad rápida en la traza, pero el **t-test pareado** (n=1) no resulta significativo para β, con alta variabilidad.
+
+**Interpretación y contraste.**  
+La evidencia reciente asocia el **esfuerzo cognitivo** con incremento de **θ fronto-medial (Fmθ)** y modulaciones de α; los cambios en **β** son más **heterogéneos** a nivel individual. Con **n** tan bajo y gran dispersión, la no-significancia en β es esperable. Para captar efectos consistentes, suele ser mejor cuantificar **Fmθ** y promediar múltiples ventanas/sujetos. :contentReference[oaicite:6]{index=6}
+
+---
+
+### 6.6 Detección de parpadeos (EOG) en frontal
+
+**Qué muestran las figuras.**  
+El panel de “parpadeos detectados” evidencia deflexiones de gran amplitud y baja frecuencia; los conteos (~12–13/min) son típicos en reposo.
+
+**Interpretación y contraste.**  
+Los parpadeos impactan fuertemente **Fp1/Fp2** y sesgan **δ/θ** (y por “spread” pueden afectar α/β). Para análisis cuantitativo robusto, se recomienda **etiquetado** y, si se persigue potencia por bandas, aplicar **métodos de remoción ocular** (p. ej., **CCA/ICA**); hay algoritmos **rápidos** que preservan la actividad neural y mejoran la estimación espectral. :contentReference[oaicite:7]{index=7}
+
+---
+
+### 6.7 Actividad cognitiva libre: **Escuchar música**
+
+**Qué muestran las figuras.**  
+Durante 1 min escuchando música:  
+- La señal cruda muestra eventos de gran amplitud; la señal filtrada se estabiliza.  
+- La **PSD** está fuertemente dominada por **δ** con rápida caída hacia θ–α.  
+- La **potencia relativa** queda muy sesgada a **δ (~70%)**, con contribuciones menores de θ (~11%), α (~5%) y β (~7.5%).
+
+**Interpretación.**  
+La literatura sobre **música y EEG** reporta incrementos de **α** (relajación/atención abierta) y **θ frontal** (procesamiento interno) dependiendo del estilo y del sujeto; sin embargo, en **canales frontales** y sin corrección ocular es frecuente que **EOG y micro-movimientos** asociados a la audición (mímica facial, leves balanceos) **inflen δ** y oculten modulaciones de α/θ. Esto explica el perfil observado: el **dominio de δ** sugiere **contaminación ocular/motora** más que un efecto neurofisiológico puro de la música. En topografías posteriores (O1/O2/POz) o tras corrección ocular, suelen verse con mayor claridad los incrementos de **α/θ** vinculados a la audición pasiva o a la familiaridad musical. :contentReference[oaicite:8]{index=8}
+
+**Recomendación.**  
+(i) Repetir la condición con **fijación estricta** y mínima mímica; (ii) **etiquetar parpadeos** y aplicar **CCA/ICA**; (iii) añadir **O1/O2** para evaluar α occipital. Con ello, la modulación α/θ asociada a música es más detectable. :contentReference[oaicite:9]{index=9}
+
+---
+
+## 6.8 Limitaciones y mejoras
+
+1. **Topografía frontal:** excelente para atención y artefactos oculares, **no** óptima para reactividad α clásica (mejor **parieto-occipital**). Añadir O1/O2 o Pz/POz si el objetivo es α. :contentReference[oaicite:10]{index=10}  
+2. **Estadística:** con **n** limitado por condición, priorizar **descriptivos** (medianas/IC) y reportar tamaño de efecto más que p-values aislados.  
+3. **Preprocesamiento reproducible:** documentar **familia de filtro, orden y bandas**; evaluar el impacto del filtro en latencias/amplitudes cuando se comparen condiciones. :contentReference[oaicite:11]{index=11}  
+4. **Artefactos oculares:** mantener **conteo** y **corrección** (ICA/CCA/ASR) si se va a cuantificar potencia por bandas o comparar EO/EC. :contentReference[oaicite:12]{index=12}
+
+---
+
+### Conclusión general
+
+- El filtrado aplicado **mejora la SNR** y prepara la señal para el análisis; aun así, la **susceptibilidad frontal a EOG** desplaza la potencia hacia **δ/θ**, enmascarando el **pico α** esperado en reposo. :contentReference[oaicite:13]{index=13}  
+- La **reactividad α** (**EC > EO**) no emerge con claridad en Fp1/Fp2 y se invierte en la grabación 3, muy probablemente por **parpadeo/segmentación** o por **EO en condiciones oscuras** (que pueden aproximarse a EC). :contentReference[oaicite:14]{index=14}  
+- La **tarea aritmética** sugiere cambio espectral, pero el marcador **β** no fue significativo con n bajo; la evidencia indica que **θ fronto-medial** es un indicador más **robusto** de carga mental. :contentReference[oaicite:15]{index=15}  
+- Al **escuchar música**, la **dominancia de δ** sugiere que el registro estuvo **ocular/motor-contaminado**; tras control de artefactos y en topografías posteriores se esperan modulaciones más claras en **α/θ**. :contentReference[oaicite:16]{index=16}
+
 ## 📰 7. Conclusiones
 
 ## 📚 8. Referencias
