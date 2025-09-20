@@ -243,7 +243,7 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 #### 5.2.3 Potencia relativa (%) por banda
 
-<p align="center">
+<div align="center">
 
 | Grabación | Potencia relativa (%) por banda |
 |:---------:|:------------------------------:|
@@ -251,11 +251,11 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 | 2         | ![PotenciaRelativa2](Imagenes/GraficasLab5_Python/PotenciaRelativa2.png) |
 | 3         | ![PotenciaRelativa3](Imagenes/GraficasLab5_Python/PotenciaRelativa3.png) |
 
-</p>
+</div>
 
-<p align="center"><b>Figura 9.</b> Potencia relativa (%) por banda (Δ, θ, α, β, γ) para cada grabación de referencia.</p>
-
+<div align="center"><b>Figura 9.</b> Potencia relativa (%) por banda (Δ, θ, α, β, γ) para cada grabación de referencia.</div>
 ---
+
 #### 5.2.4 Comparación de potencia α: ojos cerrados vs ojos abiertos
 
 | Grabación 1 | Grabación 2 | Grabación 3 |
