@@ -1,4 +1,4 @@
-# LABORATORIO 5:  Uso de BiTalino para adquisición y análisis de señales EEG
+# 🧠 LABORATORIO 5:  Uso de BiTalino para adquisición y análisis de señales EEG
 ---
 
 ## 📑 Índice
@@ -35,7 +35,8 @@
 - [6. Discusión e interpretación](#6-discusión-e-interpretación)
 - [7. Referencias](#7-referencias)
 - [Aporte de los integrantes](#aporte-de-los-integrantes)
-## 1. Introducción
+
+## 🧠📖 1. Introducción
 ---
 El electroencefalograma (EEG) es una técnica no invasiva que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados en el cuero cabelludo [1]. Esta herramienta resulta fundamental en neurociencia y medicina clínica, ya que posibilita la evaluación de funciones cerebrales y el diagnóstico de distintos trastornos neurológicos [1]. Asimismo, el EEG facilita la monitorización continua de la actividad cerebral en pacientes críticos y la evaluación de la eficacia de tratamientos neurológicos, constituyéndose como un instrumento indispensable en investigación y entornos clínicos [2].
 
@@ -55,11 +56,11 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 ---
 ## 🎯 2. Objetivos
 
-### 2.1 Objetivo general
+### 🌟2.1 Objetivo general
 ---
 - Comprender el proceso de adquisición y procesamiento de señales de electroencefalograma (EEG) mediante su aplicación en el análisis de la actividad cerebral bajo diferentes condiciones experimentales.
 
-### 2.2 Objetivos específicos
+### 📌2.2 Objetivos específicos
 ---
 - Adquirir señales biomédicas de electroencefalograma (EEG) de un sujeto bajo diferentes condiciones de estimulación visual y cognitiva: ojos cerrados, ojos abiertos y realización de tarea cognitiva.
 
@@ -85,10 +86,10 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 
 **Figura 2**. Materiales utilizados para la realización del experimento. De izquierda a derecha: (a) BiTalino (r)evolution con batería. (b) Laptop para adquisición de señales. (c) Ultracortex Mark IV.
 
-## 📝 4. Metodología
+## 🔍 4. Metodología
 ---
 
-### 4.1 Marco teórico
+### 🧾 4.1 Marco teórico
 #### 4.1.1 Generación de la señal EEG
 La EEG de superficie mide diferencias de potencial producidas por corrientes postsinápticas de poblaciones de neuronas piramidales orientadas de forma coherente en corteza. La señal registrada es resultado de una suma espacial y temporal atenuada por conducción de volumen (hueso, LCR, piel). Esto implica una baja relación señal/ruido y alta sensibilidad a artefactos, por lo que se necesita preprocesamientos a las señales [3], [4].
 
@@ -156,7 +157,7 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 </div>
 
-### 4.2 Procedimiento experimental
+### 📝 4.2 Procedimiento experimental
 ---
 #### 4.2.1 Preparación de software y proyecto
 ---
@@ -248,7 +249,7 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 </div>
 
 
-## 📝 5. Resultados
+## 📉🔍 5. Resultados
 ---
 
 ### 🎥 5.1 Repositorio de vídeos
@@ -261,7 +262,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 | Acción 100 - 7  | [▶️](https://youtu.be/jsVCPEOsZHc)       |  -  |   -  |
 | Pestañeo | [▶️](https://youtu.be/vqS_VKrlu9c)      |   [▶️](https://youtu.be/OsAC1tRgnOw)      |      [▶️](https://youtu.be/P1OlUgBQ5Cg)     |
 
-### 5.2 Gráficas obtenidas
+### 📊 5.2 Gráficas obtenidas
 ---
 #### 5.2.1 Señales EEG crudas y filtradas durante reposo (ojos cerrados) y fijación visual (ojos abiertos)
 ---
@@ -381,11 +382,11 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 </div>
 
 
-## 📝 6. Discusión e interpretación
+## 💭📖 6. Discusión e interpretación
 ---
 XD
 
-## 7. Referencias
+## 📚 7. Referencias
 [1] F. Torres, “Electroencephalography: Basic Principles, Clinical Applications and Related Fields,” Archives of Neurology, vol. 40, no. 3, pp. 191–192, 1983, doi: 10.1001/archneur.1983.04050030085025.
 
 [2] T. Kirschstein and R. Köhling, “What is the source of the EEG?,” Clinical EEG and Neuroscience, vol. 40, no. 3, pp. 146–149, Jul. 2009, doi: 10.1177/155005940904000305. 
