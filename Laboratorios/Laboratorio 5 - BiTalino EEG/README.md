@@ -14,7 +14,7 @@
      - [4.1.1 Generación de la señal EEG](411-generacion-de-la-señal)
      - [4.1.2 Bandas y reactividad alfa (EO vs EC)](#412-bandas-y-reactividad-alfa-(E0-vs-EC))
      - [4.1.3 Sistema 10–20, Fp1/Fp2 y artefactos oculares)](#413-sistema-10-20,-Fp1/Fp2-y-artefactos-oculares)
-     - [4.1.4 Electrodos: húmedos vs secos)](#414-electrodos:-húmedos-vs-secos)
+     - [4.1.4 Electrodos: húmedos vs secos)](#414-electrodos-húmedos-vs-secos)
      - [4.1.5 Muestreo, referencia y filtrado)](#415-muestra,-referencia-y-filtrado)
   - [4.2 Procedimiento experimental](#42-procedimiento-experimental)
      - [4.2.1 Preparación de software y proyecto](#421-preparación-de-software-y-proyecto)
@@ -413,3 +413,11 @@ XD
 [13] “Alpha oscillations during EC and EO resting state in young adults: EEG traces …,” ResearchGate, figure page, Accessed: Sep. 19, 2025. [Online]. Available: https://www.researchgate.net/figure/Alpha-oscillations-during-EC-and-EO-resting-state-in-young-adults-a-EEG-traces-of-a_fig1_327866942
 
 [14] 
+
+## 👥 Aporte de los integrantes
+---
+| Integrante      | Contribución (%) |
+|-----------------|:------------------:|
+| Salet Garcia    | 33.33%           |
+| Dhiago Llanos   | 33.33%           |
+| Rafael Panez    | 33.33%           |
