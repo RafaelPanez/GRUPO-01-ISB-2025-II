@@ -13,9 +13,9 @@
   - [4.1 Marco teórico](#41-marco-teórico)
      - [4.1.1 Generación de la señal EEG](411-generacion-de-la-señal)
      - [4.1.2 Bandas y reactividad alfa (EO vs EC)](#412-bandas-y-reactividad-alfa-(E0-vs-EC))
-     - [4.1.3 Sistema 10–20, Fp1/Fp2 y artefactos oculares)](#413-sistema-10-20,-Fp1/Fp2-y-artefactos-oculares)
-     - [4.1.4 Electrodos: húmedos vs secos)](#414-electrodos-húmedos-vs-secos)
-     - [4.1.5 Muestreo, referencia y filtrado)](#415-muestra,-referencia-y-filtrado)
+     - [4.1.3 Sistema 10–20, Fp1/Fp2 y artefactos oculares](#413-sistema-10-20,-Fp1/Fp2-y-artefactos-oculares)
+     - [4.1.4 Electrodos: húmedos vs secos](#414-electrodos-húmedos-vs-secos)
+     - [4.1.5 Muestreo, referencia y filtrado](#415-muestra,-referencia-y-filtrado)
   - [4.2 Procedimiento experimental](#42-procedimiento-experimental)
      - [4.2.1 Preparación de software y proyecto](#421-preparación-de-software-y-proyecto)
      - [4.2.2 Montaje de electrodos](#422-montaje-de-electrodos)
@@ -416,6 +416,9 @@ XD
 
 ## 👥 Aporte de los integrantes
 ---
+
+<div align="center">
+
 | Integrante      | Contribución (%) |
 |-----------------|:------------------:|
 | Salet Garcia    | 33.33%           |
