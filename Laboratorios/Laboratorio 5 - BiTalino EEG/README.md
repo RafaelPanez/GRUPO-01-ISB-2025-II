@@ -326,7 +326,7 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 |:-----------:|:--------------:|
 | ![CrudaMusica](Imagenes/GraficasLab5_Python/CrudaMusica.png) | ![FiltradaMusica](Imagenes/GraficasLab5_Python/FiltradoMusica.png) |
 
-| PSD Welch (0–50 Hz) | Potencia relativa por bandas |
+| PSD Welch | Potencia relativa por bandas |
 |:-------------------:|:---------------------------:|
 | ![PSDMusica](Imagenes/GraficasLab5_Python/WelchMusica.png) | ![PotenciaRelativaMusica](Imagenes/GraficasLab5_Python/PotenciaRelativaMusica.png) |
 
