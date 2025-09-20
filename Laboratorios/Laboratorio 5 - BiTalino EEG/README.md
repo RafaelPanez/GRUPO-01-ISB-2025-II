@@ -1,8 +1,42 @@
 # LABORATORIO 5:  Uso de BiTalino para adquisición y análisis de señales EEG
 ---
 
-## 1. Introducción
+## 📑 Índice
+---
 
+- [1. Introducción](#1-introducción)
+- [2. Objetivos](#2-objetivos)
+  - [2.1 Objetivo general](#21-objetivo-general)
+  - [2.2 Objetivos específicos](#22-objetivos-específicos)
+- [3. Instrumentos](#3-instrumentos)
+- [4. Metodología](#4-metodologia)
+  - [4.1 Marco teórico](#41-marco-teórico)
+     - [4.1.1 Generación de la señal EEG](411-generacion-de-la-señal)
+     - [4.1.2 Bandas y reactividad alfa (EO vs EC)](#412-bandas-y-reactividad-alfa-(E0-vs-EC))
+     - [4.1.3 Sistema 10–20, Fp1/Fp2 y artefactos oculares)](#413-sistema-10-20,-Fp1/Fp2-y-artefactos-oculares)
+     - [4.1.4 Electrodos: húmedos vs secos)](#414-electrodos:-húmedos-vs-secos)
+     - [4.1.5 Muestreo, referencia y filtrado)](#415-muestra,-referencia-y-filtrado)
+  - [4.2 Procedimiento experimental](#42-procedimiento-experimental)
+     - [4.2.1 Preparación de software y proyecto](#421-preparación-de-software-y-proyecto)
+     - [4.2.2 Montaje de electrodos](#422-montaje-de-electrodos)
+     - [4.2.3 Secuencia de registro](#423-secuencia-de-registro)
+     - [4.2.4 Exportación y respaldo](#425-exportación-y-respaldo)
+     - [4.2.5 Preprocesamiento](#425-preprocesamiento)
+     - [4.2.6 Análisis cuantitativo](#426-análisis-cuantitativo)
+- [5. Resultados](#5-resultados)
+  - [5.1 Repositorio de vídeos](#51-repositorio-de-vídeos)
+- [5.2 Gráficas obtenidas](#52-gráficas-obtenidas)
+  - [5.2.1 Señales EEG crudas y filtradas durante reposo (ojos cerrados) y fijación visual (ojos abiertos)](#521-señales-eeg-crudas-y-filtradas-durante-reposo-ojos-cerrados-y-fijación-visual-ojos-abiertos)
+  - [5.2.3 Potencia relativa (%) por banda](#523-potencia-relativa--por-banda)
+  - [5.2.4 Comparación de potencia α: ojos cerrados vs ojos abiertos](#524-comparación-de-potencia-α-ojos-cerrados-vs-ojos-abiertos)
+  - [5.2.5 Tarea cognitiva: Resta 100-7](#525-tarea-cognitiva-resta-1007)
+  - [5.2.6 Comparación de potencia β durante tarea cognitiva](#526-comparación-de-potencia-β-durante-tarea-cognitiva)
+  - [5.2.7 Detección de parpadeos](#527-detección-de-parpadeos)
+- [6. Discusión e interpretación](#6-discusión-e-interpretación)
+- [7. Referencias](#7-referencias)
+- [Aporte de los integrantes](#aporte-de-los-integrantes)
+## 1. Introducción
+---
 El electroencefalograma (EEG) es una técnica no invasiva que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados en el cuero cabelludo [1]. Esta herramienta resulta fundamental en neurociencia y medicina clínica, ya que posibilita la evaluación de funciones cerebrales y el diagnóstico de distintos trastornos neurológicos [1]. Asimismo, el EEG facilita la monitorización continua de la actividad cerebral en pacientes críticos y la evaluación de la eficacia de tratamientos neurológicos, constituyéndose como un instrumento indispensable en investigación y entornos clínicos [2].
 
 La generación de las señales EEG se produce principalmente en las neuronas piramidales de la corteza cerebral, ubicadas en las capas III y V [3], [4]. Estas neuronas presentan una orientación perpendicular a la superficie cortical, lo que permite la formación de dipolos eléctricos detectables en el cuero cabelludo. La actividad registrada corresponde a la suma de los potenciales postsinápticos excitatorios e inhibitorios de grandes grupos de neuronas activadas de manera sincronizada [3]. Las oscilaciones resultantes se organizan en ritmos de alfa (8–13 Hz), beta (13–30 Hz), theta (4–8 Hz) y delta (0.5–4 Hz), cada uno asociado a distintos estados de conciencia y funciones cognitivas [3].
@@ -33,8 +67,8 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 
 - Analizar las señales obtenidas mediante OpenSignals (r)evolution y técnicas de procesamiento en Python, incluyendo filtrado, cálculo de potencia por bandas (α, β, θ, δ, γ) y detección de eventos como parpadeos, con el fin de extraer conclusiones sobre la actividad cerebral en cada condición experimental.
 
----
 ## 🛠️ 3. Instrumentos
+---
 
 |             Ítem              |                  Descripción                    |              Cantidad            |
 |----------------------------|------------------------------------------------|:----------------------------------:|
@@ -51,8 +85,8 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 
 **Figura 2**. Materiales utilizados para la realización del experimento. De izquierda a derecha: (a) BiTalino (r)evolution con batería. (b) Laptop para adquisición de señales. (c) Ultracortex Mark IV.
 
+## 📝 4. Metodología
 ---
-## 📝 4. Marco teórico
 
 ### 4.1 Marco teórico
 #### 4.1.1 Generación de la señal EEG
@@ -122,9 +156,10 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 </div>
 
----
 ### 4.2 Procedimiento experimental
+---
 #### 4.2.1 Preparación de software y proyecto
+---
 
 1) Instalar OpenSignals (r)evolution y verificar su funcionamiento.
 2) Emparejar BITalino con la laptop mediante Bluethoot.
@@ -140,6 +175,7 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 </div>
 
 #### 4.2.2 Montaje de electrodos
+---
 
 6) Limpieza de piel en **Fp1, Fp2** y **mastoide derecha** (referencia).
 7) Conectar: **Electrodo1 → Fp1**, **GND → Fp2**, **Electrodo2 → mastoide** (referencia).
@@ -156,8 +192,10 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 > **Notas de seguridad / calidad**: operar **con batería** (no mientras carga) y evitar movimientos/gestos durante registro.
 
 #### 4.2.3 Secuencia de registro
+---
 
 9) Ejecutar la siguiente cronología (grabar videos y  señales obtenidas):
+---
 
 | Min | Condición         | Indicaciones |
 |-----|-------------------|--------------|
@@ -178,10 +216,12 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 10) Exportar cada segmento a **.csv** / **.txt** dentro de la carpeta creada.
 
 #### 4.2.5 Preprocesamiento
+---
 
 11) El propio hardware de BiTalino cuenta con un filtro en el canal de EEG: pasabanda 0.8–48 Hz, suprime DC y 50/60 Hz (baseline noise).
 
 #### 4.2.6 Análisis cuantitativo
+---
 
 13) PSD (Welch) por canal (Fp1, Fp2)
 14) **Comparaciones principales**:  
@@ -207,8 +247,9 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 </div>
 
----
+
 ## 📝 5. Resultados
+---
 
 ### 🎥 5.1 Repositorio de vídeos
 ---
@@ -223,7 +264,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 ### 5.2 Gráficas obtenidas
 ---
 #### 5.2.1 Señales EEG crudas y filtradas durante reposo (ojos cerrados) y fijación visual (ojos abiertos)
-
+---
 <p align="center">
 
 | Señal cruda | Señal filtrada |
@@ -239,7 +280,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 ---
 
 #### 5.2.2 Densidad espectral de potencia (PSD) de EEG
-
+---
 <p align="center">
 
 | Grabación | PSD EEG |
@@ -252,10 +293,9 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 
 <p align="center"><b>Figura 13.</b> Densidad espectral de potencia (PSD) de EEG para cada grabación de referencia.</p>
 
----
 
 #### 5.2.3 Potencia relativa (%) por banda
-
+---
 <div align="center">
 
 | Grabación | Comparación α (Cerrados vs Abiertos) |
@@ -271,7 +311,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 ---
 
 #### 5.2.4 Comparación de potencia α: ojos cerrados vs ojos abiertos
-
+---
 <div align="center">
 
 | Grabación | Comparación α (Cerrados vs Abiertos) |
@@ -301,7 +341,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 ---
 
 #### 5.2.6 Comparación de potencia β durante tarea cognitiva
-
+---
 <p align="center">
 <img src="Imagenes/GraficasLab5_Python/PotenciaTareaCognitiva.png" alt="Comparación Beta" width="600">
 </p>
@@ -324,10 +364,8 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 
 <div align="center"><b>Figura 18.</b> Señales filtradas con parpadeos detectados indicados con puntos naranjas y umbral adaptativo (líneas rojas).</div>
 
----
-
 #### 5.2.8 Actividad cognitiva libre: Escuchar música
-
+---
 <div align="center">
 
 | Señal cruda | Señal filtrada |
@@ -342,10 +380,9 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 
 </div>
 
----
 
 ## 📝 6. Discusión e interpretación
-
+---
 XD
 
 ## 7. Referencias
