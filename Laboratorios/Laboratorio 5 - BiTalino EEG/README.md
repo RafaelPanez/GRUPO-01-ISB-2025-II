@@ -53,8 +53,8 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 
 </div>
 
----
 ## 🎯 2. Objetivos
+---
 
 ### 🌟2.1 Objetivo general
 ---
@@ -91,6 +91,7 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 
 ### 🧾 4.1 Marco teórico
 ---
+
 #### 4.1.1 Generación de la señal EEG
 ---
 La EEG de superficie mide diferencias de potencial producidas por corrientes postsinápticas de poblaciones de neuronas piramidales orientadas de forma coherente en corteza. La señal registrada es resultado de una suma espacial y temporal atenuada por conducción de volumen (hueso, LCR, piel). Esto implica una baja relación señal/ruido y alta sensibilidad a artefactos, por lo que se necesita preprocesamientos a las señales [3], [4].
