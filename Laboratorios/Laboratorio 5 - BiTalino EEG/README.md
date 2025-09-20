@@ -2,7 +2,6 @@
 ---
 
 ## 📑 Índice
----
 
 - [1. Introducción](#1-introducción)
 - [2. Objetivos](#2-objetivos)
