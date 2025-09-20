@@ -415,7 +415,6 @@ XD
 [14] 
 
 ## 👥 Aporte de los integrantes
----
 
 <div align="center">
 
