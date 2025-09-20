@@ -491,10 +491,12 @@ La literatura sobre la asociación que existe entre escuchar música y EEG repor
 
 ## 📰 8. Conclusiones
 
-- El filtrado aplicado **mejora la SNR** y prepara la señal para el análisis; aun así, la **susceptibilidad frontal a EOG** desplaza la potencia hacia **δ/θ**, enmascarando el **pico α** esperado en reposo.
-- La **reactividad α** (**EC > EO**) no emerge con claridad en Fp1/Fp2 y se invierte en la grabación 3, muy probablemente por **parpadeo/segmentación** o por **EO en condiciones oscuras** (que pueden aproximarse a EC).
-- La **tarea aritmética** sugiere cambio espectral, pero el marcador **β** no fue significativo con n bajo; la evidencia indica que **θ fronto-medial** es un indicador más **robusto** de carga mental.
-- Al **escuchar música**, la **dominancia de δ** sugiere que el registro estuvo **ocular/motor-contaminado**; tras control de artefactos y en topografías posteriores se esperan modulaciones más claras en **α/θ**.
+Se comprobó que la adquisición de las señales EEG con el módulo BiTalino haya sido correcta. El procesamiento de dichas señales con herramientas computacionales como Python indican que, aunque se aplicó técnicas 
+de filtrado a la señal y se obtuvo un menor SNR, la sensibilidad de los electrodos ocasionó el desplazamiento de potencia hacia bandas bajas (δ/θ). Ello enmascaró el pico α esperado en reposo, por lo que la 
+reactividad clásica (EC > EO) no emergió con claridad en Fp1/Fp2. Incluso aparece de manera invertida en una de las gráficas, siendo posibles causas el parpadeo, segmentación o por la condición EO en oscuridad.
+Por otro lado, la actividad académica mostró algunos cambios espectrales en la onda β, mas no fueron de mucha significancia. Sin embargo, se determinó que la señal perteneciente a θ fronto-medial constituye
+un marcador más confiable de carga mental. Finalmente, en la actividad de escucha musical se observó contaminación visual y motora, dado a la presencia de δ. Se recalca la importancia de medir la señal EEG sin
+ningún confusor, así como la importancia de tener instrumentos calibrados de manera adecuada. Cabe notar que es necesaria la renovación de BitAlinos, ya que algunos no funcionan o no se conectan a la laptop.
 
 ## 📚 9. Referencias
 
