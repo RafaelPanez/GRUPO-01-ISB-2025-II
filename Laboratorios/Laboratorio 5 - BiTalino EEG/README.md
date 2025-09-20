@@ -19,7 +19,7 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 </div>
 
 ---
-## 2. Objetivos
+## 🎯 2. Objetivos
 
 ### 2.1 Objetivo general
 ---
