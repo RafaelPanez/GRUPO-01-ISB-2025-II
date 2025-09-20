@@ -90,7 +90,9 @@ En cuanto a sus aplicaciones, el EEG constituye una herramienta esencial para el
 ---
 
 ### 🧾 4.1 Marco teórico
+---
 #### 4.1.1 Generación de la señal EEG
+---
 La EEG de superficie mide diferencias de potencial producidas por corrientes postsinápticas de poblaciones de neuronas piramidales orientadas de forma coherente en corteza. La señal registrada es resultado de una suma espacial y temporal atenuada por conducción de volumen (hueso, LCR, piel). Esto implica una baja relación señal/ruido y alta sensibilidad a artefactos, por lo que se necesita preprocesamientos a las señales [3], [4].
 
 #### 4.1.2 Bandas y reactividad alfa (EO vs EC)
@@ -117,6 +119,7 @@ Los ritmos clásicos incluyen δ (0.5–4 Hz), θ (4–8 Hz), **α (8–13 Hz)**
 </div>
 
 #### 4.1.3 Sistema 10–20, Fp1/Fp2 y artefactos oculares
+---
 El **sistema 10–20** estandariza posiciones y facilita reproducibilidad. Fp1 (frontal polar izquierdo) y Fp2 (frontal polar derecho) están muy próximos a los ojos, por lo que captan con alta amplitud parpadeos y movimientos oculares (artefactos EOG) [9]. En frontal, los parpadeos pueden superar los 200 μV, afectando potencias por canal y pudiendo generar asimetrías aparentes entre Fp1/Fp2 si difieren el patrón de parpadeo, la impedancia o la referencia [9].
 
 <div align="center">
@@ -128,10 +131,12 @@ El **sistema 10–20** estandariza posiciones y facilita reproducibilidad. Fp1 (
 </div>
 
 #### 4.1.4 Electrodos: húmedos vs secos
+---
 - **Húmedos (Ag/AgCl + gel)**: estándar clínico por baja impedancia y estabilidad; requieren preparación de piel y limpieza posregistro [11].  
 - **Secos (multi-pin, gel-free)**: despliegue rápido y reutilizable (útiles con cascos tipo Ultracortex); hoy muestran desempeño comparable en ciertas tareas si el diseño es adecuado, aunque pueden ser más sensibles a movimiento y contacto en registros pasivos [11].
 
 #### 4.1.5 Muestreo, referencia y filtrado
+---
 - **Muestreo**: se elige una frecuencia de muestreo de 1000 Hz para cubrir con margen las bandas de interés y evitar aliasing.
 - **Referencia**: mastoides (apófisis del hueso temporal de los mamíferos, situada detrás y debajo de la oreja).
 - **Filtrado:**
@@ -147,6 +152,7 @@ El **sistema 10–20** estandariza posiciones y facilita reproducibilidad. Fp1 (
 </div>
 
 #### 4.1.6 Estimación espectral y métricas
+---
 Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 50% de solape) y calcular potencia absoluta/relativa por banda. En este protocolo, la métrica primaria es potencia alfa (8–13 Hz) en EO vs EC por canal (Fp1, Fp2). Por otro lado, las métricas secundarias son el conteo de parpadeos y el cálculo de la potencia β durante tareas cognitivas [13].
 
 <div align="center">
@@ -196,7 +202,6 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 ---
 
 9) Ejecutar la siguiente cronología (grabar videos y  señales obtenidas):
----
 
 | Min | Condición         | Indicaciones |
 |-----|-------------------|--------------|
@@ -213,7 +218,7 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 </div>
 
 #### 4.2.4 Exportación y respaldo
-
+---
 10) Exportar cada segmento a **.csv** / **.txt** dentro de la carpeta creada.
 
 #### 4.2.5 Preprocesamiento
@@ -278,7 +283,6 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 
 <p align="center"><b>Figura 12.</b> Señales EEG crudas y filtradas (0.8–48 Hz) durante reposo basal con ojos cerrados y fase de fijación visual con ojos abiertos. Panel izquierdo: señales crudas; panel derecho: señales filtradas.</p>
 
----
 
 #### 5.2.2 Densidad espectral de potencia (PSD) de EEG
 ---
@@ -309,7 +313,6 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 
 <div align="center"><b>Figura 14.</b> Potencia relativa (%) por banda (Δ, θ, α, β, γ) para cada grabación de referencia.</div>
 
----
 
 #### 5.2.4 Comparación de potencia α: ojos cerrados vs ojos abiertos
 ---
@@ -325,10 +328,8 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 
 <div align="center"><b>Figura 15.</b> Comparación de potencia α (8–13 Hz) por ventanas de 2 s (PSD Welch) en cada grabación, mostrando diferencias entre ojos cerrados y ojos abiertos.</div>
 
----
-
 #### 5.2.5 Tarea cognitiva: Resta 100‑7
-
+---
 <div align="center">
 
 | Señal cruda | Señal filtrada |
@@ -339,7 +340,6 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 
 <div align="center"><b>Figura 16.</b> Señal EEG durante la tarea cognitiva (1 min), mostrando la actividad en banda β (13–30 Hz).</div>
 
----
 
 #### 5.2.6 Comparación de potencia β durante tarea cognitiva
 ---
@@ -349,9 +349,8 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 
 <p align="center"><b>Figura 17.</b> Comparación de potencia en banda β (13–30 Hz) entre reposo y tarea cognitiva (t-test pareado). Solo se utilizó una grabación para esta evaluación.</p>
 
----
-
 #### 5.2.7 Detección de parpadeos 
+---
 
 <div align="center">
 
@@ -387,6 +386,7 @@ En esta sección encontrará todas las tomas de video de las señales utilizadas
 XD
 
 ## 📚 7. Referencias
+---
 [1] F. Torres, “Electroencephalography: Basic Principles, Clinical Applications and Related Fields,” Archives of Neurology, vol. 40, no. 3, pp. 191–192, 1983, doi: 10.1001/archneur.1983.04050030085025.
 
 [2] T. Kirschstein and R. Köhling, “What is the source of the EEG?,” Clinical EEG and Neuroscience, vol. 40, no. 3, pp. 146–149, Jul. 2009, doi: 10.1177/155005940904000305. 
