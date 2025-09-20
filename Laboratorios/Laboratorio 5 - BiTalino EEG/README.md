@@ -212,6 +212,14 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 ### 🎥 5.1 Repositorio de vídeos
 ---
+En esta sección encontrará todas las tomas de video de las señales utilizadas para el análisis requerido.
+
+| Condición                      | Video 1 | Video 2 | Video 3 |
+|:--------------------------------:|:---------:|:---------:|:---------:|
+| Reposo y punto fijo                         | [▶️](https://youtu.be/DD4bQdDkeEA)     | [▶️](https://youtu.be/Sdjq2KTkGdA)       | [▶️](https://youtu.be/AzJA-2Yh17o)       |
+| Acción 100 - 7  | [▶️](https://youtu.be/jsVCPEOsZHc)       |  -  |   -  |
+| Pestañeo | [▶️](https://youtu.be/vqS_VKrlu9c)      |   [▶️](https://youtu.be/OsAC1tRgnOw)      |      [▶️](https://youtu.be/P1OlUgBQ5Cg)     |
+
 ### 5.2 Gráficas obtenidas
 ---
 #### 5.2.1 Señales EEG crudas y filtradas durante reposo (ojos cerrados) y fijación visual (ojos abiertos)
