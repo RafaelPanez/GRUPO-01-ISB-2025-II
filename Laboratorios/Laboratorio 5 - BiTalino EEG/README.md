@@ -46,7 +46,7 @@
 
 ## 🧠📖 1. Introducción
 
-El electroencefalograma (EEG) es una técnica no invasiva que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados en el cuero cabelludo [1]. Esta herramienta resulta fundamental en neurociencia y medicina clínica, ya que posibilita la evaluación de funciones cerebrales y el diagnóstico de distintos trastornos neurológicos [1]. Asimismo, el EEG facilita la monitorización continua de la actividad cerebral en pacientes críticos y la evaluación de la eficacia de tratamientos neurológicos, constituyéndose como un instrumento indispensable en investigación y entornos clínicos [2].
+El electroencefalograma (EEG) es una técnica no invasiva que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados en el cuero cabelludo [1]. Esta herramienta resulta fundamental en neurociencia y medicina clínica, dado que posibilita la evaluación de funciones cerebrales y el diagnóstico de distintos trastornos neurológicos [1]. Asimismo, el EEG facilita la monitorización continua de la actividad cerebral en pacientes críticos y la evaluación de la eficacia de tratamientos neurológicos, constituyéndose como un instrumento indispensable en investigación y entornos clínicos [2].
 
 La generación de las señales EEG se produce principalmente en las neuronas piramidales de la corteza cerebral, ubicadas en las capas III y V [3], [4]. Estas neuronas presentan una orientación perpendicular a la superficie cortical, lo que permite la formación de dipolos eléctricos detectables en el cuero cabelludo. La actividad registrada corresponde a la suma de los potenciales postsinápticos excitatorios e inhibitorios de grandes grupos de neuronas activadas de manera sincronizada [3]. Las oscilaciones resultantes se organizan en ritmos de alfa (8–13 Hz), beta (13–30 Hz), theta (4–8 Hz) y delta (0.5–4 Hz), cada uno asociado a distintos estados de conciencia y funciones cognitivas [3].
 
@@ -486,6 +486,7 @@ La literatura sobre la asociación que existe entre escuchar música y EEG repor
 2. **Estadística:** con una cantidad de muestraas limitadas por condición, se recomienda priorizar estadísticos descriptivos (medianas/IC) y reportar tamaño de efecto más que p-values aislados.  
 3. **Preprocesamiento reproducible:** se debe documentar familia de filtro, orden y bandas con el fin de evaluar el impacto del filtro en latencias/amplitudes cuando se comparen condiciones.
 4. **Artefactos oculares:** mantener conteo y corrección (ICA/CCA/ASR) si se va a cuantificar potencia por bandas o comparar EO/EC.
+5. **Renovación BiTalinos:** es necesaria la renovación de BitAlinos, dado que algunos no funcionan o no se conectan a la laptop.
 
 ---
 
@@ -496,7 +497,7 @@ de filtrado a la señal y se obtuvo un menor SNR, la sensibilidad de los electro
 reactividad clásica (EC > EO) no emergió con claridad en Fp1/Fp2. Incluso aparece de manera invertida en una de las gráficas, siendo posibles causas el parpadeo, segmentación o por la condición EO en oscuridad.
 Por otro lado, la actividad académica mostró algunos cambios espectrales en la onda β, mas no fueron de mucha significancia. Sin embargo, se determinó que la señal perteneciente a θ fronto-medial constituye
 un marcador más confiable de carga mental. Finalmente, en la actividad de escucha musical se observó contaminación visual y motora, dado a la presencia de δ. Se recalca la importancia de medir la señal EEG sin
-ningún confusor, así como la importancia de tener instrumentos calibrados de manera adecuada. Cabe notar que es necesaria la renovación de BitAlinos, ya que algunos no funcionan o no se conectan a la laptop.
+ningún confusor, así como la importancia de tener instrumentos calibrados de manera adecuada. 
 
 ## 📚 9. Referencias
 
