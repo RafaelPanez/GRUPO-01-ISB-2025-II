@@ -221,7 +221,7 @@ Para cuantificar cambios EO/EC, se usa la **PSD por Welch** (ventanado Hanning, 
 
 <div align="center">
   
-![imagen9](Imagenes/oa_oc.png)
+![imagen9](Imagenes/salet.png)
 **Figura 9**. Posturas OE (ojos abiertos) y EC (ojos cerrados), respectivamente (de izquierda a derecha).
 </div>
 
