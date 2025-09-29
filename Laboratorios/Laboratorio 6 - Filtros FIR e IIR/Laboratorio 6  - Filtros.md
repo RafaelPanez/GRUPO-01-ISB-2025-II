@@ -1,7 +1,7 @@
 # 📈⚡ Laboratorio 6: Filtros FIR e IIR
 
 ## 📑 Índice
----
+
 - [1. Introducción](#1-introduccion)
 - [2. Objetivos](#2-objetivos)
   - [2.1 Objetivo general](#21-objetivo-general)
@@ -70,6 +70,8 @@ __5.1.1 Para la señal en reposo__
 |Filtro 3| ![Filtro 3](ruta/a/imagen.png) |
 |Filtro 4| ![Filtro 4](ruta/a/imagen.png) |
 
+---
+
 __5.1.2 Para la señal en movimiento lento__ 
 
 | N° filtro| Diseño |  H(f) | Diagrama de polos y ceros |
@@ -89,7 +91,7 @@ __5.1.2 Para la señal en movimiento lento__
 |Filtro 3| ![Filtro 3](ruta/a/imagen.png) |
 |Filtro 4| ![Filtro 4](ruta/a/imagen.png) |
 
-
+---
 
 __5.1.3 Para la señal con fuerza en contra__ 
 | N° filtro| Diseño |  H(f) | Diagrama de polos y ceros |
@@ -132,6 +134,7 @@ __5.1.1 Para la señal de primera derivada__
 |Filtro 3| ![Filtro 3](ruta/a/imagen.png) |
 |Filtro 4| ![Filtro 4](ruta/a/imagen.png) |
 
+---
 __5.2.2 Para la señal de respiración__ 
 | N° filtro| Diseño |  H(f) | Diagrama de polos y ceros |
 |:------:|:------:|:-----:|:-------------------------:|
@@ -156,12 +159,15 @@ __5.2.2 Para la señal de respiración__
 ### 6.1 Acerca de los filtros para EMG
 
 __6.1.1 Para la señal en reposo__ 
+---
 __6.1.2 Para la señal en movimiento lento__ 
+---
 __6.1.3 Para la señal con fuerza en contra__ 
 
 ### 6.2 Acerca de los filtros para ECG
 
 __6.1.1 Para la señal de primera derivada__ 
+---
 __6.2.2 Para la señal de respiración__ 
 
 ## 7. 📖 Conclusiones
@@ -178,4 +184,5 @@ __6.2.2 Para la señal de respiración__
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
