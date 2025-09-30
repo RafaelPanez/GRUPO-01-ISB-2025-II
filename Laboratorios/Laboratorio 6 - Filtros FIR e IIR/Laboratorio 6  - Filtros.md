@@ -30,7 +30,15 @@
 
 ## 1. 📝 Introducción
 
+En el ámbito del procesamiento de señales biomédicas, como las derivadas del electromiograma (EMG) y el electrocardiograma (ECG), resulta esencial limpiar las señales de artefactos y ruido para garantizar una interpretación fiable de los componentes fisiológicos verdaderos. Las señales reales captadas en el entorno clínico o experimental frecuentemente están contaminadas por interferencias como ruido de la línea eléctrica (50/60 Hz), deriva de la línea base (baseline wander), movimientos del sujeto o del electrodo, y contaminación cruzada entre señales fisiológicas (por ejemplo, que el ECG afecte al EMG) [1].
 
+Para tratar estas perturbaciones se utilizan filtros digitales, entre los cuales los más comunes son los Filtros de Respuesta al Impulso Finito (FIR) y Filtros de Respuesta al Impulso Infinito (IIR). La elección entre ambos implica un compromiso entre varios parámetros: precisión en la respuesta en frecuencia, fase linealidad, complejidad computacional, estabilidad y distorsión de fase [2].
+
+Los filtros FIR tienen la ventaja de ser inherentemente estables (no contienen retroalimentación interna) y pueden diseñarse con una fase lineal exacta, lo cual preserva la morfología de las señales (ondas P, QRS, T en ECG, o envolventes en EMG) [3]. Su desventaja es que requieren mayor longitud (más coeficientes) para lograr transiciones de banda nítidas, lo cual implica más cómputo y retardo [4].
+
+Por su parte, los filtros IIR pueden lograr una respuesta de filtro más abrupta con menor orden (menos coeficientes), lo cual los hace más eficientes desde el punto de vista computacional y más adecuados para aplicaciones en tiempo real [5]. Sin embargo, al tener retroalimentación, pueden introducir distorsión de fase (no linealidad de fase) y potenciales problemas de estabilidad si no se diseñan cuidadosamente [5].
+
+Cuando se trabaja con señales mixtas, por ejemplo, EMG contaminada por ECG, existen métodos dedicados para la separación de estas componentes superpuestas (gating, sustracción de plantilla, transformadas wavelet, filtrado adaptativo o separación de fuentes) [6]. En particular, en estudios comparativos de métodos de remoción de ECG de señales de EMG, se ha observado que los filtros de paso alto simples no logran eliminar completamente la interferencia sin afectar componentes de baja frecuencia del EMG, y otros métodos (por ejemplo, filtrado adaptativo o wavelets) pueden ofrecer un mejor equilibrio entre supresión de ruido y preservación de la señal deseada [6].
 
 ## 2. 🎯 Objetivos
 
@@ -247,6 +255,19 @@ En conclusión, entre los filtros evaluados para ECG2, el Equiripple pasabanda s
 
 ## 7. 📚 Referencias
 
+[1] M. Boyer, L. Bouyer, J.-S. Roy y A. Campeau-Lecours, “Reducing Noise, Artifacts and Interference in Single-Channel EMG Signals: A Review,” Sensors, vol. 23, n.º 6, art. 2927, 2023, doi: 10.3390/s23062927.
+
+[2] S. Sarpal, “Difference between IIR and FIR filters: a practical design guide,” Advanced Solutions Nederland (ASN). [En línea]. Disponible en: https://www.advsolned.com/difference-between-iir-and-fir-filters-a-practical-design-guide/
+
+[3] C. Saxena, V. Upadhyaya, H. K. Gupta y A. Sharma, “Denoising of ECG Signals Using FIR & IIR Filter: A Performance Analysis,” en Proc. Int. Conf. on Emerging Trends in Expert Applications & Security (ICETEAS), Kalpa Publications in Engineering, vol. 2, pp. 51–58, 2018.
+
+[4] S. Rani, A. Kaur y J. S. Ubhi, “Comparative study of FIR and IIR filters for the removal of Baseline noises from ECG signal,” International Journal of Computer Science and Information Technologies (IJCSIT), vol. 2, n.º 3, pp. 1105–1108, 2011.
+
+[5] V. V. Reddy, M. Neelaveni, M. Sandeep, Sk. K. Ahmad y P. V. Krishna, “Comparison of FIR and IIR Filters Using ECG Signal with Different Sampling Frequencies,” International Research Journal of Modernization in Engineering, Technology and Science (IRJMETS), vol. 5, n.º 4, abril 2023, doi: 10.56726/IRJMETS35977.
+
+[6] L. Xu, E. Peri, R. Vullings, C. Rabotti, J. P. Van Dijk y M. Mischi, “Comparative Review of the Algorithms for Removal of Electrocardiographic Interference from Trunk Electromyography,” Sensors, vol. 20, n.º 17, art. 4890, 2020, doi: 10.3390/s20174890.
+
+
 [1] S. P. K. P. K. Zor, "A Review of ECG Signal Processing Methods," MDPI Sensors, vol. 16, no. 8, p. 1304, 2016. Disponible en:https://www.mdpi.com/1424-8220/16/8/1304.
 
 [2] R. A. ., "Sensor-Based Systems for Real-Time Monitoring," MDPI Sensors, vol. 25, no. 13, p. 4004, 2025. Disponible en:https://www.mdpi.com/1424-8220/25/13/4004.
@@ -298,6 +319,7 @@ En conclusión, entre los filtros evaluados para ECG2, el Equiripple pasabanda s
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
