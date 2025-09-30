@@ -329,7 +329,7 @@ Finalmente, los resultados también subrayan que la “mejor” configuración d
 
 [27] M. S. Chavan, R. A. Agarwala, y M. D. Uplane, "Comparative Study of Chebyshev I and Chebyshev II Filter Used for Noise Reduction in ECG Signal," International Journal of Circuits, Systems and Signal Processing, vol. 2, no. 1, pp. 1–17, 2008.
 
-## 8. 👥 Aporte de los integrantes
+## 9. 👥 Aporte de los integrantes
 
 <div align="center">
 
@@ -338,6 +338,7 @@ Finalmente, los resultados también subrayan que la “mejor” configuración d
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
