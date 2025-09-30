@@ -99,10 +99,14 @@ __5.1.2 Para la señal en movimiento lento__
 
 | N° filtro| Diseño |  H(f) | Diagrama de polos y ceros |
 |:------:|:------:|:-----:|:-------------------------:|
-| 1 | ![diseño](ruta/a/imagen.png) | ![H(f)](ruta/a/imagen.png) | ![polos_ceros](ruta/a/imagen.png) |
-| 2 | ![diseño](ruta/a/imagen.png) | ![H(f)](ruta/a/imagen.png) | ![polos_ceros](ruta/a/imagen.png) |
-| 3 | ![diseño](ruta/a/imagen.png) | ![H(f)](ruta/a/imagen.png) | ![polos_ceros](ruta/a/imagen.png) |
-| 4 | ![diseño](ruta/a/imagen.png) | ![H(f)](ruta/a/imagen.png) | ![polos_ceros](ruta/a/imagen.png) |
+| 1.1 | Butterworth Notch | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/ButterworthNotch.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/ButterworthNotchPolos.png?raw=true) |
+| 1.2 | Butterworth Pasabanda | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/ButterworthPasabanda.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/ButterworthPasabandaPolos.png?raw=true) |
+| 2.1 | Chebyshev1 Notch | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/Chebyshev1Notch.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/Chebyshev1NotchPolos.png?raw=true) |
+| 2.2 | Chebyshev1 Pasabanda | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/Chebyshev1Pasabanda.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/Chebyshev1PasabandaPolos.png?raw=true) |
+| 3.1 | Hamming Notch | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/HammingNotch.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/HammingNotchPolos.png?raw=true) |
+| 3.2 | Hamming Pasabanda | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/HammingPasabanda.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/HammingPasabandaPolos.png?raw=true) |
+| 4.1 | Blackman Notch | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/BlackmanNotch.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/BlackmanNotchPolos.png?raw=true) |
+| 4.2 | Blackman Pasabanda | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/BlackmanPasabanda.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/BlackmanPasabandaPolos.png?raw=true) |
 
 
 | Nombre | Gráfica |
@@ -117,12 +121,17 @@ __5.1.2 Para la señal en movimiento lento__
 ---
 
 __5.1.3 Para la señal con fuerza en contra__ 
+
 | N° filtro| Diseño |  H(f) | Diagrama de polos y ceros |
 |:------:|:------:|:-----:|:-------------------------:|
-| 1 | ![diseño](ruta/a/imagen.png) | ![H(f)](ruta/a/imagen.png) | ![polos_ceros](ruta/a/imagen.png) |
-| 2 | ![diseño](ruta/a/imagen.png) | ![H(f)](ruta/a/imagen.png) | ![polos_ceros](ruta/a/imagen.png) |
-| 3 | ![diseño](ruta/a/imagen.png) | ![H(f)](ruta/a/imagen.png) | ![polos_ceros](ruta/a/imagen.png) |
-| 4 | ![diseño](ruta/a/imagen.png) | ![H(f)](ruta/a/imagen.png) | ![polos_ceros](ruta/a/imagen.png) |
+| 1.1 | Butterworth Notch | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/ButterworthNotch.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/ButterworthNotchPolos.png?raw=true) |
+| 1.2 | Butterworth Pasabanda | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/ButterworthPasabanda.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/ButterworthPasabandaPolos.png?raw=true) |
+| 2.1 | Chebyshev1 Notch | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/Chebyshev1Notch.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/Chebyshev1NotchPolos.png?raw=true) |
+| 2.2 | Chebyshev1 Pasabanda | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/Chebyshev1Pasabanda.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/Chebyshev1PasabandaPolos.png?raw=true) |
+| 3.1 | Hamming Notch | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/HammingNotch.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/HammingNotchPolos.png?raw=true) |
+| 3.2 | Hamming Pasabanda | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/HammingPasabanda.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/HammingPasabandaPolos.png?raw=true) |
+| 4.1 | Blackman Notch | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/BlackmanNotch.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/BlackmanNotchPolos.png?raw=true) |
+| 4.2 | Blackman Pasabanda | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/BlackmanPasabanda.png?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/pyfda%20EMG/BlackmanPasabandaPolos.png?raw=true) |
 
 
 | Nombre | Gráfica |
@@ -212,12 +221,12 @@ Los filtros FIR con ventana Hamming y Blackman, con SNR de 21.75 dB y 22.18 dB r
 __6.1.3 Para la señal con fuerza en contra__ 
 ---
 En la condición de contramovimiento, la señal EMG muestra un marcado incremento en amplitud y frecuencia de activación, producto del mayor reclutamiento de unidades motoras y de una mayor complejidad espectral asociada a la contracción contra resistencia. Esta condición demanda filtros capaces de preservar la potencia de las señales de alta amplitud y, al mismo tiempo, discriminar interferencias externas [11].
+
 El filtro Butterworth, con un SNR de 23.37 dB, mantuvo una respuesta de magnitud plana en la banda de paso, lo que favoreció la conservación de los picos de gran amplitud generados por la contracción contra fuerza. Sin embargo, la fase no lineal introdujo distorsiones temporales que pueden dificultar la estimación precisa de la latencia entre el inicio de la contracción y la respuesta muscular, un aspecto importante en análisis biomecánicos [12].
+
 El filtro Chebyshev Tipo I alcanzó un SNR de 27.29 dB, lo que refleja una mayor supresión de interferencias externas. Su pendiente más pronunciada en la banda de rechazo permitió aislar con mayor claridad los componentes útiles del EMG en condiciones de elevada actividad. No obstante, la distorsión de amplitud producida por las ondulaciones en la banda de paso puede alterar la representación relativa de la contribución de distintos grupos musculares, un factor relevante en contramovimientos de alta carga [13].
 
 Los filtros FIR con ventana Hamming y Blackman, con SNR de 20.41 dB y 20.88 dB respectivamente, destacaron por su preservación de la fase lineal. Esto permitió mantener la secuencia temporal de la activación muscular incluso en presencia de contracciones complejas, lo que es crucial para estudiar patrones de coordinación intermuscular. Sin embargo, la menor capacidad de atenuación frente a ruidos de alta frecuencia limita su utilidad cuando el interés se centra en la depuración espectral más que en la forma temporal de la señal [14], [15].
-
-En conjunto, los resultados muestran que el filtro Chebyshev Tipo I fue el que alcanzó los valores más altos de SNR en las tres condiciones evaluadas (33.93 dB en reposo, 28.31 dB en contracción lenta y 27.29 dB en contramovimiento), lo que evidencia su superioridad en la supresión de interferencias externas [9]. No obstante, en términos fisiológicos, la elección del mejor filtro depende de la naturaleza de la señal. En reposo, el Chebyshev se destaca por su capacidad de discriminar potenciales espontáneos de baja amplitud frente al ruido eléctrico; en contracción lenta, los filtros FIR resultan más apropiados cuando se requiere preservar con exactitud la secuencia temporal de reclutamiento; y en contramovimiento, el Butterworth asegura una adecuada conservación de los picos de gran amplitud. Así, considerando un equilibrio entre robustez en la atenuación de ruido y fidelidad en la morfología temporal, el filtro Chebyshev Tipo I puede considerarse el más eficiente en términos globales, mientras que los FIR constituyen la mejor opción cuando la prioridad es el análisis de la dinámica temporal fina [12], [15].
 
 ---
 ### 6.2 Acerca de los filtros para ECG
@@ -255,8 +264,16 @@ El Filtro Pasaalta Chebyshev Tipo II (orden 5) logró un SNR de 7.08 dB. Aunque 
 Finalmente, el Filtro Pasabaja Elíptico (orden 5) alcanzó un SNR negativo de –22.38 dB, lo que indica una degradación significativa de la calidad de la señal. A pesar de su alta selectividad y eficiencia en la atenuación de frecuencias superiores a 45 Hz, la distorsión introducida dentro de la banda útil compromete la morfología de las ondas ECG, haciéndolo inadecuado para aplicaciones clínicas [27].
 En conclusión, entre los filtros evaluados para ECG2, el Equiripple pasabanda se presenta como la opción más adecuada, ya que ofrece un balance entre preservación de la morfología (fase lineal) y supresión de artefactos, a pesar de no alcanzar valores de SNR tan elevados como los vistos en ECG1 [25].
 
+## 7. 🌟 Conclusiones
 
-## 7. 📚 Referencias
+La comparación sistemática entre filtros FIR e IIR aplicada a señales biomédicas (EMG y ECG) confirma que no existe un diseño universalmente superior: cada familia implica compromisos distintos entre selectividad espectral, linealidad de fase, costo computacional y robustez numérica. En términos generales, los filtros FIR aseguran estabilidad y fase estrictamente lineal, lo que preserva con fidelidad la morfología temporal; los IIR, por su parte, alcanzan transiciones más abruptas con órdenes menores, favoreciendo implementaciones eficientes en tiempo real aun a costa de cierta no linealidad de fase.
+
+En ECG, donde la interpretación clínica depende críticamente de la forma de las ondas P-QRS-T y de la precisión en intervalos como PR, QRS y QT, los diseños FIR con fase lineal resultan especialmente adecuados para mitigar deriva de línea de base, interferencia de red y ruido de alta frecuencia sin distorsionar la morfología. En EMG, el contexto determina la mejor elección: cuando se prioriza la secuencia temporal de reclutamiento y la sincronía entre unidades motoras, los FIR son preferibles; cuando se requiere máxima atenuación con baja carga computacional (por ejemplo, en escenarios embebidos o de adquisición continua), aproximaciones IIR como Butterworth o Chebyshev muestran un desempeño competitivo, particularmente frente a interferencias estrechas como 50/60 Hz mediante filtros notch.
+
+Finalmente, los resultados también subrayan que la “mejor” configuración depende del régimen fisiológico y del tipo de contaminación presente. En reposo, donde la señal útil es de baja amplitud y vulnerable a enmascaramiento, la mayor selectividad de ciertos IIR puede elevar la SNR; en contracciones lentas o tareas que exigen preservar la cronología fina de activaciones, la linealidad de fase de los FIR se impone; y en condiciones de alta actividad muscular, la respuesta de magnitud plana de Butterworth ayuda a conservar picos de gran amplitud sin sobrerrealzar componentes no deseados. Así, la selección de parámetros (bandas de paso y rechazo, orden, ventana o aproximación analógica) debe adaptarse al objetivo analítico específico.
+
+
+## 8. 📚 Referencias
 
 [1] M. Boyer, L. Bouyer, J.-S. Roy y A. Campeau-Lecours, “Reducing Noise, Artifacts and Interference in Single-Channel EMG Signals: A Review,” Sensors, vol. 23, n.º 6, art. 2927, 2023, doi: 10.3390/s23062927.
 
@@ -321,6 +338,7 @@ En conclusión, entre los filtros evaluados para ECG2, el Equiripple pasabanda s
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
