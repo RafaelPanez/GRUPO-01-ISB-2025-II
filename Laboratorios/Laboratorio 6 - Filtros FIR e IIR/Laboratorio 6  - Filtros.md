@@ -82,12 +82,12 @@ __5.1.1 Para la señal en reposo__
 
 | Nombre | Gráfica |
 |:------:|:------:|
-|Señal cruda| ![Señal Cruda](ruta/a/imagen.png) |
-|Filtro anterior| ![Filtro anterior](ruta/a/imagen.png) |
-|Filtro 1| ![Filtro 1](ruta/a/imagen.png) |
-|Filtro 2| ![Filtro 2](ruta/a/imagen.png) |
-|Filtro 3| ![Filtro 3](ruta/a/imagen.png) |
-|Filtro 4| ![Filtro 4](ruta/a/imagen.png) |
+|Señal cruda| ![Señal Cruda](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/ReposoBicepsCruda.png?raw=true) |
+|Filtro anterior| ![Filtro anterior](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/PrefiltradoReposoBiceps.png?raw=true) |
+|Filtro 1| ![Filtro 1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/ReposoBicepsButterworth.png?raw=true) |
+|Filtro 2| ![Filtro 2](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/ReposoBicepsChebyshev1.png?raw=true) |
+|Filtro 3| ![Filtro 3](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/ReposoBicepsHamming.png?raw=true) |
+|Filtro 4| ![Filtro 4](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/ReposoBicepsBlackman.png?raw=true) |
 
 ---
 
@@ -103,12 +103,12 @@ __5.1.2 Para la señal en movimiento lento__
 
 | Nombre | Gráfica |
 |:------:|:------:|
-|Señal cruda| ![Señal Cruda](ruta/a/imagen.png) |
-|Filtro anterior| ![Filtro anterior](ruta/a/imagen.png) |
-|Filtro 1| ![Filtro 1](ruta/a/imagen.png) |
-|Filtro 2| ![Filtro 2](ruta/a/imagen.png) |
-|Filtro 3| ![Filtro 3](ruta/a/imagen.png) |
-|Filtro 4| ![Filtro 4](ruta/a/imagen.png) |
+|Señal cruda| ![Señal Cruda](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/LentoBicepsCruda.png?raw=true) |
+|Filtro anterior| ![Filtro anterior](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/PrefiltradoLentoBiceps.png?raw=true) |
+|Filtro 1| ![Filtro 1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/LentoBicepsButterworth.png?raw=true) |
+|Filtro 2| ![Filtro 2](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/LentoBicepsChebyshev1.png?raw=true) |
+|Filtro 3| ![Filtro 3](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/LentoBicepsHamming.png?raw=true) |
+|Filtro 4| ![Filtro 4](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/LentoBicepsBlackman.png?raw=true) |
 
 ---
 
@@ -123,12 +123,12 @@ __5.1.3 Para la señal con fuerza en contra__
 
 | Nombre | Gráfica |
 |:------:|:------:|
-|Señal cruda| ![Señal Cruda](ruta/a/imagen.png) |
-|Filtro anterior| ![Filtro anterior](ruta/a/imagen.png) |
-|Filtro 1| ![Filtro 1](ruta/a/imagen.png) |
-|Filtro 2| ![Filtro 2](ruta/a/imagen.png) |
-|Filtro 3| ![Filtro 3](ruta/a/imagen.png) |
-|Filtro 4| ![Filtro 4](ruta/a/imagen.png) |
+|Señal cruda| ![Señal Cruda](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/ContraBicepsCruda.png?raw=true) |
+|Filtro anterior| ![Filtro anterior](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/PrefiltradoContraBiceps.png?raw=true) |
+|Filtro 1| ![Filtro 1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/ContraBicepsButterworth.png?raw=true) |
+|Filtro 2| ![Filtro 2](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/ContraBicepsChebyshev1.png?raw=true) |
+|Filtro 3| ![Filtro 3](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/ContraBicepsHamming.png?raw=true) |
+|Filtro 4| ![Filtro 4](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20EMG/Se%C3%B1ales%20EMG/ContraBicepsBlackman.png?raw=true) |
 
 
 
@@ -317,6 +317,7 @@ En conclusión, entre los filtros evaluados para ECG2, el Equiripple pasabanda s
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
