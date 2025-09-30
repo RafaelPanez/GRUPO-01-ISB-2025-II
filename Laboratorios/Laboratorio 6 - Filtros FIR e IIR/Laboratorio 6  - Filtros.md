@@ -167,11 +167,10 @@ __5.2.2 Para la señal de respiración__
 |:------:|:------:|
 |Señal cruda| ![Señal Cruda](ruta/a/imagen.png) |
 |Filtro anterior| ![Filtro anterior](ruta/a/imagen.png) |
-|Filtro 1| ![Filtro 1](./Se%C3%B1ales%20ECG/ECG1_Filtro1.PNG) |
+|Filtro 1| ![Filtro 1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG1_Filtro1.PNG?raw=true) |
 |Filtro 2| ![Filtro 2](ruta/a/imagen.png) |
 |Filtro 3| ![Filtro 3](ruta/a/imagen.png) |
 |Filtro 4| ![Filtro 4](ruta/a/imagen.png) |
-
 
 ## 6. 💭 Discusión y conclusiones
 
@@ -318,6 +317,7 @@ En conclusión, entre los filtros evaluados para ECG2, el Equiripple pasabanda s
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
