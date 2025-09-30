@@ -135,13 +135,13 @@ __5.1.3 Para la señal con fuerza en contra__
 
 ### 5.2 Señales ECG
 
-__5.1.1 Para la señal de primera derivada__ 
+__5.2.1 Para la señal de primera derivada__ 
 | N° filtro| Diseño |  H(f) | Diagrama de polos y ceros |
 |:------:|:------:|:-----:|:-------------------------:|
-| 1 | ![diseño](ruta/a/imagen.png) | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F1_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F1_Zero.PNG?raw=true) |
-| 2 | ![diseño](ruta/a/imagen.png) | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F2_H(f).PNG?raw=true) | ![polos_ceros]([ruta/a/imagen.png](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F2_Zero.PNG?raw=true)) |
-| 3 | ![diseño](ruta/a/imagen.png) | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F3_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F3_Zero.PNG?raw=true) |
-| 4 | ![diseño](ruta/a/imagen.png) | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F4_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F4_Zero.PNG?raw=true) |
+| 1 | Blackman | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F1_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F1_Zero.PNG?raw=true) |
+| 2 | Butterworth | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F2_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F2_Zero.PNG?raw=true) |
+| 3 | Chebyshev I | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F3_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F3_Zero.PNG?raw=true) |
+| 4 | Hamming | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F4_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG1_F4_Zero.PNG?raw=true) |
 
 
 | Nombre | Gráfica |
@@ -151,22 +151,22 @@ __5.1.1 Para la señal de primera derivada__
 |Filtro 1| ![Filtro 1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG1_Filtro1.PNG?raw=true) |
 |Filtro 2| ![Filtro 2](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG1_Filtro2.PNG?raw=true) |
 |Filtro 3| ![Filtro 3](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG1_Filtro3.PNG?raw=true) |
-|Filtro 4| ![Filtro 4]([ruta/a/imagen.png](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG1_Filtro4.PNG?raw=true)) |
+|Filtro 4| ![Filtro 4](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG1_Filtro4.PNG?raw=true) |
 
 ---
 __5.2.2 Para la señal de respiración__ 
 | N° filtro| Diseño |  H(f) | Diagrama de polos y ceros |
 |:------:|:------:|:-----:|:-------------------------:|
-| 1 | ![diseño](ruta/a/imagen.png) | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F1_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F1_Zero.PNG?raw=true) |
-| 2 | ![diseño](ruta/a/imagen.png) | ![H(f)]([ruta/a/imagen.png](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F2_H(f).PNG?raw=true)) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F2_Zero.PNG?raw=true) |
-| 3 | ![diseño](ruta/a/imagen.png) | ![H(f)](ruta/a/imagen.png) | ![polos_ceros](ruta/a/imagen.png) |
-| 4 | ![diseño](ruta/a/imagen.png) | ![H(f)](ruta/a/imagen.png) | ![polos_ceros](ruta/a/imagen.png) |
+| 1 | Equiripple | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F1_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F1_Zero.PNG?raw=true) |
+| 2 | Bessel | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F2_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F2_Zero.PNG?raw=true) |
+| 3 | Chebyshev II | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F3_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F3_Zero.PNG?raw=true) |
+| 4 | Elliptic | ![H(f)](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F4_H(f).PNG?raw=true) | ![polos_ceros](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/pyfdaECG/ECG2_F4_Zero.PNG?raw=true) |
 
 
 | Nombre | Gráfica |
 |:------:|:------:|
 |Señal cruda| ![Señal Cruda](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG2_crudo.PNG?raw=true) |
-|Filtro anterior| ![Filtro anterior]([ruta/a/imagen.png](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG2_FiltroAnt.PNG?raw=true)) |
+|Filtro anterior| ![Filtro anterior](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG2_FiltroAnt.PNG?raw=true) |
 |Filtro 1| ![Filtro 1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG2_Filtro1.PNG?raw=true) |
 |Filtro 2| ![Filtro 2](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG2_Filtro2.PNG?raw=true) |
 |Filtro 3| ![Filtro 3](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%206%20-%20Filtros%20FIR%20e%20IIR/Filtros%20ECG/Se%C3%B1ales%20ECG/ECG2_Filtro3.PNG?raw=true) |
@@ -317,6 +317,7 @@ En conclusión, entre los filtros evaluados para ECG2, el Equiripple pasabanda s
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
