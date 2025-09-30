@@ -204,7 +204,7 @@ Los filtros FIR con ventana Hamming y Blackman, con SNR de 20.41 dB y 20.88 dB r
 
 En conjunto, los resultados muestran que el filtro Chebyshev Tipo I fue el que alcanzó los valores más altos de SNR en las tres condiciones evaluadas (33.93 dB en reposo, 28.31 dB en contracción lenta y 27.29 dB en contramovimiento), lo que evidencia su superioridad en la supresión de interferencias externas [3]. No obstante, en términos fisiológicos, la elección del mejor filtro depende de la naturaleza de la señal. En reposo, el Chebyshev se destaca por su capacidad de discriminar potenciales espontáneos de baja amplitud frente al ruido eléctrico; en contracción lenta, los filtros FIR resultan más apropiados cuando se requiere preservar con exactitud la secuencia temporal de reclutamiento; y en contramovimiento, el Butterworth asegura una adecuada conservación de los picos de gran amplitud. Así, considerando un equilibrio entre robustez en la atenuación de ruido y fidelidad en la morfología temporal, el filtro Chebyshev Tipo I puede considerarse el más eficiente en términos globales, mientras que los FIR constituyen la mejor opción cuando la prioridad es el análisis de la dinámica temporal fina [6], [9].
 
-
+---
 ### 6.2 Acerca de los filtros para ECG
 
 La señal proveniente de un electrocardiograma (ECG o EKG) indica información acerca de los movimientos del corazón y la intensidad de estos, siendo una de las herramientas más fiables para la detección de cardiopatías. Sin embargo, factores como  los artefactos de movimiento y la respiración generan  una componente de baja frecuencia que “desplaza” la línea de referencia de la señal. Puede oscilar lentamente, pero varía hasta 0.5 Hz o un poco más en casos de movimiento brusco [10]. Esa señal sin procesar a largo plazo nos puede hacer daño por medio de una mala interpretación de resultados, especialmente en segmentos como ST-T [11].
@@ -294,6 +294,7 @@ En conclusión, entre los filtros evaluados para ECG2, el Equiripple pasabanda s
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
