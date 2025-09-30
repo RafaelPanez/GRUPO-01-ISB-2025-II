@@ -46,6 +46,13 @@
 
 ## 4. 📋 Metodología
 
+1. Seleccionar las señales adquiridas en las últimas sesiones para trabajar.
+2. Instalar el programa Pyfda en el entorno virtual de Anaconda.
+3. Diseñar cuatro filtros por cada señal en Pyfda.
+4. Exportar el filtro diseñado en formato .csv
+5. En Python extraer los coeficiente al filtro para la creación de un sistema con una entrada y salida.
+6. Graficar señal filtrada obtenida.
+7. Realizar análisis de parámetros como SNR. 
 
 ## 5. 📊 Resultados 
 
@@ -287,6 +294,7 @@ En conclusión, entre los filtros evaluados para ECG2, el Equiripple pasabanda s
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
