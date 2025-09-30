@@ -31,12 +31,16 @@
 ## 1. 📝 Introducción
 
 
+
 ## 2. 🎯 Objetivos
 
 ### 2.1 Objetivo general
 
-### 2.2 Objetivos específicos
+ - Conocer el manejo de Pyfda, tipos de fitros y aprender a diseñarlos e implementarlos para el procesamiento de señales biomédicas. 
 
+### 2.2 Objetivos específicos
+- Comparar el rendimiento de diferentes tipos de filtros en Pyfda, identificando las ventajas y desventajas de cada uno en el contexto de señales biomédicas.
+- Investigar las funcionalidades de la biblioteca Pyfda para el diseño de filtros, enfocándose en su aplicación en el procesamiento de señales biomédicas.
 
 ## 3. 💻 Descripción de materiales
 
@@ -294,6 +298,7 @@ En conclusión, entre los filtros evaluados para ECG2, el Equiripple pasabanda s
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
