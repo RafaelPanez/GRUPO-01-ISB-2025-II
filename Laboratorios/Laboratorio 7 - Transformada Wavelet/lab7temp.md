@@ -26,13 +26,19 @@
 ## 2.  🎯 Objetivos
 
 ### 2.1 Objetivo general
+
+- Aplicar la transformada wavelet para el procesamiento de diferentes tipos de señales biomédicas (EMG, ECG, EEG).
+
 ### 2.2 Objetivos específicos
+
+- Profundizar conocimientos acerca de la transformada wavelet y sus parámetros.
+- Utilizar herramientas como Python para la aplicación de la transformada Wavelet.
 
 ## 3. 💻 Descripción de materiales
 
 |             Ítem              |                  Descripción                    |              Cantidad            |
 |----------------------------|------------------------------------------------|:----------------------------------:|
-| Laptop |    texto   |  1  |
+| Laptop |   Laptop con aplicación Python y múltiples librerías (pandas, matplotlib, numpy, scipy).    |  1  |
 
 ## 4. 📋 Metodología y diseño de filtro
 
