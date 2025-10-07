@@ -55,9 +55,14 @@ Es por ello la importancia de realizar pruebas de filtrado con la transformada w
 
 ## 4. 📋 Metodología y diseño de filtro
 
-### 4.1 Pasos de procesamiento
+### 4.1 Pasos 
 
-
+1. Seleccionar las señales adquiridas y organizarlas en una carpeta.
+2. Instalar el programa Python en el entorno virtual de Anaconda.
+3. Utilizar Visual Studio Code para la programación en Python con un código iterativo para archivos. 
+4. Graficar espectros de frecuencia y resultados de filtración obtenidos.
+6. Obtener mediciones como SNR y MSE.
+7. Analizar y discutir resultados. 
 
 ### 4.2 Filtro para EMG
 
