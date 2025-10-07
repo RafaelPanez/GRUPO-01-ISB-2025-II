@@ -91,6 +91,15 @@ En el presente trabajo se utilizará Daubechies de nivel 5 para obtener una sepa
 |:---------:|:------------:|:------------:|:------------:|
 | Coiflets | 5 | Universal Soft | 1000 Hz |
 
+Al revisar diversos estudios, se encontró que la familia de filtros wavelet se encuentra entre las familias más utilizadas al aplicar filtros wavelet en EEG. 
+
+Según “Source Localization of EEG Brainwaves Activities via Mother Wavelets Families for SWT Decomposition”, el uso de wavelets Coiflet mejora la preservación de patrones neuronales relevantes al proporcionar una separación de varias frecuencias [10]. Por lo tanto, separa eficazmente las bandas delta, theta, alfa, beta y gamma sin pérdida de resolución, lo cual es muy importante en señales de múltiples frecuencias como EEG [10].
+
+En cuanto a la umbralización, la regla universal suave con la que es aplicada atenúa progresivamente los coeficientes de baja magnitud de manera no abrupta, por lo que ayuda a preservar la información que tiene EEG, el cual, como el ECG, su morfología tiene varios picos en un amplio rango de frecuencias [11].  Ello ha sido encontrado en estudios como  “HAPPILEE: HAPPE In Low Electrode Electroencephalography, a standardized pre-processing software for lower density recordings”, donde combinaciones como wavelet denoising y reconstrucción adaptativa mejora la detectabilidad de fuentes neuronales  [11].
+
+Así como en los casos anteriores, se utilizará el filtro en el nivel 5 para obtener la mayor separación de componentes posible. 
+
+
 ## 5. 📊 Resultados 
 
 ### 5.1 Señales EMG
