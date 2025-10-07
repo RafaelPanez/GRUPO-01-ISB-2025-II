@@ -55,7 +55,10 @@ Es por ello la importancia de realizar pruebas de filtrado con la transformada w
 
 ## 4. 📋 Metodología y diseño de filtro
 
-### 4.1 Pasos
+### 4.1 Pasos de procesamiento
+
+
+
 ### 4.2 Filtro para EMG
 
 | Nombre | Nivel | Umbral | Frecuencia |
