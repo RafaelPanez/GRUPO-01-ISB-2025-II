@@ -69,7 +69,7 @@
 __Adicional: Gráficos de frecuencia__
 
 | Nombre  | Gráfico de frecuencias | Espectrograma | 
-|:---------:|:------------:|:------------:|:------------:|
+|:---------:|:------------:|:------------:|
 | Señal 1 | ![f_1](ruta/a/imagen.png) | ![E_1](ruta/a/imagen.png) |
 | Señal 2 | ![f_2](ruta/a/imagen.png) | ![E_2](ruta/a/imagen.png) | 
 | Señal 3 | ![f_3](ruta/a/imagen.png) | ![E_3](ruta/a/imagen.png) |
@@ -88,7 +88,7 @@ __Adicional: Gráficos de frecuencia__
 __Adicional: Gráficos de frecuencia__
 
 | Nombre  | Gráfico de frecuencias | Espectrograma | 
-|:---------:|:------------:|:------------:|:------------:|
+|:---------:|:------------:|:------------:|
 | Señal 1 | ![f_1C](ruta/a/imagen.png) | ![E_1C](ruta/a/imagen.png) |
 | Señal 2 | ![f_2C](ruta/a/imagen.png) | ![E_2C](ruta/a/imagen.png) | 
 | Señal 3 | ![f_3C](ruta/a/imagen.png) | ![E_3C](ruta/a/imagen.png) |
@@ -107,7 +107,7 @@ __Adicional: Gráficos de frecuencia__
 __Adicional: Gráficos de frecuencia__
 
 | Nombre  | Gráfico de frecuencias | Espectrograma | 
-|:---------:|:------------:|:------------:|:------------:|
+|:---------:|:------------:|:------------:|
 | Señal 1 | ![f_E1](ruta/a/imagen.png) | ![E_1E](ruta/a/imagen.png) |
 | Señal 2 | ![f_2E](ruta/a/imagen.png) | ![E_2E](ruta/a/imagen.png) | 
 | Señal 3 | ![f_3E](ruta/a/imagen.png) | ![E_3E](ruta/a/imagen.png) |
