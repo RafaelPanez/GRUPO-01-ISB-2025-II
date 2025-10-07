@@ -33,7 +33,7 @@ Es por ello la importancia de realizar pruebas de filtrado con la transformada w
 
 |**Figura 1.** a) Transformada wavelet continua. b) Transformada wavelet discreta.|
 |------------------------------------------------|
-|<div align="center"><img src="https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/be889a9626b379f157d887ff030f638e5035fc0a/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/fig1.PNG" width="1000"/></div> |
+|<div align="center"><img src="https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/be889a9626b379f157d887ff030f638e5035fc0a/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/fig1.PNG" width="500"/></div> |
 
 
 ## 2.  🎯 Objetivos
