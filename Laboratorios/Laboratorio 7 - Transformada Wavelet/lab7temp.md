@@ -283,27 +283,27 @@ Finalmente, el filtro Coiflets (nivel 5, soft, 1000 Hz) para EEG disminuyó arte
 
 ## 8. 📚 Referencias
 
-[1] M. G. M. Milani, P. E. Abas y L. C. De Silva, “A critical review of heart sound signals segmentation algorithms”, Smart Health, p. 100283, abril de 2022. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1016/j.smhl.2022.100283
+[1] M. G. M. Milani, P. E. Abas, and L. C. De Silva, “A critical review of heart sound signals segmentation algorithms,” Smart Health, Art. no. 100283, Apr. 2022. doi: 10.1016/j.smhl.2022.100283
 
-[2] S. B. Shuvo et al., “Application of Wavelet Transformation and Artificial Intelligence Techniques in Healthcare: A Systemic Review”, WIREs Data Mining Knowl. Discovery, vol. 15, n.º 2, marzo de 2025. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1002/widm.70007
+[2] S. B. Shuvo et al., “Application of wavelet transformation and artificial intelligence techniques in healthcare: A systemic review,” WIREs Data Mining and Knowledge Discovery, vol. 15, no. 2, Mar. 2025, Art. no. e70007. doi: 10.1002/widm.70007
 
-[3] W. Lu, D. Gong, X. Xue y L. Gao, “Improved multi-layer wavelet transform and blind source separation based ECG artifacts removal algorithm from the sEMG signal: in the case of upper limbs”, Frontiers Bioeng. Biotechnol., vol. 12, mayo de 2024. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.3389/fbioe.2024.1367929
+[3] W. Lu, D. Gong, X. Xue, and L. Gao, “Improved multi-layer wavelet transform and blind source separation based ECG artifacts removal algorithm from the sEMG signal: In the case of upper limbs,” Frontiers in Bioengineering and Biotechnology, vol. 12, May 2024, Art. 1367929. doi: 10.3389/fbioe.2024.1367929
 
-[4] H. R. Al Ghayab, Y. Li, M. Diykh, A. Sahi, S. Abdulla y A. R. Alkhuwaylide, “EEG based over-complete rational dilation wavelet transform coupled with autoregressive for motor imagery classification”, Expert Syst. with Appl., p. 126433, enero de 2025. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1016/j.eswa.2025.126433
+[4] H. R. Al Ghayab, Y. Li, M. Diykh, A. Sahi, S. Abdulla, and A. R. Alkhuwaylide, “EEG based over-complete rational dilation wavelet transform coupled with autoregressive for motor imagery classification,” Expert Systems with Applications, Jan. 2025, Art. no. 126433. doi: 10.1016/j.eswa.2025.126433
 
-[5] B. B. Etana et al., “Discrete wavelet transform based processing of embroidered textile-electrode electromyography signal acquired with load and pressure effect”, J. Ind. Textiles, vol. 54, enero de 2024. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1177/15280837241232449
+[5] B. B. Etana et al., “Discrete wavelet transform based processing of embroidered textile-electrode electromyography signal acquired with load and pressure effect,” Journal of Industrial Textiles, vol. 54, Jan. 2024. doi: 10.1177/15280837241232449
 
-[6] C. Ouyang, L. Cai, B. Liu y T. Zhang, “An improved wavelet threshold denoising approach for surface electromyography signal”, EURASIP J. Advances Signal Process., vol. 2023, n.º 1, octubre de 2023. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1186/s13634-023-01066-3
+[6] C. Ouyang, L. Cai, B. Liu, and T. Zhang, “An improved wavelet threshold denoising approach for surface electromyography signal,” EURASIP Journal on Advances in Signal Processing, vol. 2023, no. 1, Oct. 2023. doi: 10.1186/s13634-023-01066-3
 
-[7] A. Azzouz et al., “An efficient ECG signals denoising technique based on the combination of particle swarm optimisation and wavelet transform”, Heliyon, febrero de 2024, art. n.º e26171. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1016/j.heliyon.2024.e26171
+[7] A. Azzouz et al., “An efficient ECG signals denoising technique based on the combination of particle swarm optimisation and wavelet transform,” Heliyon, Feb. 2024, Art. no. e26171. doi: 10.1016/j.heliyon.2024.e26171
 
-[8] L. Devnath, “Selection of Wavelet and Thresholding Rule for Denoising the ECG Signals”, Res. Gate, 2015. [En línea]. Disponible: https://doi.org/10.13140/RG.2.1.1137.6243
+[8] L. Devnath, “Selection of wavelet and thresholding rule for denoising the ECG signals,” ResearchGate, 2015. doi: 10.13140/RG.2.1.1137.6243
 
-[9] A. S. Ahmed, K. S. Rijab y S. A. Alagha, “A Study of Chosen an Optimum Type of Wavelet Filter for De-Noising an ECG signal”, Int. J. Current Eng. Technol., vol. 10, n.º 05, pp. 749–756, octubre de 2020. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.14741/ijcet/v.10.5.9
+[9] A. S. Ahmed, K. S. Rijab, and S. A. Alagha, “A study of chosen an optimum type of wavelet filter for de-noising an ECG signal,” International Journal of Current Engineering and Technology, vol. 10, no. 05, pp. 749–756, Oct. 2020. doi: 10.14741/ijcet/v.10.5.9
 
-[10] T. Frikha et al., “Source Localization of EEG Brainwaves Activities via Mother Wavelets Families for SWT Decomposition”, J. Healthcare Eng., vol. 2021, pp. 1–11, abril de 2021. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1155/2021/9938646
+[10] T. Frikha et al., “Source localization of EEG brainwaves activities via mother wavelets families for SWT decomposition,” Journal of Healthcare Engineering, vol. 2021, pp. 1–11, Apr. 2021, Art. ID 9938646. doi: 10.1155/2021/9938646
 
-[11] K. Lopez, “HAPPILEE: HAPPE In Low Electrode Electroencephalography, a standardized pre-processing software for lower density recordings”, NeuroImage, vol. 260, 2022. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1016/j.neuroimage.2022.119390 
+[11] K. Lopez, “HAPPILEE: HAPPE in low electrode electroencephalography, a standardized pre-processing software for lower density recordings,” NeuroImage, vol. 260, 2022, Art. no. 119390. doi: 10.1016/j.neuroimage.2022.119390
 
 [12] S. Yadav, S. K. Saha, R. Kar, and D. Mandal, “Optimized adaptive noise canceller for denoising cardiovascular signal using SOS algorithm,” Biomedical Signal Processing and Control, vol. 69, Art. no. 102830, Aug. 2021. doi: 10.1016/j.bspc.2021.102830
 
