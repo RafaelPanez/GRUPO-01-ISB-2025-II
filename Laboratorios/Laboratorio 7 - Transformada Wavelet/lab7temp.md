@@ -58,7 +58,7 @@
 ## 5. 📊 Resultados 
 
 ### 5.1 Señales EMG
-
+---
 
 | Nombre  | Señal Cruda  | Señal Filtrada | Párametros obtenidos |
 |:---------:|:------------:|:------------:|:------------:|
@@ -76,7 +76,7 @@ __Adicional: Gráficos de frecuencia__
 
 
 ### 5.2 Señales ECG
-
+---
 
 | Nombre  | Señal Cruda  | Señal Filtrada | Párametros obtenidos |
 |:---------:|:------------:|:------------:|:------------:|
@@ -96,6 +96,7 @@ __Adicional: Gráficos de frecuencia__
 
 
 ### 5.3 Señales EEG
+---
 
 | Nombre  | Señal Cruda  | Señal Filtrada | Párametros obtenidos |
 |:---------:|:------------:|:------------:|:------------:|
@@ -116,7 +117,7 @@ __Adicional: Gráficos de frecuencia__
 ## 6. 💭 Discusión
 
 ### 6.1 Señales EMG
-
+---
 |Comparación de señal cruda y filtrada - Señal (nombre) |
 |:--------------------------------------------------:|
 | ![C_1](ruta/a/imagen.png) |
@@ -136,7 +137,7 @@ texto
 texto
 
 ### 6.2 Señales ECG
-
+---
 |Comparación de señal cruda y filtrada - Señal (nombre) |
 |:--------------------------------------------------:|
 | ![C_1C](ruta/a/imagen.png) |
@@ -161,7 +162,7 @@ texto
 texto
 
 ### 6.3 Señales EEG
-
+---
 |Comparación de señal cruda y filtrada - Señal (nombre) |
 |:--------------------------------------------------:|
 | ![C_1E](ruta/a/imagen.png) |
