@@ -122,84 +122,90 @@ __Adicional 2: Coeficientes de detalle__
 | Resta | ![Cruda_3E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/RestaEEGCrudo.png?raw=true) | ![Filtro_3E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/RestaEEGWavelet.png?raw=true) | MSE: / SNR: |
 | Copilado | ![Cruda_4E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/Copilado1EEGCrudo.png?raw=true) | ![Filtro_4E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/Copilado1EEGWavelet.png?raw=true) | MSE: / SNR: |
 
-__Adicional: Gráficos de frecuencia__
+__Adicional 1: Gráficos de frecuencia__
 
-| Nombre  | Gráfico de frecuencias | Espectrograma | 
+| Nombre  | Señal en frecuencia | Espectrograma |
 |:---------:|:------------:|:------------:|
-| Señal 1 | ![f_E1](ruta/a/imagen.png) | ![E_1E](ruta/a/imagen.png) |
-| Señal 2 | ![f_2E](ruta/a/imagen.png) | ![E_2E](ruta/a/imagen.png) | 
-| Señal 3 | ![f_3E](ruta/a/imagen.png) | ![E_3E](ruta/a/imagen.png) |
-| Señal 4 | ![f_4E](ruta/a/imagen.png) | ![E_4E](ruta/a/imagen.png) |
+| Parpadeo | ![f_E1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Parpadeo_frecuencias.png?raw=true) | ![E_1E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Parpadeo_espectro.png?raw=true) |
+| Musica | ![f_2E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Musica_frecuencias.png?raw=true) | ![E_2E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Musica_espectro.png?raw=true) | 
+| Resta | ![f_3E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Resta_frecuencias.png?raw=true) | ![E_3E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Resta_espectro.png?raw=true) |
+| Copilado | ![f_4E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Copilado_frecuencias.png?raw=true) | ![E_4E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Copilado_espectro.png?raw=true) |
+
+__Adicional 2: Coeficientes de detalle__
+
+| Parpadeo | Musica | Resta | Copilado |
+|:-------:|:----:|:-------:|:-------:|
+| ![CF_1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Parpadeo_cf.png?raw=true) | ![CF_2](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Musica_cf.png?raw=true) | ![CF_3](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Resta_cf.png?raw=true) | ![CF_4](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Copilado_cf.png?raw=true) | 
 
 ## 6. 💭 Discusión
 
 ### 6.1 Señales EMG
 ---
-|Comparación de señal cruda y filtrada - Señal (nombre) |
+|Comparación de señal cruda y filtrada - Reposo |
 |:--------------------------------------------------:|
-| ![C_1](ruta/a/imagen.png) |
+| ![C_1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EMG/Reposo_comparacion.png?raw=true) |
 
 texto
 
-|Comparación de señal cruda y filtrada - Señal (nombre)  |
+|Comparación de señal cruda y filtrada - Lento |
 |:--------------------------------------------------:|
-| ![C_2](ruta/a/imagen.png) |
+| ![C_2](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EMG/Lento_comparacion.png?raw=true) |
 
 texto
 
-|Comparación de señal cruda y filtrada - Señal (nombre) |
+|Comparación de señal cruda y filtrada - Contracción |
 |:--------------------------------------------------:|
-| ![C_3](ruta/a/imagen.png) |
+| ![C_3](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EMG/Contra_comparacion.png?raw=true) |
 
 texto
 
 ### 6.2 Señales ECG
 ---
-|Comparación de señal cruda y filtrada - Señal (nombre) |
+|Comparación de señal cruda y filtrada - Reposo |
 |:--------------------------------------------------:|
-| ![C_1C](ruta/a/imagen.png) |
+| ![C_1C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ECG/Reposo_comparacion.png?raw=true) |
 
 texto
-|Comparación de señal cruda y filtrada - Señal (nombre) |
+|Comparación de señal cruda y filtrada - Respirar |
 |:--------------------------------------------------:|
-| ![C_2C](ruta/a/imagen.png) |
-
-texto
-
-|Comparación de señal cruda y filtrada - Señal (nombre) |
-|:--------------------------------------------------:|
-| ![C_3C](ruta/a/imagen.png) |
+| ![C_2C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ECG/Respirar_comparacion.png?raw=true) |
 
 texto
 
-|Comparación de señal cruda y filtrada - Señal (nombre) |
+|Comparación de señal cruda y filtrada - Primera Derivada |
 |:--------------------------------------------------:|
-| ![C_4C](ruta/a/imagen.png) |
+| ![C_3C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ECG/PrimeraDeri_comparacion.png?raw=true) |
+
+texto
+
+|Comparación de señal cruda y filtrada - Segunda Derivada |
+|:--------------------------------------------------:|
+| ![C_4C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ECG/SegundaDeri_comparacion.png?raw=true) |
 
 texto
 
 ### 6.3 Señales EEG
 ---
-|Comparación de señal cruda y filtrada - Señal (nombre) |
+|Comparación de señal cruda y filtrada - Parpadeo |
 |:--------------------------------------------------:|
-| ![C_1E](ruta/a/imagen.png) |
+| ![C_1E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Parpadeo_comparacion.png?raw=true) |
 
 texto
-|Comparación de señal cruda y filtrada - Señal (nombre) |
+|Comparación de señal cruda y filtrada - Musica |
 |:--------------------------------------------------:|
-| ![C_2E](ruta/a/imagen.png) |
-
-texto
-
-|Comparación de señal cruda y filtrada - Señal (nombre) |
-|:--------------------------------------------------:|
-| ![C_3E](ruta/a/imagen.png) |
+| ![C_2E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Musica_comparacion.png?raw=true) |
 
 texto
 
-|Comparación de señal cruda y filtrada - Señal (nombre) |
+|Comparación de señal cruda y filtrada - Resta |
 |:--------------------------------------------------:|
-| ![C_4E](ruta/a/imagen.png) |
+| ![C_3E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Resta_comparacion.png?raw=true) |
+
+texto
+
+|Comparación de señal cruda y filtrada - Copilado |
+|:--------------------------------------------------:|
+| ![C_4E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EEG/Copilado_comparacion.png?raw=true) |
 
 texto
 
