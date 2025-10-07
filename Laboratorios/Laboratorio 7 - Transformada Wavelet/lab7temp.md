@@ -62,17 +62,17 @@
 
 | Nombre  | Señal Cruda  | Señal Filtrada | Párametros obtenidos |
 |:---------:|:------------:|:------------:|:------------:|
-| Señal 1 | ![Cruda_1](ruta/a/imagen.png) | ![Filtro_1](ruta/a/imagen.png) | MSE: / SNR: |
-| Señal 2 | ![Cruda_2](ruta/a/imagen.png) | ![Filtro_2](ruta/a/imagen.png) | MSE: / SNR: |
-| Señal 3 | ![Cruda_3](ruta/a/imagen.png) | ![Filtro_3](ruta/a/imagen.png) | MSE: / SNR: |
+| Señal 1 | ![Cruda_1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ReposoECGCrudo.png?raw=true) | ![Filtro_1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ReposoECGWavelet.png?raw=true) | MSE: / SNR: |
+| Señal 2 | ![Cruda_2](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/LentoEMGCrudo.png?raw=true) | ![Filtro_2](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/LentoEMGWavelet.png?raw=true) | MSE: / SNR: |
+| Señal 3 | ![Cruda_3](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ContraEMGCrudo.png?raw=true) | ![Filtro_3](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ContraEMGWavelet.png?raw=true) | MSE: / SNR: |
 
 __Adicional: Gráficos de frecuencia__
 
 | Nombre  | Gráfico de frecuencias | Espectrograma | 
 |:---------:|:------------:|:------------:|
-| Señal 1 | ![f_1](ruta/a/imagen.png) | ![E_1](ruta/a/imagen.png) |
-| Señal 2 | ![f_2](ruta/a/imagen.png) | ![E_2](ruta/a/imagen.png) | 
-| Señal 3 | ![f_3](ruta/a/imagen.png) | ![E_3](ruta/a/imagen.png) |
+| Reposo | ![f_1](ruta/a/imagen.png) | ![E_1](ruta/a/imagen.png) |
+| Lento | ![f_2](ruta/a/imagen.png) | ![E_2](ruta/a/imagen.png) | 
+| Contra | ![f_3](ruta/a/imagen.png) | ![E_3](ruta/a/imagen.png) |
 
 
 ### 5.2 Señales ECG
@@ -80,10 +80,10 @@ __Adicional: Gráficos de frecuencia__
 
 | Nombre  | Señal Cruda  | Señal Filtrada | Párametros obtenidos |
 |:---------:|:------------:|:------------:|:------------:|
-| Señal 1 | ![Cruda_1C](ruta/a/imagen.png) | ![Filtro_1C](ruta/a/imagen.png) | MSE: / SNR: |
-| Señal 2 | ![Cruda_2C](ruta/a/imagen.png) | ![Filtro_2C](ruta/a/imagen.png) | MSE: / SNR: |
-| Señal 3 | ![Cruda_3C](ruta/a/imagen.png) | ![Filtro_3C](ruta/a/imagen.png) | MSE: / SNR: |
-| Señal 4 | ![Cruda_4C](ruta/a/imagen.png) | ![Filtro_4C](ruta/a/imagen.png) | MSE: / SNR: |
+| Reposo | ![Cruda_1C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ReposoECGCrudo.png?raw=true) | ![Filtro_1C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ReposoECGWavelet.png?raw=true) | MSE: / SNR: |
+| Respirar | ![Cruda_2C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/RespirarECGCrudo.png?raw=true) | ![Filtro_2C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/RespirarECGWavelet.png?raw=true) | MSE: / SNR: |
+| Primera Derivada | ![Cruda_3C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/PrimeraDerivadaECGCrudo.png?raw=true) | ![Filtro_3C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/PrimeraDerivadaECGWavelet.png?raw=true) | MSE: / SNR: |
+| Segunda Derivada | ![Cruda_4C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/SegundaDerivadaECGCrudo.png?raw=true) | ![Filtro_4C](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/SegundaDerivadaECGWavelet.png?raw=true) | MSE: / SNR: |
 
 __Adicional: Gráficos de frecuencia__
 
@@ -100,10 +100,10 @@ __Adicional: Gráficos de frecuencia__
 
 | Nombre  | Señal Cruda  | Señal Filtrada | Párametros obtenidos |
 |:---------:|:------------:|:------------:|:------------:|
-| Señal 1 | ![Cruda_1E](ruta/a/imagen.png) | ![Filtro_1E](ruta/a/imagen.png) | MSE: / SNR: |
-| Señal 2 | ![Cruda_2E](ruta/a/imagen.png) | ![Filtro_2E](ruta/a/imagen.png) | MSE: / SNR: |
-| Señal 3 | ![Cruda_3E](ruta/a/imagen.png) | ![Filtro_3E](ruta/a/imagen.png) | MSE: / SNR: |
-| Señal 4 | ![Cruda_4E](ruta/a/imagen.png) | ![Filtro_4E](ruta/a/imagen.png) | MSE: / SNR: |
+| Parpadeo | ![Cruda_1E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ParpadeoEEGCrudo.png?raw=true) | ![Filtro_1E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/ParpadeoEEGWavelet.png?raw=true) | MSE: / SNR: |
+| Musica | ![Cruda_2E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/MusicaEEGCrudo.png?raw=true) | ![Filtro_2E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/MusicaEEGWavelet.png?raw=true) | MSE: / SNR: |
+| Resta | ![Cruda_3E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/RestaEEGCrudo.png?raw=true) | ![Filtro_3E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/RestaEEGWavelet.png?raw=true) | MSE: / SNR: |
+| Copilado | ![Cruda_4E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/Copilado1EEGCrudo.png?raw=true) | ![Filtro_4E](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/Copilado1EEGWavelet.png?raw=true) | MSE: / SNR: |
 
 __Adicional: Gráficos de frecuencia__
 
