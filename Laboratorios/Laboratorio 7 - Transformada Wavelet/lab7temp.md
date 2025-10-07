@@ -21,6 +21,17 @@
 
 ## 1.  📝 Introducción
 
+La transformada wavelet es eficiente para el análisis de funciones de onda pequeña, siendo cada día más utilizada en aplicaciones biomédicas [1]. Esta proviene a partir de una función del mismo nombre, cuyas características son poseer media cero y una normalización correcta [1]. La principal ventaja que esta herramienta posee es el uso de ventanas de duración variable, las cuales permiten que se pueda analizar señales con un rango de frecuencias más amplio y variable [1-2].
+
+En cuanto a su aplicación en EMG, la transformada wavelet es capaz de ayudar al preprocesamiento del sEMG y a la eliminación del ruido presencial en la señal, lo cual es importante dada la probabilidad de contaminación que esta señal tiene [3]. Asimismo, se ha innovado en su ejecución y hay métodos de filtrado a partir de este en el cual se aplica técnicas como multicapa y separación de fuentes (Fast-ICA) [3]. 
+
+Por otro lado, en cuanto al EEG, existen estudios recientes en los que se ha desarrollado transformadas wavelet como expansiones redundantes racionales que permiten una mejor representación del contenido frecuencial del EEG para la clasificación de imaginaria motriz [4]. Es decir, la simulación previa a una acción del individuo [4].
+
+Finalmente, en el análisis de ECG, la transformada se ha tomado en cuenta en aspectos como detección de picos R, segmentación de ondas P, QRS, T, eliminación de ruido y compresión de señales [2]. Esto es debido a su capacidad de captar transitorios o  partes agudas de la señal como el complejo QRS. Adicionalmente, la literatura destaca su utilidad en la limpieza de señales y detección automática de anomalías [2].
+
+Es por ello la importancia de realizar pruebas de filtrado con la transformada wavelet y su posterior análisis, como se encontrará en está sección del repositorio. En la Figura 1 se puede observar las fórmulas de la transformada continua y discreta de wavelet. 
+
+
 ![Intro](ruta/a/imagen.png) 
 
 ## 2.  🎯 Objetivos
@@ -45,21 +56,27 @@
 ### 4.1 Pasos
 ### 4.2 Filtro para EMG
 
+De acuerdo a literatura reciente, el uso de filtros de la familia Symlets ya ha sido utilizado para el filtrado y mejora de las señales EMG. 
+
+Por ejemplo, de acuerdo al estudio “Discrete wavelet transform based processing of embroidered textile-electrode electromyography (2024)”, se obtuvieron mejores cifras de SNR, RMSE y porcentaje de distorsión con el uso de filtros Symlets de nivel 4 y con umbral fuerte sobre señales sEMG [5]. Por lo tanto, se demuestra que la combinación es aplicable para eliminar ruidos indeseados en la señal y al mismo tiempo mantener el balance ante la posible pérdida de información muscular. 
+
+Por otro lado, según el artículo “An improved wavelet threshold denoising approach for surface electromyography signal”, se indica que el umbral hard es aplicado principalmente para la preservación de picos musculares [6]. No obstante, se recomiendan ajustes en los coeficientes independientes y elegir correctamente el método de umbralización adecuado para evitar distorsiones o eliminación de coeficientes menores en las señales procesadas [6]. 
+
 | Nombre | Nivel | Umbral | Frecuencia |
 |:---------:|:------------:|:------------:|:------------:|
-| 1 | 1 | 1 | 1 |
+| Symlets | 5 | Universal Hard | 1000 Hz |
 
 ### 4.3 Filtro para ECG
 
 | Nombre | Nivel | Umbral | Frecuencia |
 |:---------:|:------------:|:------------:|:------------:|
-| 1 | 1 | 1 | 1 |
+| Daubechies 4 | 5 | Heursure Soft | 1000 Hz |
 
 ### 4.4 Filtro para EEG
 
 | Nombre | Nivel | Umbral | Frecuencia |
 |:---------:|:------------:|:------------:|:------------:|
-| 1 | 1 | 1 | 1 |
+| Coiflets | 5 | Universal Soft | 1000 Hz |
 
 ## 5. 📊 Resultados 
 
