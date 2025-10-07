@@ -62,6 +62,8 @@ Por ejemplo, de acuerdo al estudio “Discrete wavelet transform based processin
 
 Por otro lado, según el artículo “An improved wavelet threshold denoising approach for surface electromyography signal”, se indica que el umbral hard es aplicado principalmente para la preservación de picos musculares [6]. No obstante, se recomiendan ajustes en los coeficientes independientes y elegir correctamente el método de umbralización adecuado para evitar distorsiones o eliminación de coeficientes menores en las señales procesadas [6]. 
 
+En el presente trabajo se utilizará Symlets de nivel 5 para observar si todavía se cumple el balance entre definición de picos de la señal EMG y la pérdida de información. 
+
 | Nombre | Nivel | Umbral | Frecuencia |
 |:---------:|:------------:|:------------:|:------------:|
 | Symlets | 5 | Universal Hard | 1000 Hz |
