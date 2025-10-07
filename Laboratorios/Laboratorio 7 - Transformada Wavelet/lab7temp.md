@@ -21,7 +21,7 @@
 
 ## 1.  📝 Introducción
 
-![Intro] (ruta/a/imagen.png) 
+![Intro](ruta/a/imagen.png) 
 
 ## 2.  🎯 Objetivos
 
