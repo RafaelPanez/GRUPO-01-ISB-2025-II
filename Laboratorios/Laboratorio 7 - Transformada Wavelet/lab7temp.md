@@ -178,7 +178,7 @@ __Adicional 2: Coeficientes de detalle__
 
 ## 6. 💭 Discusión
 
-En todas las señales biopotenciales (EMG, ECG y EEG) el proceso de filtrado es crucial para eliminar ruido proveniente de interferencias eléctricas, artefactos de movimiento y componentes de alta o baja frecuencia no fisiológicos, por lo que la elección del filtro debe equilibrar la atenuación del ruido con la preservación de las características relevantes del biopotencial [1D]. En este caso, los resultados muestran una mejora clara en la relación señal/ruido (SNR) y una reducción del error cuadrático medio (MSE), evidenciando un filtrado efectivo y una reconstrucción fiel de la señal original.
+En todas las señales biopotenciales (EMG, ECG y EEG) el proceso de filtrado es crucial para eliminar ruido proveniente de interferencias eléctricas, artefactos de movimiento y componentes de alta o baja frecuencia no fisiológicos, por lo que la elección del filtro debe equilibrar la atenuación del ruido con la preservación de las características relevantes del biopotencial [12]. En este caso, los resultados muestran una mejora clara en la relación señal/ruido (SNR) y una reducción del error cuadrático medio (MSE), evidenciando un filtrado efectivo y una reconstrucción fiel de la señal original.
 
 ### 6.1 Señales EMG
 ---
@@ -187,7 +187,7 @@ En todas las señales biopotenciales (EMG, ECG y EEG) el proceso de filtrado es 
 | ![C_1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EMG/Reposo_comparacion.png?raw=true) |
 
 En la condición de reposo, la señal filtrada (en rojo) evidencia una clara reducción de los picos aleatorios y del ruido de fondo, manteniendo el nivel basal cercano a cero. Esto coincide con el incremento del SNR observado (3.40 dB) y un MSE de 0.0001, lo que sugiere una eliminación eficaz del ruido térmico y eléctrico de baja amplitud.
-Además, los filtros wavelet logran este equilibrio al suprimir las componentes de alta frecuencia sin distorsionar la envolvente fisiológica [2D].
+Además, los filtros wavelet logran este equilibrio al suprimir las componentes de alta frecuencia sin distorsionar la envolvente fisiológica [13].
 
 |Comparación de señal cruda y filtrada - Lento |
 |:--------------------------------------------------:|
@@ -199,7 +199,7 @@ En la fase lenta, la señal filtrada resalta las regiones activas de contracció
 |:--------------------------------------------------:|
 | ![C_3](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EMG/Contra_comparacion.png?raw=true) |
 
-Finalmente, durante la contracción rápida, el filtrado conserva la densidad espectral entre 50 y 150 Hz, característica de la actividad mioeléctrica voluntaria [3D].
+Finalmente, durante la contracción rápida, el filtrado conserva la densidad espectral entre 50 y 150 Hz, característica de la actividad mioeléctrica voluntaria [14].
 
 
 Los espectrogramas y coeficientes de detalle refuerzan esta observación, mostrando un desplazamiento de energía hacia las frecuencias medias tras el filtrado, lo que refleja una correcta eliminación de artefactos de movimiento y de la red eléctrica (60 Hz). Por tanto, el método aplicado resultó óptimo para conservar la información muscular relevante y mejorar la interpretabilidad temporal y espectral de la señal.
@@ -229,8 +229,8 @@ Durante la condición respirar, el ruido por artefacto de movimiento se reduce n
 En las condiciones de primera y segunda derivada, las señales filtradas mantienen la periodicidad de los ciclos cardíacos con una ligera atenuación del nivel de base, sin afectar la morfología del complejo QRS.
 
 
-Por lo tanto, un filtrado pasa banda entre 0.5–45 Hz, complementado con un filtro Notch, es el más adecuado para preservar los componentes fisiológicos del ECG y eliminar tanto artefactos de movimiento como interferencias electromagnéticas [4D].
-El análisis temporal demuestra que las características principales se mantienen alineadas entre la señal original y la filtrada, confirmando que la reconstrucción fue precisa y clínicamente útil [5D].
+Por lo tanto, un filtrado pasa banda entre 0.5–45 Hz, complementado con un filtro Notch, es el más adecuado para preservar los componentes fisiológicos del ECG y eliminar tanto artefactos de movimiento como interferencias electromagnéticas [15].
+El análisis temporal demuestra que las características principales se mantienen alineadas entre la señal original y la filtrada, confirmando que la reconstrucción fue precisa y clínicamente útil [16].
 
 ### 6.3 Señales EEG
 ---
@@ -258,26 +258,48 @@ En la condición de resta sucesiva (trabajo mental), la señal se mantiene estab
 
 El filtrado wavelet empleado redujo el ruido sin eliminar las oscilaciones lentas fisiológicas, aumentando el SNR hasta 33 dB y manteniendo una reconstrucción fiel de la señal original (MSE ≈ 0.1).
 
-Estos resultados coinciden con lo reportado por Subha et al. (2020) y Wang & Liu (2022), quienes demostraron que los métodos basados en wavelet thresholding permiten eliminar artefactos no estacionarios en EEG sin comprometer las bandas cerebrales de interés. Los coeficientes de detalle muestran cómo las variaciones abruptas, típicas de artefactos o interferencias eléctricas, fueron suavizadas, lo que mejora la legibilidad temporal de los eventos neuronales [6D], [7D].
+Estos resultados coinciden con lo reportado por Subha et al. (2020) y Wang & Liu (2022), quienes demostraron que los métodos basados en wavelet thresholding permiten eliminar artefactos no estacionarios en EEG sin comprometer las bandas cerebrales de interés. Los coeficientes de detalle muestran cómo las variaciones abruptas, típicas de artefactos o interferencias eléctricas, fueron suavizadas, lo que mejora la legibilidad temporal de los eventos neuronales [17], [18].
 
 
 ## 7. 📖 Conclusiones
 
 ## 8. 📚 Referencias
 
-[1D] S. Yadav, S. K. Saha, R. Kar, and D. Mandal, “Optimized adaptive noise canceller for denoising cardiovascular signal using SOS algorithm,” Biomedical Signal Processing and Control, vol. 69, Art. no. 102830, Aug. 2021. doi: 10.1016/j.bspc.2021.102830
+[1] M. G. M. Milani, P. E. Abas y L. C. De Silva, “A critical review of heart sound signals segmentation algorithms”, Smart Health, p. 100283, abril de 2022. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1016/j.smhl.2022.100283
 
-[2D] R. Merletti and D. Farina, Surface Electromyography: Physiology, Engineering, and Applications. Hoboken, NJ, USA: Wiley–IEEE Press, 2016. doi: 10.1002/9781119082934
+[2] S. B. Shuvo et al., “Application of Wavelet Transformation and Artificial Intelligence Techniques in Healthcare: A Systemic Review”, WIREs Data Mining Knowl. Discovery, vol. 15, n.º 2, marzo de 2025. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1002/widm.70007
 
-[3D] R. H. Chowdhury, M. B. I. Reaz, M. A. B. M. Ali, A. A. A. Bakar, K. Chellappan, and T. G. Chang, “Surface electromyography signal processing and classification techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, 2013. doi: 10.3390/s130912431
+[3] W. Lu, D. Gong, X. Xue y L. Gao, “Improved multi-layer wavelet transform and blind source separation based ECG artifacts removal algorithm from the sEMG signal: in the case of upper limbs”, Frontiers Bioeng. Biotechnol., vol. 12, mayo de 2024. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.3389/fbioe.2024.1367929
 
-[4D] S. Ozaydin and I. Ahmad, “Comparative performance analysis of filtering methods for removing baseline wander noise from an ECG signal,” Fluctuation and Noise Letters, vol. 23, no. 4, Art. no. 2350046, 2024. doi: 10.1142/S0219477524500469
+[4] H. R. Al Ghayab, Y. Li, M. Diykh, A. Sahi, S. Abdulla y A. R. Alkhuwaylide, “EEG based over-complete rational dilation wavelet transform coupled with autoregressive for motor imagery classification”, Expert Syst. with Appl., p. 126433, enero de 2025. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1016/j.eswa.2025.126433
 
-[5D] Á. Fehér, "Denoising ECG signals by applying discrete wavelet transform," 2017 International Conference on Optimization of Electrical and Electronic Equipment (OPTIM) & 2017 Intl Aegean Conference on Electrical Machines and Power Electronics (ACEMP), Brasov, Romania, 2017, pp. 863-868, doi: 10.1109/OPTIM.2017.7975078.
+[5] B. B. Etana et al., “Discrete wavelet transform based processing of embroidered textile-electrode electromyography signal acquired with load and pressure effect”, J. Ind. Textiles, vol. 54, enero de 2024. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1177/15280837241232449
 
-[6D] L. Dezhi, M. Yujian, Z. Xintong and G. Xiaozhong, "Research on Feature Extraction and Classification of EEG Signals Based on Multitask Motor Imagination," 2020 International Conference on Robots & Intelligent System (ICRIS), Sanya, China, 2020, pp. 112-115, doi: 10.1109/ICRIS52159.2020.00036.
+[6] C. Ouyang, L. Cai, B. Liu y T. Zhang, “An improved wavelet threshold denoising approach for surface electromyography signal”, EURASIP J. Advances Signal Process., vol. 2023, n.º 1, octubre de 2023. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1186/s13634-023-01066-3
 
-[7D] P. B. Patil and M. S. Chavan, "A wavelet based method for denoising of biomedical signal," International Conference on Pattern Recognition, Informatics and Medical Engineering (PRIME-2012), Salem, India, 2012, pp. 278-283, doi: 10.1109/ICPRIME.2012.6208358.
+[7] A. Azzouz et al., “An efficient ECG signals denoising technique based on the combination of particle swarm optimisation and wavelet transform”, Heliyon, febrero de 2024, art. n.º e26171. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1016/j.heliyon.2024.e26171
+
+[8] L. Devnath, “Selection of Wavelet and Thresholding Rule for Denoising the ECG Signals”, Res. Gate, 2015. [En línea]. Disponible: https://doi.org/10.13140/RG.2.1.1137.6243
+
+[9] A. S. Ahmed, K. S. Rijab y S. A. Alagha, “A Study of Chosen an Optimum Type of Wavelet Filter for De-Noising an ECG signal”, Int. J. Current Eng. Technol., vol. 10, n.º 05, pp. 749–756, octubre de 2020. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.14741/ijcet/v.10.5.9
+
+[10] T. Frikha et al., “Source Localization of EEG Brainwaves Activities via Mother Wavelets Families for SWT Decomposition”, J. Healthcare Eng., vol. 2021, pp. 1–11, abril de 2021. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1155/2021/9938646
+
+[11] K. Lopez, “HAPPILEE: HAPPE In Low Electrode Electroencephalography, a standardized pre-processing software for lower density recordings”, NeuroImage, vol. 260, 2022. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1016/j.neuroimage.2022.119390 
+
+[12] S. Yadav, S. K. Saha, R. Kar, and D. Mandal, “Optimized adaptive noise canceller for denoising cardiovascular signal using SOS algorithm,” Biomedical Signal Processing and Control, vol. 69, Art. no. 102830, Aug. 2021. doi: 10.1016/j.bspc.2021.102830
+
+[13] R. Merletti and D. Farina, Surface Electromyography: Physiology, Engineering, and Applications. Hoboken, NJ, USA: Wiley–IEEE Press, 2016. doi: 10.1002/9781119082934
+
+[14] R. H. Chowdhury, M. B. I. Reaz, M. A. B. M. Ali, A. A. A. Bakar, K. Chellappan, and T. G. Chang, “Surface electromyography signal processing and classification techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, 2013. doi: 10.3390/s130912431
+
+[15] S. Ozaydin and I. Ahmad, “Comparative performance analysis of filtering methods for removing baseline wander noise from an ECG signal,” Fluctuation and Noise Letters, vol. 23, no. 4, Art. no. 2350046, 2024. doi: 10.1142/S0219477524500469
+
+[16] Á. Fehér, "Denoising ECG signals by applying discrete wavelet transform," 2017 International Conference on Optimization of Electrical and Electronic Equipment (OPTIM) & 2017 Intl Aegean Conference on Electrical Machines and Power Electronics (ACEMP), Brasov, Romania, 2017, pp. 863-868, doi: 10.1109/OPTIM.2017.7975078.
+
+[17] L. Dezhi, M. Yujian, Z. Xintong and G. Xiaozhong, "Research on Feature Extraction and Classification of EEG Signals Based on Multitask Motor Imagination," 2020 International Conference on Robots & Intelligent System (ICRIS), Sanya, China, 2020, pp. 112-115, doi: 10.1109/ICRIS52159.2020.00036.
+
+[18] P. B. Patil and M. S. Chavan, "A wavelet based method for denoising of biomedical signal," International Conference on Pattern Recognition, Informatics and Medical Engineering (PRIME-2012), Salem, India, 2012, pp. 278-283, doi: 10.1109/ICPRIME.2012.6208358.
 
 
 
