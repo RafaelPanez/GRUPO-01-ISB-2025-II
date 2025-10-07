@@ -68,9 +68,9 @@
 
 __Adicional: Gráficos de frecuencia__
 
-| Nombre  | Gráfico de frecuencias | Espectrograma | 
-|:---------:|:------------:|:------------:|
-| Reposo | ![f_1](ruta/a/imagen.png) | ![E_1](ruta/a/imagen.png) |
+| Nombre  | Gráfico de frecuencias | Espectrograma | Coeficientes de detalle |
+|:---------:|:------------:|:------------:|:------------:|
+| Reposo | ![f_1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EMG/Reposo_frecuencias.png?raw=true) | ![E_1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EMG/Reposo_espectro.png?raw=true) | ![CF_1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/EMG/Reposo_cf.png?raw=true) |
 | Lento | ![f_2](ruta/a/imagen.png) | ![E_2](ruta/a/imagen.png) | 
 | Contra | ![f_3](ruta/a/imagen.png) | ![E_3](ruta/a/imagen.png) |
 
