@@ -273,6 +273,14 @@ Estos resultados coinciden con lo reportado por Subha et al. (2020) y Wang & Liu
 
 ## 7. 📖 Conclusiones
 
+Se concluye que la transformada wavelet fue adecuada para EMG, ECG y EEG, dado que aumentó el SNR y redujo el MSE sin sacrificar la morfología fisiológica, lo que valida su uso como etapa de preprocesamiento frente a ruido no estacionario y artefactos de movimiento. La reconstrucción temporal y espectral fue coherente con los fenómenos esperados en cada biopotencial.
+
+Para EMG, el filtro Symlets (nivel 5, umbral hard, 1000 Hz) atenuó el ruido manteniendo picos mioeléctricos y la energía principal en ~50–150 Hz. Se observó limpieza en reposo (MSE≈1e-4; SNR≈3.4 dB) y mejora notable durante contracciones (SNR≈14.3 dB en lento y ≈12.9 dB en rápida), sin aplanar la envolvente ni eliminar transitorios útiles.
+
+En ECG, Daubechies-4 (nivel 5, heursure soft, 1000 Hz) combinado con notch de red preservó con fidelidad las ondas P-QRS-T, redujo baseline wander e interferencia de 60 Hz y elevó el SNR (≈17.8 dB en reposo; ≈22.2 dB en primera derivada) con MSE muy bajo (≈0–1e-4). La periodicidad y el alineamiento de complejos se mantuvieron, sosteniendo la utilidad clínica de la señal filtrada.
+
+Finalmente, el filtro Coiflets (nivel 5, soft, 1000 Hz) para EEG disminuyó artefactos oculares y de alta frecuencia, preservando bandas alfa-beta (8–30 Hz). Se mantuvieron SNR altos (≈22–34 dB) con MSE moderado y una reconstrucción que respeta las variaciones por estado (reposo, música, tareas cognitivas).
+
 ## 8. 📚 Referencias
 
 [1] M. G. M. Milani, P. E. Abas y L. C. De Silva, “A critical review of heart sound signals segmentation algorithms”, Smart Health, p. 100283, abril de 2022. Accedido el 7 de octubre de 2025. [En línea]. Disponible: https://doi.org/10.1016/j.smhl.2022.100283
