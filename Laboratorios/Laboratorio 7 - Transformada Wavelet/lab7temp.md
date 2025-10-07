@@ -56,6 +56,10 @@ Es por ello la importancia de realizar pruebas de filtrado con la transformada w
 ### 4.1 Pasos
 ### 4.2 Filtro para EMG
 
+| Nombre | Nivel | Umbral | Frecuencia |
+|:---------:|:------------:|:------------:|:------------:|
+| Symlets | 5 | Universal Hard | 1000 Hz |
+
 De acuerdo a literatura reciente, el uso de filtros de la familia Symlets ya ha sido utilizado para el filtrado y mejora de las señales EMG. 
 
 Por ejemplo, de acuerdo al estudio “Discrete wavelet transform based processing of embroidered textile-electrode electromyography (2024)”, se obtuvieron mejores cifras de SNR, RMSE y porcentaje de distorsión con el uso de filtros Symlets de nivel 4 y con umbral fuerte sobre señales sEMG [5]. Por lo tanto, se demuestra que la combinación es aplicable para eliminar ruidos indeseados en la señal y al mismo tiempo mantener el balance ante la posible pérdida de información muscular. 
@@ -64,15 +68,22 @@ Por otro lado, según el artículo “An improved wavelet threshold denoising ap
 
 En el presente trabajo se utilizará Symlets de nivel 5 para observar si todavía se cumple el balance entre definición de picos de la señal EMG y la pérdida de información. 
 
-| Nombre | Nivel | Umbral | Frecuencia |
-|:---------:|:------------:|:------------:|:------------:|
-| Symlets | 5 | Universal Hard | 1000 Hz |
 
 ### 4.3 Filtro para ECG
 
 | Nombre | Nivel | Umbral | Frecuencia |
 |:---------:|:------------:|:------------:|:------------:|
 | Daubechies 4 | 5 | Heursure Soft | 1000 Hz |
+
+Al revisar diversos estudios, se consideró los parámetros indicados en la tabla para realizar el filtrado de las señales ECG. 
+
+De acuerdo al estudio “An efficient ECG signals denoising technique based on the on the combination of particle swarm optimisation and wavelet transform” se emplea una mezcla de filtro Daubechies 4 con enjambre de partículas complejo (PSO) para quitar ruidos externos al ECG, con la cual se obtienen resultados positivos [7].
+
+Asimismo, en  “Selection of Wavelet and Thresholding Rule for Denoising the ECG Signals”  se indica que la familia de filtros Daubechies se ha usado comúnmente para denoising, y que las técnicas de umbralización suave son preferibles frente a técnicas duras cuando el objetivo es evitar discontinuidades abruptas [8]. Ello es adecuado para una señal ECG, dado que su morfología consiste en picos continuos de diversa amplitud [8].
+
+Luego, en “A Study of Chosen an Optimum Type of Wavelet Filter for De-Noising an ECG signal” , los autores comparan diferentes familias de wavelet y métodos de umbralización para distintos niveles [9]. Ello ha sido con el fin de seleccionar la combinación que mejor preserve la morfología del ECG y se obtenga un buen SNR. Al final del artículo se concluye que combinar familias de wavelets suaves con reglas de umbral adaptables como Heursure Soft ofrecen el mejor equilibrio [9].
+
+En el presente trabajo se utilizará Daubechies de nivel 5 para obtener una separación de detalles adecuada y se puedan conservar tanto frecuencias altas como bajas. 
 
 ### 4.4 Filtro para EEG
 
