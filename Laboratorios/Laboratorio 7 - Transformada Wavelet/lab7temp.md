@@ -31,8 +31,9 @@ Finalmente, en el análisis de ECG, la transformada se ha tomado en cuenta en as
 
 Es por ello la importancia de realizar pruebas de filtrado con la transformada wavelet y su posterior análisis, como se encontrará en está sección del repositorio. En la Figura 1 se puede observar las fórmulas de la transformada continua y discreta de wavelet. 
 
-
+<div align="center">
 ![Intro](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/be889a9626b379f157d887ff030f638e5035fc0a/Laboratorios/Laboratorio%207%20-%20Transformada%20Wavelet/Imagenes/fig1.PNG) 
+** Figura 1. ** a) Transformada wavelet continua. b) Transformada wavelet discreta.
 
 ## 2.  🎯 Objetivos
 
