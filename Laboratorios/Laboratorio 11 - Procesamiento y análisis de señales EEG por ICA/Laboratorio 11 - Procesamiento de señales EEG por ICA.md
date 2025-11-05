@@ -48,14 +48,14 @@ Se inspeccionó la señal para detectar canales saturados o con alta varianza. A
 
 | **Etapa del procesamiento** | **Descripción** | **Figura** |
 |-----------------------------|----------------------------------|-------------------|
-| **Canal 0** | Descripción imagen | ![C0](figuras/C0.jpg) |
-| **Canal 1** | Desc imagen | ![C1](figuras/C1.jpg) |
-| **Canal 2** | Desc imagen | ![C2](figuras/C2.jpg) |
-| **Canal 3** | Desc imagen | ![C3](figuras/C3.jpg) |
-| **Canal 4** | Desc imagen | ![C4](figuras/C4.jpg) |
-| **Canal 5** | Desc imagen | ![C5](figuras/C5.jpg) |
-| **Canal 6** | Desc imagen | ![C6](figuras/C6.jpg) |
-| **Canal 7** | Desc imagen | ![C7](figuras/C7.jpg) |
+| **Canal 0** | Muestra una distribución negativa en la región frontal y positiva en la zona occipital, con una señal periódica y estable. El espectro revela picos claros en 50 Hz y 100 Hz, con baja varianza y sin pérdida de segmentos | ![C0](figuras/C0.png) |
+| **Canal 1** | Evidencia un patrón negativo en las áreas posteriores y positivo en el vértex. La señal presenta deflexiones lentas de baja amplitud y un espectro similar al anterior, con picos eléctricos definidos | ![C1](figuras/C1.png) |
+| **Canal 2** | Destaca por una fuerte positividad frontal y central, acompañada de oscilaciones regulares y de baja amplitud. El espectro mantiene picos en 50 Hz y 100 Hz con mínima dispersión de varianza | ![C2](figuras/C2.png) |
+| **Canal 3** | Presenta predominio positivo en regiones frontales y temporales, con zonas negativas occipitales. La actividad temporal es suave y de baja frecuencia, mostrando la misma estructura espectral repetitiva y baja varianza | ![C3](figuras/C3.png) |
+| **Canal 4** | Mantiene una topografía positiva en las zonas anteriores y laterales, con negatividad leve posterior. La señal es estable, de amplitud reducida, y el espectro vuelve a concentrarse en las bandas de 50 Hz y 100 Hz, sin segmentos descartados | ![C4](figuras/C4.png) |
+| **Canal 5** | Muestra polaridad invertida respecto a los anteriores, con áreas negativas en la parte inferior derecha y positivas en el frente. Se observa un pequeño evento transitorio alrededor del tiempo cero y un comportamiento general estable | ![C5](figuras/C5.png) |
+| **Canal 6** | Exhibe negatividad en regiones occipitotemporales derechas y positividad central. La señal presenta deflexiones leves y consistentes, con el mismo perfil espectral y varianza baja | ![C6](figuras/C6.png) |
+| **Canal 7** | Posee un patrón simétrico con alternancia de zonas positivas y negativas, de amplitud muy reducida. El espectro está dominado nuevamente por los picos en 50 Hz y su armónico, y la varianza permanece estable sin valores extremos | ![C7](figuras/C7.png) |
 
 ## 💬 5. Discusión
 
