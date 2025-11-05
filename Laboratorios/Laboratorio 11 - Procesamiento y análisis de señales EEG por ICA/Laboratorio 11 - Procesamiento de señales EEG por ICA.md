@@ -48,14 +48,14 @@ Se inspeccionó la señal para detectar canales saturados o con alta varianza. A
 
 | **Etapa del procesamiento** | **Descripción** | **Figura** |
 |-----------------------------|----------------------------------|-------------------|
-| **Canal 0** | Descripción imagen | ![C0](figuras/C0.png) |
-| **Canal 1** | Desc imagen | ![C1](figuras/C1.png) |
-| **Canal 2** | Desc imagen | ![C2](figuras/C2.png) |
-| **Canal 3** | Desc imagen | ![C3](figuras/C3.png) |
-| **Canal 4** | Desc imagen | ![C4](figuras/C4.png) |
-| **Canal 5** | Desc imagen | ![C5](figuras/C5.png) |
-| **Canal 6** | Desc imagen | ![C6](figuras/C6.png) |
-| **Canal 7** | Desc imagen | ![C7](figuras/C7.png) |
+| **Canal 0** | Descripción imagen | ![C0](figuras/C0.jpg) |
+| **Canal 1** | Desc imagen | ![C1](figuras/C1.jpg) |
+| **Canal 2** | Desc imagen | ![C2](figuras/C2.jpg) |
+| **Canal 3** | Desc imagen | ![C3](figuras/C3.jpg) |
+| **Canal 4** | Desc imagen | ![C4](figuras/C4.jpg) |
+| **Canal 5** | Desc imagen | ![C5](figuras/C5.jpg) |
+| **Canal 6** | Desc imagen | ![C6](figuras/C6.jpg) |
+| **Canal 7** | Desc imagen | ![C7](figuras/C7.jpg) |
 
 ## 💬 5. Discusión
 
