@@ -68,6 +68,13 @@ Se inspeccionó la señal para detectar canales saturados o con alta varianza. A
 
 ---
 
+<p align="center">
+  <strong>Gráfico de EEG limpio</strong><br>
+  <img src="figuras/EEG.jpg" alt="EEG" width="600">
+</p>
+
+---
+
 Tras el proceso de filtrado y la aplicación del Análisis de Componentes Independientes (ICA) sobre los ocho canales del registro del sistema Neurocortex, se obtuvieron los componentes ICA000 a ICA007, cada uno con una topografía, dinámica temporal y espectro característico. En general, todas las señales presentan una estabilidad temporal elevada y una ausencia total de segmentos descartados (0 %), lo que refleja la adecuada calidad del preprocesamiento y la ausencia de artefactos significativos durante la segmentación.
 
 En la visualización temporal conjunta de los ocho componentes, se observa que la mayoría de las señales mantienen una amplitud reducida y estable, evidenciando la independencia lograda entre fuentes. Los componentes ICA000, ICA001, ICA002, ICA003, ICA006 y ICA007 muestran trazados planos, de baja energía y sin transitorios abruptos, lo cual indica que estas señales corresponden a fuentes estables o de fondo, con escasa contribución de artefactos. En cambio, los componentes ICA004 e ICA005 destacan por presentar oscilaciones rápidas y bien definidas entre los segundos 5.3 y 5.6 s, con formas de onda similares pero en fase opuesta. Este comportamiento sugiere la existencia de una fuente bilateral o simétrica, separada exitosamente por el algoritmo ICA, mientras que el resto de los componentes permanecen inactivos o de baja relevancia fisiológica.
