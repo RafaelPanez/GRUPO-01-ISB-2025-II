@@ -69,7 +69,7 @@ Se inspeccionó la señal para detectar canales saturados o con alta varianza. A
 ---
 
 <p align="center">
-  <strong>Gráfico de EEG limpio</strong><br>
+  <strong>Gráfico de EEG limpio después del procesamiento de ICA</strong><br>
   <img src="figuras/EEG.jpg" alt="EEG" width="600">
 </p>
 
