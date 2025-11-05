@@ -68,14 +68,26 @@ En ICA004 se conserva una morfología semejante, con predominio positivo anterio
 El ICA006 presenta una topografía similar a la de ICA005, con negatividad en regiones occipitotemporales y positividad central, y una morfología temporal con deflexiones leves y constantes. Finalmente, el ICA007 muestra un patrón cruzado, con alternancia de zonas positivas y negativas de baja amplitud, y un espectro concentrado nuevamente en los picos de 50 Hz y su armónico. En conjunto, todos los componentes muestran un comportamiento estable, bajo nivel de ruido y homogeneidad en la varianza, evidenciando un procesamiento ICA correctamente aplicado.
 
 ## 💬 5. Discusión
+La discusión de los resultados obtenidos tras el análisis ICA permite interpretar qué tipo de fuentes de señal o artefactos se aislaron en cada componente, así como evaluar la calidad del procesamiento previo. En términos generales, todos los componentes presentan una estabilidad temporal alta, sin pérdida de segmentos y con una estructura espectral consistente. La presencia sistemática de picos a 50 Hz y su armónico a 100 Hz es un hallazgo común que sugiere la influencia de ruido eléctrico proveniente del entorno o del propio equipo de registro, lo cual suele ser esperable incluso tras el filtrado, pero se mantiene dentro de márgenes aceptables de potencia.
 
+Los primeros componentes, ICA000 a ICA002, muestran topografías amplias con polaridad opuesta entre regiones frontales y occipitales, lo cual indica que capturan oscilaciones globales de bajo contenido fisiológico, posiblemente relacionadas con ruido de línea o fluctuaciones comunes a todos los canales. En particular, ICA000 exhibe una actividad rítmica regular y estable, típica de una fuente externa continua. ICA001 conserva un patrón similar pero con mayor proyección posterior, mientras que ICA002 refleja una dominancia positiva frontal, lo que podría representar una mezcla de interferencia eléctrica y componente de referencia compartida.
+
+A partir de ICA003 y ICA004, la morfología de los mapas espaciales se concentra más en zonas frontotemporales, mostrando una polaridad positiva frontal y negativa occipital. Este patrón, acompañado de oscilaciones lentas y leves deflexiones temporales, podría corresponder a componentes corticales oculares residuales o a actividad cortical de baja frecuencia. Su estabilidad temporal y espectral indica que no son artefactos transitorios, sino fuentes relativamente estacionarias.
+
+Los componentes ICA005 y ICA006 presentan un patrón invertido entre sí, con negatividad predominante en las regiones temporales u occipitotemporales derechas y positividad central. Estas configuraciones espaciales, junto con la deflexión puntual alrededor del tiempo cero, sugieren la posible presencia de actividad muscular localizada o de movimientos oculares de dirección lateral. Sin embargo, la amplitud moderada y la estabilidad del espectro descartan una contaminación severa, indicando que estas fuentes son controladas y pueden mantenerse o excluirse según el objetivo del análisis posterior.
+
+Finalmente, ICA007 exhibe una alternancia simétrica de polaridades que abarca todo el cuero cabelludo, con amplitud mínima y sin picos adicionales fuera del rango de 50 Hz. Este tipo de patrón es característico de componentes residuales de fondo o de ruido térmico de bajo impacto fisiológico, que suelen conservarse tras la separación ICA pero carecen de relevancia funcional.
+
+En conjunto, los resultados evidencian que el filtrado y la descomposición independiente fueron exitosos, logrando aislar fuentes estables, reproducibles y con mínima interferencia transitoria. La estructura espectral homogénea y la ausencia de variaciones abruptas en la varianza sugieren que el registro original posee buena calidad y que el procesamiento ICA logró separar de manera efectiva los principales componentes de la señal cerebral de los potenciales artefactos eléctricos o musculares.
 
 
 ## 📝 6. Conclusiones
 
-- 
-- 
-- 
+En primer lugar, la etapa de preprocesamiento (filtrado, normalización y re-referenciación de los canales) logró mejorar de forma significativa la calidad de las señales, reduciendo el ruido basal y estabilizando la amplitud entre los distintos electrodos. Este paso fue fundamental para garantizar que el posterior análisis mediante ICA operara sobre datos limpios y comparables entre sí.
+
+En segundo lugar, la aplicación del Análisis de Componentes Independientes (ICA) permitió la separación efectiva de las fuentes subyacentes dentro de la señal EEG, diferenciando patrones propios de la actividad cerebral de aquellos relacionados con artefactos fisiológicos o eléctricos. En los ocho componentes generados, se observó una clara independencia entre los patrones espaciales y temporales, lo que evidencia un correcto funcionamiento del algoritmo de separación. La mayoría de los componentes presentó una estructura estable, baja varianza y picos espectrales definidos, confirmando que el procedimiento permitió identificar y aislar señales con mínima contaminación de artefactos.
+
+Finalmente, los resultados confirman que el flujo estructurado de filtrado y análisis ICA constituyen una herramienta eficaz para la eliminación y caracterización de artefactos en registros EEG multicanal. Esto no solo mejora la interpretabilidad de los datos, sino que también optimiza la fiabilidad de los análisis posteriores, ya sean clínicos o experimentales.
 
 ## 📚 7. Referencias
 [1] A. Tharwat, “Independent component analysis: An introduction”, Appl. Comput. Inform., ahead-of-print, ahead-of-print, agosto de 2020. Accedido el 5 de noviembre de 2025. [En línea]. DOI: https://doi.org/10.1016/j.aci.2018.08.006
