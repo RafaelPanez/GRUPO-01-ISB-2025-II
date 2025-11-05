@@ -48,12 +48,14 @@ Se inspeccionó la señal para detectar canales saturados o con alta varianza. A
 
 | **Etapa del procesamiento** | **Descripción** | **Figura** |
 |-----------------------------|----------------------------------|-------------------|
-| **1. Señal EEG original (8 canales)** | Descripción imagen | ![EEG_crudo](figuras/EEG_crudo.png) |
-| **2. Señal filtrada (1–40 Hz)** | Desc imagen | ![EEG_filtrado](figuras/EEG_filtrado.png) |
-| **3. Componentes ICA** | Desc imagen | ![ICA_componentes](figuras/ICA_componentes.png) |
-| **4. Identificación de artefactos** | Desc imagen | ![ICA_artefactos](figuras/ICA_artefactos.png) |
-| **5. Señal corregida (post-ICA)** | Desc imagen | ![EEG_postICA](figuras/EEG_postICA.png) |
-| **6. Densidad espectral de potencia (PSD)** | Desc imagen | ![PSD](figuras/PSD.png) |
+| **Canal 0** | Descripción imagen | ![C0](figuras/C0.png) |
+| **Canal 1** | Desc imagen | ![C1](figuras/C1.png) |
+| **Canal 2** | Desc imagen | ![C2](figuras/C2.png) |
+| **Canal 3** | Desc imagen | ![C3](figuras/C3.png) |
+| **Canal 4** | Desc imagen | ![C4](figuras/C4.png) |
+| **Canal 5** | Desc imagen | ![C5](figuras/C5.png) |
+| **Canal 6** | Desc imagen | ![C6](figuras/C6.png) |
+| **Canal 7** | Desc imagen | ![C7](figuras/C7.png) |
 
 ## 💬 5. Discusión
 
