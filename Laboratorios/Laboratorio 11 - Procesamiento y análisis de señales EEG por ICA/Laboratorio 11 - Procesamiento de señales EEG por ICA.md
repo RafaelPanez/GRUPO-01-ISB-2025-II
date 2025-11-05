@@ -57,6 +57,16 @@ Se inspeccionó la señal para detectar canales saturados o con alta varianza. A
 | **Canal 6** | Exhibe negatividad en regiones occipitotemporales derechas y positividad central. La señal presenta deflexiones leves y consistentes, con el mismo perfil espectral y varianza baja | ![C6](figuras/C6.jpg) |
 | **Canal 7** | Posee un patrón simétrico con alternancia de zonas positivas y negativas, de amplitud muy reducida. El espectro está dominado nuevamente por los picos en 50 Hz y su armónico, y la varianza permanece estable sin valores extremos | ![C7](figuras/C7.jpg) |
 
+Tras el proceso de filtrado y la aplicación del análisis de componentes independientes (ICA) sobre los ocho canales del registro del Neurocortex, se obtuvieron los componentes ICA000 a ICA007, cada uno con una topografía, dinámica temporal y espectro característico. En general, todas las señales presentan una estabilidad temporal elevada y ausencia de segmentos descartados (0 %), lo que indica una buena calidad del preprocesamiento y ausencia de artefactos evidentes en la segmentación.
+
+El componente ICA000 exhibe una distribución espacial con predominio negativo en la región frontal y positivo en la zona occipital, mostrando una señal continua y periódica. El espectro revela picos muy definidos en torno a 50 Hz y 100 Hz, lo que sugiere la presencia de una oscilación rítmica constante. De manera similar, ICA001 presenta una topografía opuesta, con una región posterior negativa y un vértex positivo, acompañado de una señal de baja amplitud y frecuencia lenta. En ambos casos, la varianza se mantiene baja y homogénea.
+
+El ICA002 mantiene un patrón positivo frontal y central con un leve componente negativo occipital, representando una señal estable, con oscilaciones de baja amplitud y espectro dominado por picos en 50 Hz y 100 Hz. Por su parte, ICA003 muestra un patrón de positividad amplia en áreas frontotemporales y negatividad occipital, manteniendo un comportamiento temporal suave y regular, con baja dispersión de la varianza.
+
+En ICA004 se conserva una morfología semejante, con predominio positivo anterior y lateral, negatividad leve posterior y una señal estable de amplitud reducida. Tanto su espectro como su varianza reafirman la consistencia de la señal. En contraste, ICA005 muestra una inversión de polaridad, con negatividad pronunciada en la región temporal derecha y positividad frontal, además de un leve evento transitorio centrado en el tiempo cero, aunque sin afectar la estabilidad global de la señal.
+
+El ICA006 presenta una topografía similar a la de ICA005, con negatividad en regiones occipitotemporales y positividad central, y una morfología temporal con deflexiones leves y constantes. Finalmente, el ICA007 muestra un patrón cruzado, con alternancia de zonas positivas y negativas de baja amplitud, y un espectro concentrado nuevamente en los picos de 50 Hz y su armónico. En conjunto, todos los componentes muestran un comportamiento estable, bajo nivel de ruido y homogeneidad en la varianza, evidenciando un procesamiento ICA correctamente aplicado.
+
 ## 💬 5. Discusión
 
 
