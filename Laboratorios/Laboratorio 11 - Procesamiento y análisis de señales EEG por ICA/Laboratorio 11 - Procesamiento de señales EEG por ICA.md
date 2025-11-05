@@ -46,6 +46,8 @@ Se inspeccionó la señal para detectar canales saturados o con alta varianza. A
 
 ## 🔍 4. Resultados 
 
+**Gráficos de canales por separado**
+
 | **Etapa del procesamiento** | **Descripción** | **Figura** |
 |-----------------------------|----------------------------------|-------------------|
 | **Canal 0** | Muestra una distribución negativa en la región frontal y positiva en la zona occipital, con una señal periódica y estable. El espectro revela picos claros en 50 Hz y 100 Hz, con baja varianza y sin pérdida de segmentos | ![C0](figuras/C0.jpg) |
@@ -56,6 +58,9 @@ Se inspeccionó la señal para detectar canales saturados o con alta varianza. A
 | **Canal 5** | Muestra polaridad invertida respecto a los anteriores, con áreas negativas en la parte inferior derecha y positivas en el frente. Se observa un pequeño evento transitorio alrededor del tiempo cero y un comportamiento general estable | ![C5](figuras/C5.jpg) |
 | **Canal 6** | Exhibe negatividad en regiones occipitotemporales derechas y positividad central. La señal presenta deflexiones leves y consistentes, con el mismo perfil espectral y varianza baja | ![C6](figuras/C6.jpg) |
 | **Canal 7** | Posee un patrón simétrico con alternancia de zonas positivas y negativas, de amplitud muy reducida. El espectro está dominado nuevamente por los picos en 50 Hz y su armónico, y la varianza permanece estable sin valores extremos | ![C7](figuras/C7.jpg) |
+
+**Gráfico general de los 8 canales procesados por ICA en el dominio del tiempo**
+![ICA](figuras/ICA.jpg) 
 
 Tras el proceso de filtrado y la aplicación del análisis de componentes independientes (ICA) sobre los ocho canales del registro del Neurocortex, se obtuvieron los componentes ICA000 a ICA007, cada uno con una topografía, dinámica temporal y espectro característico. En general, todas las señales presentan una estabilidad temporal elevada y ausencia de segmentos descartados (0 %), lo que indica una buena calidad del preprocesamiento y ausencia de artefactos evidentes en la segmentación.
 
