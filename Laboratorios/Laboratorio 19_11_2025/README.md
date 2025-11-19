@@ -8,7 +8,7 @@
 - [4. Conclusiones](#4-conclusiones)
 
 
-## 1. Teoría breve del tópico elegido
+## 1. Marco teórico
 
 El Object Detection es una técnica de visión por computadora cuyo objetivo es identificar y localizar regiones relevantes dentro de una imagen. Mientras que en la electrocardiografía clásica la información se presenta como una señal 1D, en muchos entornos clínicos los ECG están disponibles únicamente como imágenes, ya sea por capturas de monitores, fotografías o documentos escaneados. Para analizar estos registros, la señal se trata como una imagen y los eventos fisiológicos del ECG se interpretan como “objetos”.
 
@@ -16,7 +16,7 @@ Un complejo QRS puede representarse mediante un rectángulo o bounding box que d
 
 Este enfoque es especialmente valioso en situaciones donde no existe acceso a la señal cruda. Permite digitalizar ECG impresos, automatizar el conteo de latidos, generar métricas básicas como frecuencia cardíaca, y habilitar aplicaciones clínicas portátiles y de bajo costo, incluso en contextos de telemedicina o triaje.
 
-## 2. Papers que emplean el tópico y presentan resultados
+## 2. Papers que emplean Object Detection
 
 A continuación se presentan dos trabajos representativos que aplican object detection o enfoques equivalentes sobre imágenes de ECG. Para cada uno se resumen el objetivo, metodología, resultados alcanzados y su relevancia para el estudio.
 
