@@ -43,6 +43,21 @@ El repositorio más completo alineado con la temática es el framework oficial q
 
 El notebook incluido muestra paso a paso cómo se construye una representación gráfica del ECG, cómo se simulan condiciones similares a un ECG en papel y cómo se generan las anotaciones en formato YOLO necesarias para entrenar detectores modernos. Este recurso constituye una base sólida para desarrollar tareas de detección y segmentación aplicadas a electrocardiogramas representados como imágenes.
 
+<div align="center">
+
+![imagen1](Imagenes/ondas.jpg)
+
+**Figura 1**. Muestras del conjunto de datos de detección: imágenes de ECG anotadas con recuadros delimitadores para las regiones de derivaciones y sus nombres. El color de cada recuadro indica la clase. La clase 0 corresponde a las regiones de la onda de la derivación, mientras que las clases 1 a 12 representan las derivaciones I, II, III, aVR, aVL, aVF y V1–V6, respectivamente.
+
+</div>
+
+<div align="center">
+
+![imagen2](Imagenes/ondas.jpg)
+
+**Figura 2**. Ilustración del formato de cuadro delimitador YOLO, que incluye el ID de clase, las coordenadas del centro normalizadas (x, y) y el ancho y el alto del cuadro delimitador (w, h), todos expresados ​​en relación con las dimensiones de la imagen.
+
+</div>
 
 ## 4. 📌​ Conclusiones
 
