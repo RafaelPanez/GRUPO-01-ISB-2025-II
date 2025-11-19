@@ -6,9 +6,9 @@
 - [3. Repositorio de GitHub relacionado con el tópico seleccionado](#3-repositorio-de-github-relacionado-con-el-tópico-seleccionado)
 - [4. Referencias](#4-referencias)
 - [5. Conclusiones](#5-conclusiones)
+- [6. Aporte de los integrantes](#6-aporte)
 
-
-## 1. Marco teórico
+## 1. 🎓 Marco teórico
 
 El *Object Detection* es una técnica de visión por computadora cuyo objetivo es identificar y localizar regiones relevantes dentro de una imagen. Mientras que en la electrocardiografía clásica la información se presenta como una señal 1D, en muchos entornos clínicos los ECG están disponibles únicamente como imágenes, ya sea por capturas de monitores, fotografías o documentos escaneados. Para analizar estos registros, la señal se trata como una imagen y los eventos fisiológicos del ECG se interpretan como “objetos”.
 
@@ -17,7 +17,7 @@ Un complejo QRS puede representarse mediante un rectángulo o *bounding box* que
 Este enfoque es especialmente valioso en situaciones donde no existe acceso a la señal cruda. Permite digitalizar ECG impresos, automatizar el conteo de latidos, generar métricas básicas como frecuencia cardíaca y habilitar aplicaciones clínicas portátiles y de bajo costo, incluso en contextos de telemedicina o triaje.
 
 
-## 2. Papers que emplean Object Detection
+## 2. ​📜 Papers que emplean Object Detection
 
 A continuación se presentan dos trabajos representativos que aplican *object detection* o enfoques equivalentes sobre imágenes de ECG. Para cada uno se resumen el objetivo, metodología, resultados alcanzados y su relevancia para el estudio.
 
@@ -31,7 +31,7 @@ A continuación se presentan dos trabajos representativos que aplican *object de
 Ambos estudios coinciden en que el análisis de ECG mediante técnicas de detección en imágenes es una alternativa moderna, eficaz y compatible con procesamiento en tiempo real, incluso en hardware limitado. Los métodos evaluados se apoyan en arquitecturas ligeras y datos sintéticos o clínicos para alcanzar resultados competitivos.
 
 
-## 3. Repositorio de GitHub relacionado con el tópico seleccionado
+## 3. 📓​ Repositorio de GitHub relacionado con el tópico seleccionado
 
 El repositorio más completo alineado con la temática es el framework oficial que acompaña el artículo de Rahimi et al. Incluye generación de imágenes, anotaciones en formato YOLO, máscaras de segmentación y notebooks de Python para replicar la metodología propuesta.
 
@@ -44,7 +44,12 @@ El repositorio más completo alineado con la temática es el framework oficial q
 El notebook incluido muestra paso a paso cómo se construye una representación gráfica del ECG, cómo se simulan condiciones similares a un ECG en papel y cómo se generan las anotaciones en formato YOLO necesarias para entrenar detectores modernos. Este recurso constituye una base sólida para desarrollar tareas de detección y segmentación aplicadas a electrocardiogramas representados como imágenes.
 
 
-## 4. Referencias
+## 4. 📌​ Conclusiones
+
+El análisis de ECG mediante *object detection* integra conceptos de visión por computadora y electrofisiología para estudiar registros cardiacos representados como imágenes. Este enfoque permite identificar eventos como complejos QRS sin necesidad de disponer de la señal eléctrica original, facilitando procesos de digitalización, triaje y análisis automatizado. Los artículos revisados validan su eficacia, mostrando desempeños superiores al 90% mAP utilizando modelos basados en YOLO. El repositorio seleccionado ofrece una base práctica para generar datasets, anotaciones y modelos que permiten reproducir este pipeline en contextos académicos y clínicos.
+
+
+## 5. 🔍​ Referencias
 
 [1] R. Rahimi, et al., “An Open-Source Python Framework and Synthetic ECG Image Datasets for Digitization, Lead Detection, and Segmentation,” *arXiv preprint*, arXiv:2506.06315, 2025.  
 
@@ -53,7 +58,12 @@ El notebook incluido muestra paso a paso cómo se construye una representación 
 [3] R. Karbasi and R. Rahimi, *ECG Image & Signal Dataset Framework*, GitHub Repository. Disponible en: https://github.com/rezakarbasi/ecg-image-and-signal-dataset  
 
 
+## 6. 👥 Aporte de los integrantes
 
-## 5. Conclusiones
+<div align="center">
 
-El análisis de ECG mediante *object detection* integra conceptos de visión por computadora y electrofisiología para estudiar registros cardiacos representados como imágenes. Este enfoque permite identificar eventos como complejos QRS sin necesidad de disponer de la señal eléctrica original, facilitando procesos de digitalización, triaje y análisis automatizado. Los artículos revisados validan su eficacia, mostrando desempeños superiores al 90% mAP utilizando modelos basados en YOLO. El repositorio seleccionado ofrece una base práctica para generar datasets, anotaciones y modelos que permiten reproducir este pipeline en contextos académicos y clínicos.
+| Integrante      | Contribución (%) |
+|-----------------|:------------------:|
+| Salet Garcia    | 33.33%           |
+| Dhiago Llanos   | 33.33%           |
+| Rafael Panez    | 33.33%           |
