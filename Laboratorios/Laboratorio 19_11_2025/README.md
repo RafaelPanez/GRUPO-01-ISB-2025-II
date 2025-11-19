@@ -45,7 +45,7 @@ El notebook incluido muestra paso a paso cómo se construye una representación 
 
 <div align="center">
 
-![imagen1](Imagenes/ondas.jpg)
+![imagen1](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%2019_11_2025/detection_subplot.jpg)
 
 **Figura 1**. Muestras del conjunto de datos de detección: imágenes de ECG anotadas con recuadros delimitadores para las regiones de derivaciones y sus nombres. El color de cada recuadro indica la clase. La clase 0 corresponde a las regiones de la onda de la derivación, mientras que las clases 1 a 12 representan las derivaciones I, II, III, aVR, aVL, aVF y V1–V6, respectivamente.
 
@@ -53,7 +53,7 @@ El notebook incluido muestra paso a paso cómo se construye una representación 
 
 <div align="center">
 
-![imagen2](Imagenes/ondas.jpg)
+![imagen2](https://github.com/RafaelPanez/GRUPO-01-ISB-2025-II/blob/main/Laboratorios/Laboratorio%2019_11_2025/yolo.jpeg)
 
 **Figura 2**. Ilustración del formato de cuadro delimitador YOLO, que incluye el ID de clase, las coordenadas del centro normalizadas (x, y) y el ancho y el alto del cuadro delimitador (w, h), todos expresados ​​en relación con las dimensiones de la imagen.
 
