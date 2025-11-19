@@ -23,7 +23,6 @@ A continuación se presentan dos trabajos representativos que aplican object det
 | Titulo | Objetivo | Metodología | Resultados | Relevancia |
 |--------|----------|-------------|------------|------------|
 | An Open-Source Python Framework and Synthetic ECG Image Datasets for Digitization, Lead Detection, and Segmentation. Rahimi et al., arXiv:2506.06315 (2025) | Proponer un framework completo para digitalización de ECG y detección de regiones mediante object detection. | Generación de imágenes sintéticas; anotaciones YOLO; entrenamiento de YOLOv5/YOLOv8 | Alto desempeño en detección de derivaciones con mAP superior al 95%; robusto ante distorsiones y ruido. | Fundamenta el uso de object detection en ECG y proporciona datasets listos para entrenamiento. |
-
 |YOLO-ResTinyECG: A Lightweight ECG Image Object Detection Network. Li et al., Expert Systems With Applications (2025)| Desarrollar una variante ligera de YOLO optimizada para reconocimiento de latidos en imágenes ECG. |Conversión de ventanas de ECG en imágenes; arquitectura compacta; entrenamiento con MIT-BIH.|mAP superior al 90% y detección eficiente de latidos normales y ventriculares en tiempo real.|Demuestra la eficacia de YOLO en la detección de latidos directamente desde imágenes, validando su uso en laboratorios y dispositivos portátiles.|
 
 **Tabla 1. Resumen de artículos científicos relevantes**
