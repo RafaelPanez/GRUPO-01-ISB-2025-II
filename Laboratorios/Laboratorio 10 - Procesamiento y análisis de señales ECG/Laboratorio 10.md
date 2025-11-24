@@ -24,7 +24,6 @@ La señal del electrocardiograma (ECG) es de gran relevancia clínica, principal
 
 El principal objetivo de este campo es el diseño de algoritmos robustos que logren delinear con precisión los inicios, picos y finales de cada onda en cada latido [3]. A partir de ello, se podrán entrenar modelos de sistema de clasificación, los cuales serán capaces de distinguir patrones normales de los correspondientes a distintas clases patológicas [3]. El procesamiento previo se integra con el análisis de características morfológicas para completar el ciclo de reconocimiento automático [3].
 
-<div align="center">
 ![img]() 
 
 ## 🎯 2. Objetivos
@@ -117,4 +116,5 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
