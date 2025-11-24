@@ -24,7 +24,11 @@ La señal del electrocardiograma (ECG) es de gran relevancia clínica, principal
 
 El principal objetivo de este campo es el diseño de algoritmos robustos que logren delinear con precisión los inicios, picos y finales de cada onda en cada latido [3]. A partir de ello, se podrán entrenar modelos de sistema de clasificación, los cuales serán capaces de distinguir patrones normales de los correspondientes a distintas clases patológicas [3]. El procesamiento previo se integra con el análisis de características morfológicas para completar el ciclo de reconocimiento automático [3].
 
-![img]() 
+<div align="center">
+
+![img](Lab10/img.png)
+
+</div>
 
 ## 🎯 2. Objetivos
 
@@ -50,6 +54,8 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 ## 📊 4. Resultados
 
+<div align="center">
+
 ### 4.1 Señal cruda
 
 ![Cruda]()
@@ -58,7 +64,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 | Nombre | detect_pwaves_only()  | NeuroKit2 |
 |------------|-------------|----------------|
-| Detección P |  ![P1]() | ![P2]() |
+| Detección P |  ![P1](Lab10/deteccionP1.png) | ![P2](Lab10/deteccionP2.png) |
 | Duración promedio | 116.6 ms | 89.63 ms |
 | Amplitud promedio | 0.022 mV |  0.044 mV |
 | Dispersión | 31.81 ms | 27.78 ms |
@@ -67,8 +73,8 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 | Nombre | detect_qrs_rpeaks | NeuroKit2 |
 |------------|-------------|----------------|
-| Detección R | ![R1]() | ![R2]() |
-| Aproximación BPM | ![bpm1]() | ![bpm2]() |
+| Detección R | ![R1](Lab10/deteccionR1.png) | ![R2](Lab10/deteccion.png) |
+| Aproximación BPM | ![bpm1](Lab10/bpm.png) | ![bpm2](Lab10/bpm2.png) |
 
 | Nombre | rr_intervals_ms | NeuroKit2 |
 |------------|-------------|----------------|
@@ -90,10 +96,12 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 | Nombre | NeuroKit2 |
 |------------|-------------|
-| Detección ondas T | ![T]() |
+| Detección ondas T | ![T](Lab10/deteccionT.png) |
 | Duración promedio | 167.06 ms |
 | Amplitud promedio | 0.039 mV |
 | TpTe promedio | 80.36 ms | 
+
+</div>
 
 ## 🧠 5. Discusión
 
@@ -116,5 +124,6 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
