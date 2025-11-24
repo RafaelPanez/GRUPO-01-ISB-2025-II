@@ -85,7 +85,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 | Nombre | NeuroKit2 |
 |------------|-------------|
-| Detección QRS | ![QRS]() |
+| Detección QRS | ![QRS](Lab10/QRS.png) |
 | Duración promedio | 78.17 ms |
 | Amplitud promedio | 1.941 mV |
 | Duración QRS mínima | 72.22 ms | 
@@ -124,6 +124,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
