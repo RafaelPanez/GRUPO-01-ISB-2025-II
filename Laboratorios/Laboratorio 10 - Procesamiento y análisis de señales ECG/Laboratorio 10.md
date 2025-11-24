@@ -58,13 +58,13 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 ### 4.1 Señal cruda
 
-![Cruda](Lab10/cruda.jpeg)
+![Cruda](Lab10/cruda.PNG)
 
 ### 4.2 Análisis de onda P
 
 | Nombre | detect_pwaves_only()  | NeuroKit2 |
 |------------|-------------|----------------|
-| Detección P |  ![P1](Lab10/deteccionP1.png) | ![P2](Lab10/deteccionP2.png) |
+| Detección P |  ![P1](Lab10/deteccionP1.PNG) | ![P2](Lab10/deteccionP2.PNG) |
 | Duración promedio | 116.6 ms | 89.63 ms |
 | Amplitud promedio | 0.022 mV |  0.044 mV |
 | Dispersión | 31.81 ms | 27.78 ms |
@@ -73,8 +73,8 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 | Nombre | detect_qrs_rpeaks | NeuroKit2 |
 |------------|-------------|----------------|
-| Detección R | ![R1](Lab10/deteccionR1.png) | ![R2](Lab10/deteccion.png) |
-| Aproximación BPM | ![bpm1](Lab10/bpm.png) | ![bpm2](Lab10/bpm2.png) |
+| Detección R | ![R1](Lab10/deteccionR1.PNG) | ![R2](Lab10/deteccion.PNG) |
+| Aproximación BPM | ![bpm1](Lab10/bpm.PNG) | ![bpm2](Lab10/bpm2.PNG) |
 
 | Nombre | rr_intervals_ms | NeuroKit2 |
 |------------|-------------|----------------|
@@ -85,7 +85,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 | Nombre | NeuroKit2 |
 |------------|-------------|
-| Detección QRS | ![QRS](Lab10/QRS.png) |
+| Detección QRS | ![QRS](Lab10/QRS.PNG) |
 | Duración promedio | 78.17 ms |
 | Amplitud promedio | 1.941 mV |
 | Duración QRS mínima | 72.22 ms | 
@@ -96,7 +96,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 | Nombre | NeuroKit2 |
 |------------|-------------|
-| Detección ondas T | ![T](Lab10/deteccionT.jpg) |
+| Detección ondas T | ![T](Lab10/deteccionT. :) |
 | Duración promedio | 167.06 ms |
 | Amplitud promedio | 0.039 mV |
 | TpTe promedio | 80.36 ms | 
@@ -124,6 +124,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
