@@ -20,7 +20,7 @@
 
 ## 🔍 1. Introducción
 
-La señal del electrocardiograma (ECG) es de gran relevancia clínica, principalmente debido a la detección de anomalías cardiovasculares por medio de la morfología de sus ondas P,QRS y T, las cuales indican el patrón que sigue el corazón para su movimiento [1,2]. Es por ello que el avance en el campo de procesamiento de señales en ECG es de vital importancia, en la cual se incluye el diseño y mejora de algoritmos de identificación de ondas P, QRS y T, entre otras características temporales y morfológicas [1,2].
+La señal del electrocardiograma (ECG) es de gran relevancia clínica, principalmente debido a la detección de anomalías cardiovasculares por medio de la morfología de sus ondas P,QRS y T, las cuales indican el patrón que sigue el corazón para su movimiento [1], [2]. Es por ello que el avance en el campo de procesamiento de señales en ECG es de vital importancia, en la cual se incluye el diseño y mejora de algoritmos de identificación de ondas P, QRS y T, entre otras características temporales y morfológicas [1], [2].
 
 El principal objetivo de este campo es el diseño de algoritmos robustos que logren delinear con precisión los inicios, picos y finales de cada onda en cada latido [3]. A partir de ello, se podrán entrenar modelos de sistema de clasificación, los cuales serán capaces de distinguir patrones normales de los correspondientes a distintas clases patológicas [3]. El procesamiento previo se integra con el análisis de características morfológicas para completar el ciclo de reconocimiento automático [3].
 
@@ -142,7 +142,7 @@ En cuanto a la onda T, la detección mediante NeuroKit2 reveló una duración pr
 
 Un punto importante en esta discusión es la relación entre filtrado, morfología y método de detección. Las ondas de baja amplitud (P y T) dependen fuertemente del preprocesamiento. Por eso, incluso en señales limpias, los métodos manuales suelen mostrar mayor variabilidad. Por el contrario, los algoritmos optimizados como NeuroKit2 integran heurísticas fisiológicas—por ejemplo, que la onda P siempre precede al QRS por un intervalo razonable, o que la onda T nunca ocurre antes del segmento ST. Esto limita automáticamente la posibilidad de errores incluso si la señal presenta ruido moderado.
 
-Finalmente, las diferencias globales entre ambos enfoques ilustran una idea central: los métodos manuales son valiosos para entender la naturaleza del ECG y para personalizar criterios de detección; sin embargo, su sensibilidad al ruido y a la selección de parámetros los vuelve menos adecuados para aplicaciones clínicas o computacionales a gran escala. Las herramientas validadas —como NeuroKit2— muestran mayor suavidad interlatido, robustez ante variabilidad y resultados más fisiológicamente plausibles. El contraste entre ambos enfoques evidencia la importancia de fundamentar cualquier pipeline de procesamiento ECG en algoritmos capaces de integrar tanto la matemática del filtrado como los principios fisiológicos que gobiernan la electrocardiografía
+Finalmente, las diferencias globales entre ambos enfoques ilustran una idea central: los métodos manuales son valiosos para entender la naturaleza del ECG y para personalizar criterios de detección; sin embargo, su sensibilidad al ruido y a la selección de parámetros los vuelve menos adecuados para aplicaciones clínicas o computacionales a gran escala. Las herramientas validadas —como NeuroKit2— muestran mayor suavidad interlatido, robustez ante variabilidad y resultados más fisiológicamente plausibles.
 
 
 ## 📌 6. Conclusiones
@@ -150,8 +150,6 @@ Finalmente, las diferencias globales entre ambos enfoques ilustran una idea cent
 El análisis permitió identificar con éxito las ondas P, QRS, R y T de una señal ECG correspondiente al ritmo sinusal normal (NSR). Los métodos implementados manualmente cumplieron su función educativa al evidenciar cómo filtros, wavelets y umbrales pueden generar detectores funcionales, aunque más sensibles al ruido y a la variabilidad entre latidos. En contraste, NeuroKit2 proporcionó mediciones más estables y fisiológicamente coherentes, reflejando la ventaja de algoritmos optimizados que integran correlaciones entre ondas y correcciones post-procesamiento.
 
 A nivel morfológico, los parámetros obtenidos (duración de P ~90–116 ms, QRS ~78 ms, T ~167 ms, BPM ~96–121) se encuentran dentro de los rangos esperados para un sujeto con ritmo sinusal, lo cual valida tanto la calidad de la señal utilizada como la eficacia de los algoritmos aplicados. La diferencia en los valores de BPM entre métodos evidencia la importancia de una buena detección de R-peaks para evitar errores acumulativos en RR y frecuencia cardíaca.
-
-En conjunto, el laboratorio demuestra que la detección automática de ondas ECG exige un preprocesamiento adecuado y algoritmos robustos, especialmente cuando se trabaja con ondas de baja amplitud como la P. Asimismo, confirma que herramientas como NeuroKit2 pueden servir como referencia para validar métodos propios y para la futura implementación de clasificadores o sistemas automáticos de análisis cardíaco.
 
 
 ## 📚🔗 7. Referencias
@@ -171,6 +169,7 @@ En conjunto, el laboratorio demuestra que la detección automática de ondas ECG
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
