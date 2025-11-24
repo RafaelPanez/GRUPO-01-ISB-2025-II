@@ -96,7 +96,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 | Nombre | NeuroKit2 |
 |------------|-------------|
-| Detección ondas T | ![T](Lab10/deteccionT.png) |
+| Detección ondas T | ![T](Lab10/deteccionT.jpg) |
 | Duración promedio | 167.06 ms |
 | Amplitud promedio | 0.039 mV |
 | TpTe promedio | 80.36 ms | 
@@ -124,6 +124,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
