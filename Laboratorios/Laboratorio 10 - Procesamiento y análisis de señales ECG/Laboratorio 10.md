@@ -73,7 +73,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 | Nombre | detect_qrs_rpeaks | NeuroKit2 |
 |------------|-------------|----------------|
-| Detección R | ![R1](Lab10/deteccionR1.PNG) | ![R2](Lab10/deteccion.PNG) |
+| Detección R | ![R1](Lab10/deteccionR1.PNG) | ![R2](Lab10/deteccionR2.PNG) |
 | Aproximación BPM | ![bpm1](Lab10/bpm.PNG) | ![bpm2](Lab10/bpm2.PNG) |
 
 | Nombre | rr_intervals_ms | NeuroKit2 |
@@ -96,7 +96,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 | Nombre | NeuroKit2 |
 |------------|-------------|
-| Detección ondas T | ![T](Lab10/deteccionT. :) |
+| Detección ondas T | ![T](Lab10/deteccionT.PNG) |
 | Duración promedio | 167.06 ms |
 | Amplitud promedio | 0.039 mV |
 | TpTe promedio | 80.36 ms | 
@@ -124,6 +124,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
