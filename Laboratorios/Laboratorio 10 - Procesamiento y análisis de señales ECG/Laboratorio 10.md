@@ -7,11 +7,17 @@
   - [2.1 Objetivo general](#21-objetivo-general)
   - [2.2 Objetivos específicos](#22-objetivos-especificos)
 - [3. Metodología](#3-metodologia)
+  - [3.1 Importación de librerías y carga del dataset](#31-señal-cruda)
+  - [3.2 Preprocesamiento de la señal](#32-analisis-de-onda-p)
+  - [3.3 Detección de ondas P mediante dos enfoques](#33-analisis-de-onda-r)
+  - [3.4 Detección de ondas R y cálculo de frecuencia cardiaca](#34-analisis-de-segmento-qrs)
+  - [3.5 Detección del complejo QRS](#35-analisis-de-segmento-t)
+  - [3.6 Detección y análisis de la onda T](#36-deteccion-analisis)
 - [4. Resultados](#4-resultados)
   - [4.1 Señal Cruda](#41-señal-cruda)
   - [4.2 Análisis de onda P](#42-analisis-de-onda-p)
   - [4.3 Análisis de onda R](#43-analisis-de-onda-r)
-  - [4.4 Análisis de segmento QRS](#44-analisis-de-segmento-qrs)
+  - [4.4 Detección de ondas R y cálculo de frecuencia cardiaca](#44-analisis-de-segmento-qrs)
   - [4.5 Análisis de segmento T](#45-analisis-de-segmento-t)
 - [5. Discusión](#5-discusion)
 - [6. Conclusiones](#6-conclusiones)
@@ -45,32 +51,32 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 El procesamiento se estructuró de manera que cada etapa respondiera a una necesidad específica del análisis ECG: eliminación de ruido, estabilización de la línea isoeléctrica, y posterior delineación de ondas P, QRS y T mediante algoritmos complementarios. A continuación, se describe el flujo metodológico y la lógica detrás de cada elección.
 
-### 3.1. Importación de librerías y carga del dataset.
+### 3.1. Importación de librerías y carga del dataset
 Se utilizaron numpy y scipy.signal para manipulación numérica y filtrado, matplotlib para visualización, pywt para transformada wavelet y neurokit2 como referencia validada para la detección de ondas. El dataset se cargó en formato pickle y se seleccionó el canal 1 de la clase NSR, lo que permitió trabajar con una señal de ritmo sinusal limpio y con buena relación señal-ruido, adecuada para comparar algoritmos.
 
-### 3.2. Preprocesamiento de la señal.
+### 3.2. Preprocesamiento de la señal
 La señal cruda mostró ruido de alta frecuencia y pequeñas variaciones de la línea base propias del dataset. Para mitigarlo, se aplicaron filtros de banda estrecha centrados en el rango fisiológico del ECG. En particular: Un filtrado básico 0.5–40 Hz (o similar según función), que atenúa ruido muscular y movimientos respiratorios.
 
 En el caso específico de la onda P, se emplearon wavelets para realzar estructuras de baja amplitud. El uso de pywt permitió resaltar componentes entre 5–15 Hz, banda donde la P es más distinguible pese a su morfología pequeña y variable.
 
-### 3.3. Detección de ondas P mediante dos enfoques.
+### 3.3. Detección de ondas P mediante dos enfoques
 Se compararon dos metodologías distintas:
 
 * Método manual (detect_pwaves_only()): combinó filtrado, realce wavelet y umbrales adaptativos. Este enfoque no depende de la posición del R-peak, lo que permite evaluar el desempeño ante señales donde QRS no es necesariamente confiable. La contrapartida es su mayor sensibilidad al ruido y su tendencia a sobreestimar la duración.
 
 * Método NeuroKit2: utiliza una cadena integrada de preprocesamiento, detección de R-peaks y alineamiento basado en ventanas fisiológicas, lo que produce estimaciones más estables. Se empleó la función ecg_process, que genera automáticamente los índices de inicio, pico y final de la onda P.
 
-### 3.4. Detección de ondas R y cálculo de frecuencia cardiaca.
+### 3.4. Detección de ondas R y cálculo de frecuencia cardiaca
 Para la onda R se emplearon también dos métodos:
 
 * Método manual (promediado móvil + umbrales + detect_qrs_rpeaks): el promediado móvil reduce fluctuaciones rápidas, facilitando que los umbrales detecten picos prominentes. Posteriormente, se aplicó detect_qrs_rpeaks() para refinar la detección. El cálculo del RR se realizó mediante la función rr_intervals_ms.
 
 * Método NeuroKit2: la detección automática de R-peaks utiliza heurísticas robustas inspiradas en Pan-Tompkins, con corrección de falsos positivos y ajuste de ventanas. Esto permitió obtener una frecuencia cardíaca más estable y fisiológicamente coherente.
 
-### 3.5. Detección del complejo QRS.
+### 3.5. Detección del complejo QRS
 Se utilizó exclusivamente NeuroKit2 para este segmento debido a que su delineación integrada (puntos Q, R y S) es más confiable que los métodos manuales, especialmente para señales sin patología evidente. El algoritmo corrige desplazamientos de índices y asegura que cada latido tenga marcados los tres componentes, lo cual es crucial para calcular duración y amplitud.
 
-### 3.6. Detección y análisis de la onda T.
+### 3.6. Detección y análisis de la onda T
 La onda T fue analizada mediante el pipeline de NeuroKit2, que identifica automáticamente sus puntos clave considerando la localización del complejo QRS previo. Este procedimiento permite evaluar duración, amplitud y el intervalo Tp-Te, métrica de repolarización ventricular asociada al riesgo arrítmico.
 
 ## 📊 4. Resultados
@@ -169,6 +175,7 @@ A nivel morfológico, los parámetros obtenidos (duración de P ~90–116 ms, QR
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
