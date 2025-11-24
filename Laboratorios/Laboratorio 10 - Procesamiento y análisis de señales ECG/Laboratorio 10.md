@@ -26,7 +26,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 <div align="center">
 
-![img](QRS.PNG)
+![img](Lab10/img.PNG)
 
 </div>
 
@@ -124,6 +124,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
