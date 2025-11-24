@@ -58,7 +58,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 
 ### 4.1 Señal cruda
 
-![Cruda](Lab10/cruda.PNG)
+![Cruda](Lab10/crudo.PNG)
 
 ### 4.2 Análisis de onda P
 
@@ -124,6 +124,7 @@ El principal objetivo de este campo es el diseño de algoritmos robustos que log
 | Salet Garcia    | 33.33%           |
 | Dhiago Llanos   | 33.33%           |
 | Rafael Panez    | 33.33%           |
+
 
 
 
